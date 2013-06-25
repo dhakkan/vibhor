@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html>
+<head>
+<title>Synapz</title>
+<link rel="stylesheet" type ="text/css" href="{% static 'mcqportal/bootstrap.css' %}">
+<link rel="stylesheet" type ="text/css" href="{% static 'mcqportal/style1.css' %}" >
+
+<style type="text/css">
+	body {
+			    padding-bottom: 40px;
+			    	    padding-top: 60px;
+				    	}
+	
+	.sidebar-nav-fixed {
+			    padding: 9px 0;
+				     	    position:fixed;
+						     	    left:20px;
+								 	    top:60px;
+											    width:250px;
+												  	}
+	
+	.row-fluid > .span-fixed-sidebar {
+			    margin-left: 290px;
+			    	}
+	.pull-right {
+				padding-right: 20px;
+					}
+	</style>
+	<script type="text/javascript">
+	window.onload=function(){}
+	</script>
+
+</head>
+<body>
+
+<script type = "text/javascript" >
+        function preventBack(){window.history.forward();}
+                setTimeout("preventBack()", 0);
+                        window.onunload=function(){null};
+                    </script>
+                  
+                    <div class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
+        <div class="container-fluid">
+
+	 <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+	  	<span class="icon-bar"></span>
+		 <span class="icon-bar"></span>
+	             <span class="icon-bar"></span>
+		     </a>
+		     <a class="brand" href="#">Synapz</a>
+	 <div class="nav-collapse">
+	 <p class="navbar-text pull-right"><a href="/mcqportal/logout"> Logout </a></p>
+	 <p class="navbar-text pull-right">Logged in as {{ user }}</p>
+	 </div>
+
+	 </div>
+	 </div>
+</div>
+<script>
+var Timer;
+var TotalSeconds;
+function CreateTimer(Time) {
+Timer = document.getElementById("timer");
+TotalSeconds = Time;
+UpdateTimer()
+window.setTimeout("Tick()", 1000);
+}
+function Tick() {
+if (TotalSeconds <= 0) {
+var btn=document.getElementById("btnSubmit");
+btn.click(); 
+return;
+}
+TotalSeconds -= 1;
+UpdateTimer()
+window.setTimeout("Tick()", 1000);
+}
+function UpdateTimer() {
+var Seconds = TotalSeconds;
+var Hours = Math.floor(Seconds / 3600);
+Seconds -= Hours * (3600);
+var Minutes = Math.floor(Seconds / 60);
+Seconds -= Minutes * (60);
+var TimeStr = (LeadingZero(Hours) + ":" + LeadingZero(Minutes) + ":" + LeadingZero(Seconds));
+Timer.innerHTML = TimeStr;
+}
+function LeadingZero(Time) {
+return (Time < 10) ? "0" + Time : + Time;
+}
+</script>
+
+
+<div class="container">
+
+		<form method="post" action="{% url 'mcqportal:pg4' %}">
+		{% csrf_token %}
+<!--		<input id="submit" type="submit" name="submit" value="submit"></form>  -->
+
+		<div id="section">
+		<table><tr><td>Programing</td></tr>
+		<tr><td>General Aptitude </td></tr>
+		<tr class="table2"><td>Reasoning</td></tr>
+		<tr><td>Algorithms       </td></tr>
+		</table>
+		</div>
+		<div id="exam">
+		<table class="table2">
+		<tr><td id="timer"><b>Timer</b></td><td id="section-name"><b>Reasoning</p></td></tr></table>
+		{% for quest in mcq %}
+			<table class="table table-hover">
+			<tr><td colspan="2"><b>{{ quest.question }}</b></td></tr>
+            <tr><table class="table1"><tr><td><input type="radio" name="{{ quest.id }}" value="1"> A . {{ quest.optiona }}</td>
+			<td><input type="radio" name="{{ quest.id }}" value="3"> C . {{ quest.optionc }}</td></tr>
+			<tr><td><input type="radio" name="{{ quest.id }}" value="2"> B . {{ quest.optionb }}</td>
+			<td><input type="radio" name="{{ quest.id }}" value="4"> D . {{ quest.optiond }}</td></tr></table></tr>
+			</table>
+		{% endfor %}
+        <input type="hidden" name="page" value="pg3"/>
+		
+{% comment %}	{% for i in mcq %}        
+			{% b.append(i.id) %}   
+		{% endfor %}
+{% endcomment %}          
+		<center><input type="submit" id="btnsubmit" class="btn btn-primary" name="submit" value="submit"></center>
+</form>
+		<center><footer>Synapz Company 2013</footer></center>
+</div>
+<script src="http://code.jquery.com/jquery.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+<script>
+window.onload = CreateTimer(30*60);
+</script>
+
+</body>
+</html>	

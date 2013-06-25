@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="en">
+<head>
+    <title>Synapz</title>
+    <link href="{% static 'mcqportal/bootstrap.css' %}" rel="stylesheet">
+    <style type="text/css">
+      body {
+        padding-bottom: 40px;
+      }
+
+      /* Custom container */
+      .container-narrow {
+        margin: 0 auto;
+        max-width: 700px;
+      }
+      .container-narrow > hr {
+        margin: 20px 0;
+      }
+
+      /* Main marketing message and sign up button */
+      .jumbotron {
+        margin: 30px 0;
+        
+      }
+      .jumbotron .btn {
+        padding: 14px 24px;
+        font-size: 21px;
+      }
+      /* Supporting marketing content */
+      #instructions {
+ 	border:2px solid #5eac1a;
+      }
+      #instructions td {
+      	border-right: 2px dotted #5eac1a;
+	padding: 5px;
+      }
+     #heading {
+	color:#5eac1a;
+	font-size:20px;
+     }
+     #intro {
+	text-align: center;
+	padding-bottom: 20px;
+     }
+     .footer {
+ 	text-align: center;
+     }
+     #index {
+	padding-top:20px;
+	}
+     .pull-right {
+	float:right;
+	padding-right:20px;
+     }
+     #first {
+	width: 50%;
+     }
+    </style>
+  </head>
+
+  <body>
+
+
+
+    <div class="container-narrow">
+
+      <div class="masthead">
+	<ul class="nav nav-pills pull-right">
+	  <li><a href="#">Logged in as .... </a></li>
+	  <li><a href="#">Logout </a></li>
+	</ul>
+        <h3 class="muted">Synapz</h3>
+      </div>
+   
+      <hr>
+
+      <div class="jumbotron">
+        <div id="intro"><h2>Welcome to Synapz's adaptive learning platfrom through MCQ's</h2></div>
+        <table >
+	    
+  		<tr><td><p id="heading"><b>Instructions : </b></p></td></tr>
+		<tr id="instructions"><td id="first">
+			<ul>
+			<li>Total number of sections : <b> 4 </b></li>
+			<li>Total number of questions per section : <b> 15 </b></li>
+			<li>Time alloted per section : <b>30 minutes.</b></li>
+			<li>Each question carry <b>1</b> mark, <b>no negative marks.</b></li>
+			</ul>
+		</td>
+		<td>
+			<ul>
+			<li>Click the 'Submit Test' button given in the bottom of this page to Submit your answers.</li>
+			<li>Test will be submitted automatically if the time expired.</li>
+			<li>Don't refresh the page.</li>
+			</ul>
+		</td>
+	    </tr>	
+	</table>
+	<form id="index" method="post" action="{% url 'mcqportal:pg1' %}">
+		{% csrf_token %}
+		<center><input type="submit" id="btnSubmit" class="btn btn-primary" name="submit" value="Start Test"></center>
+	</form>
+     <hr>
+      
+      <div class="footer">
+        <p>Synapz Company 2013</p>
+      </div>
+
+    </div> <!-- /container -->
+</div>
+
+<script src="http://code.jquery.com/jquery.js"></script>
+<script src="./bootstrap.min.js"></script>
+
+<script type = "text/javascript" >
+        function preventBack(){window.history.forward();}
+                setTimeout("preventBack()", 0);
+                        window.onunload=function(){null};
+                    </script>
+
+            </body>
+        
+        </html>

@@ -1,0 +1,37 @@
+{% load staticfiles %}
+
+<p> Your answer : 0 ,means not attempted </p>
+</br>
+</br>
+
+{% for i in mcq.0 %}
+
+<p> Questionid {{i.qid}} </p>
+<p> Correct answer: {{i.qid.answer}} </p>
+<p> Your answer : {{i.answer}} </p>
+
+{% endfor %}
+
+{% for i in mcq.1 %}
+
+<p> Questionid {{i.qid}} </p>
+<p> Correct answer: {{i.qid.answer}} </p>
+<p> Your answer : {{i.answer}} </p>
+
+{% endfor %}
+
+{% for i in mcq.2 %}
+
+<p> Questionid {{i.qid}} </p>
+<p> Correct answer: {{i.qid.answer}} </p>
+<p> Your answer : {{i.answer}} </p>
+
+{% endfor %}
+
+{% for i in mcq.3	 %}
+
+<p> Questionid {{i.qid}} </p>
+<p> Correct answer: {{i.qid.answer}} </p>
+<p> Your answer : {{i.answer}} </p>
+
+{% endfor %}

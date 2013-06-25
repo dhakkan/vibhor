@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Synapz</title>
+<link rel="stylesheet" type ="text/css" href="bootstrap.css">
+<link rel="stylesheet" type ="text/css" href="style1.css" >
+</head>
+<body>
+<div class="container">
+
+		<form method="post" action="">
+		<input id="submit" type="submit" name="submit" value="submit"></form>
+
+
+		<div id="section">
+		<table><tr><td>Programing</td></tr>
+		<tr><td>General Aptitude </td></tr>
+		<tr><td>Reasoning        </td></tr>
+		<tr><td>Algorithms       </td></tr>
+		</table>
+		</div>
+		<div id="exam">
+		<table class="table2">
+		<tr><td id="timer"><b>Timer</b></td><td id="section-name"><b>Programming</p></td></tr></table>
+		<?php 
+		$dbc=mysqli_connect('localhost','root','anuraag','questions');
+	$query="select id,Question,optiona,optionb,optionc,optiond from QuestionDetails where category=1 ORDER BY RAND() LIMIT 15";
+	$result=mysqli_query($dbc,$query);
+	$number=1;
+	while($row = mysqli_fetch_array($result))
+	{
+		?> 
+			<table class="table table-hover">
+			<tr><td colspan="2"><b><?php echo $number . '.' . $row['Question']; $number++; ?></b></td></tr>
+			<tr><table class="table1"><tr><td><input type="radio" name="<?php echo $row['id']; ?>" value="1"> A . <?php echo $row['optiona'];?></td>
+			<td><input type="radio" name="<?php echo $row['id']; ?>" value="3"> C . <?php echo $row['optionc'];?></td></tr>
+			<tr><td><input type="radio" name="<?php echo $row['id']; ?>" value="2"> B . <?php echo $row['optionb'];?></td>
+			<td><input type="radio" name="<?php echo $row['id']; ?>" value="4"> D . <?php echo $row['optiond'];?></td></tr></table></tr>
+			</table>
+			<?php
+	}
+	?>
+		<form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
+		<input id="submit" type="submit" name="submit1" value="submit" ></form>
+
+</div>
+<script src="http://code.jquery.com/jquery.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+</body>
+</html>	

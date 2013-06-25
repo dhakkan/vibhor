@@ -1,0 +1,37 @@
+function programming(){
+$('#Infrastructure').hide()
+$('#Gallery').hide()
+$('#Contact').hide()
+$('#Feedback').hide()
+$('#About').show()
+$('#splash').show()
+}
+
+function aptitude(){
+$('#splash').hide()
+$('#About').hide()
+$('#Gallery').hide()
+$('#Contact').hide()
+$('#Feedback').hide()
+$('#Infrastructure').show()
+}
+
+function reasoning(){
+$('#splash').hide()
+$('#About').hide()
+$('#Infrastructure').hide()
+$('#Contact').hide()
+$('#Feedback').hide()
+$('#Gallery').show()
+
+}
+
+function algorithms(){
+$('#splash').hide()
+$('#About').hide()
+$('#Infrastructure').hide()
+$('#Gallery').hide()
+$('#Feedback').hide()
+$('#Contact').show()
+}
+

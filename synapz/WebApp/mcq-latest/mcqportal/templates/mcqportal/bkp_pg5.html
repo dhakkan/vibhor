@@ -1,0 +1,45 @@
+{% load staticfiles %}
+
+{% for i in mcq0 %}
+
+	<p> Question: {{ i.question }}    </p>
+	<p> Option A {{ i.optiona }} </p>
+	<p> Option B {{ i.optionb }} </p>
+	<p> Option C {{ i.optionc }} </p>
+	<p> Option D {{ i.optiond }} </p>
+	<p> Your answer: {{ ans1.forloop.counter }} </p>
+	<p> Correct answer: {{ i.answer }}</p>
+{% endfor %}
+
+{% for i in mcq1 %}
+
+	<p> Question: {{ i.question }}    </p>
+	<p> Option A {{ i.optiona }} </p>
+	<p> Option B {{ i.optionb }} </p>
+	<p> Option C {{ i.optionc }} </p>
+	<p> Option D {{ i.optiond }} </p>
+	<p> Your answer: {{ ans2.forloop.counter }} </p>
+	<p> Correct answer: {{ i.answer }}</p>
+{% endfor %}
+
+{% for i in mcq2 %}
+
+	<p> Question: {{ i.question }}    </p>
+	<p> Option A {{ i.optiona }} </p>
+	<p> Option B {{ i.optionb }} </p>
+	<p> Option C {{ i.optionc }} </p>
+	<p> Option D {{ i.optiond }} </p>
+	<p> Your answer: {{ ans3.forloop.counter }} </p>
+	<p> Correct answer: {{ i.answer }}</p>
+{% endfor %}
+
+{% for i in mcq3 %}
+
+	<p> Question: {{ i.question }}    </p>
+	<p> Option A {{ i.optiona }} </p>
+	<p> Option B {{ i.optionb }} </p>
+	<p> Option C {{ i.optionc }} </p>
+	<p> Option D {{ i.optiond }} </p>
+	<p> Your answer: {{ ans4.forloop.counter }} </p>
+	<p> Correct answer: {{ i.answer }}</p>
+{% endfor %}

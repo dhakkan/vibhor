@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html>
+<head>
+<title>Synapz</title>
+<link rel="stylesheet" type ="text/css" href="{% static 'mcqportal/bootstrap.css' %}">
+<link rel="stylesheet" type ="text/css" href="{% static 'mcqportal/style1.css' %}" >
+</head>
+<body>
+<div class="container">
+
+		<form method="post" action="p1_submit"> {% csrf_token %}
+		<input id="submit" type="submit" name="submit" value="submit"></form>
+
+</div>
+<script src="http://code.jquery.com/jquery.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+</body>
+</html>	
+
+
+

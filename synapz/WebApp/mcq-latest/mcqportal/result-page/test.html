@@ -1,0 +1,78 @@
+<html>
+<head>
+	<title>Synapz</title>
+<link rel="stylesheet" type="text/css" href="bootstrap.css">
+<script src="result.js"></script>
+<script src="jquery-latest.pack.js"></script>
+<style type="text/css">
+	body {
+	    padding-bottom: 40px;
+	    padding-top: 60px;
+	}
+	
+	.sidebar-nav-fixed {
+	    padding: 9px 0;
+	    position:fixed;
+	    left:20px;
+	    top:60px;
+	    width:250px;
+	}
+	
+	.row-fluid > .span-fixed-sidebar {
+	    margin-left: 290px;
+	}
+	.pull-right {
+	    padding-right: 20px;
+	}
+	.nav-collapse ul{
+	   padding-left:50px;
+	}
+</style>
+</head>
+<body onload="programming()">
+<div class="navbar navbar-fixed-top">
+  <div class="navbar-inner">
+    <div class="container-fluid">
+
+      <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </a>
+      <a class="brand" href="#">Synapz</a>
+      <div class="nav-collapse">
+        <ul class="nav">
+
+          <li><a href="#" onclick="programming()">Programming</a></li>
+          <li><a href="#" onclick="aptitude()">General Aptitude</a></li>
+          <li><a href="#" onclick="reasoning()">Reasoning</a></li>
+	  <li><a href="#" onclick="algorithms()">Algorithms</a></li>
+        </ul>
+	<p class="navbar-text pull-right"><a href="#"> Logout </a></p>
+        <p class="navbar-text pull-right">Logged in as <a href="#">........</a></p>
+      </div><!--/.nav-collapse -->
+
+    </div>
+  </div>
+</div>
+<div id="container">
+<div id="aptitude">
+<p>This is a aptitude section</p>
+</div>
+<div id="reasoning">
+<p> This is a reasoning section</p>
+</div>
+<div id="algorithms">
+<p> This is a algorithms section</p>
+</div>
+<div id="programming">
+<p>This is a programming section</p>
+</div>
+<hr>
+
+  <footer>
+    <center><p>Synapz Company 2012</p></center>
+  </footer>
+</div>
+</body>
+</html>

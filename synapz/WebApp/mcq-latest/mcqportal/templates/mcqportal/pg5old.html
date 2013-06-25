@@ -1,0 +1,14 @@
+{% load staticfiles %}
+
+<p> Your answer : 0 ,means not attempted </p>
+</br>
+</br>
+
+{% for i in mcq %}
+
+<p> Questionid {{i.qid}} </p>
+<p> Correct answer: {{i.qid.answer}} </p>
+<p> Your answer : {{i.answer}} </p>
+
+{% endfor %}
+
