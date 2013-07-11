@@ -1,0 +1,14 @@
+<AnnotationDefaults<ClickFcn:remove>>
+<AnnotationDefaults<LoadFcn:remove>>
+<AnnotationDefaults<DeleteFcn:remove>>
+<AnnotationDefaults<UseDisplayTextAsClickCallback:remove>>
+<AnnotationDefaults<UserData:remove>>
+<Annotation<ClickFcn:remove>>
+<Annotation<LoadFcn:remove>>
+<Annotation<DeleteFcn:remove>>
+<Annotation<UseDisplayTextAsClickCallback:remove>>
+<Annotation<UserData:remove>>
+<Block<BlockType|SubSystem><PermitHierarchicalResolution|ExplicitOnly:repval ParametersOnly>>
+<Block<SourceBlock|simulink_obsolete/Matrix\nConcatenation:repval simulink/Math\nOperations/Matrix\nConcatenation>>
+<Block<SourceBlock|simulink_obsolete/Polynomial:repval simulink/Math\nOperations/Polynomial>>
+<Block<SourceBlock|simulink_obsolete/Reshape:repval simulink/Math\nOperations/Reshape>>

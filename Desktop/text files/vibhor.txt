@@ -1,0 +1,101 @@
+CAT 12 (last 30 days)
+
+Resources
+-13 mock cats
+-4 CRTs
+-41 sectionals
+-2 aimcats
+-a lot of handouts
+
+DAILY ROUTINE
+---the hindu(15 min)+vocab(15 min)
+---3 RCs continuos daily(25 min)
+---1 sectional daily(70 min) / 1 mock cat(140 min)
+---analysis(45 min)/(80 min)
+---quant theory 1 chapter/CR 15-20 questions (30 min)
+---self analysis(15 min)
+
+
+PLACEMENTS (last 60-70 days)
+- 10-15 questions in depth / 1 question paper of any company
+- 1 small code daily/slides of OS/slides of networks
+
+I guess people who are good at verbal to begin with don’t need to go through this post. This is for people who
+
+a. don’t score well at all. 
+b. Get stuck between two options and often choose the wrong one.
+c. Have intermittent flashes of brilliance and then prolonged periods of bullshit.
+
+Anyway, there are three reasons as to why you don’t do as well,
+1. You just aren’t good at English. (which is again a bullshit reason)
+2. You haven’t invested enough time in practice.
+3. You have practiced a lot, but nothing seems to work.(Your analysis is probably off the mark)
+
+Now, because we’ve decided to believe that as the minimum requirement for taking CAT is graduation most people can read and write English which is sufficient for CAT. The way to solve the other two problems is practice followed by thorough analysis. 
+
+What do I mean by practice?
+
+Don’t solve one question type 12 hours on one of those Sundays. That is not going to help. Instead, spread your practice sessions out.
+
+E.g. Solve VA questions like PCs, PJs, Sentence Completion, Fill in the Blanks, Phrasal Verbs, Odd sentence only 5 per day not one less, not one more. Anything more than 5 leaves your disoriented and your accuracy battered. Also, analyzing 5 questions of each time is sufficient to recognize a pattern of mistakes and to rectify them.
+
+Anyway, I’ll get to how much you should do, how much time you should give it and from where you should do it later in this post.
+
+What do I mean by analysis?
+
+Whenever you ask for advice, all people tell you is practice and analyze, but no one ever tells you the hows and whats of it. The point of analysis is to find out how and why you got a question correct or wrong. Please understand that the reason you got a question correct is as important as the reason you got a question wrong. Also, what is important is to know why the wrong options are wrong, and why the correct option is correct.
+
+You should also categorize the errors you make into different types like Silly mistakes, methodical errors, and conceptual errors. If you categorize and recognize your mistakes it is easier to avoid them. You can make further subdivisions according to your personal choice. 
+
+Plan for the last month:
+
+1. Take 2 mocks: (Expected Time of Completion: 4 days)
+
+First things first, take 2 standard mocks. I prefer CL, but take whichever standard mock you can lay your hands on and they should necessarily be from different institutes. Take these mocks over a space of a day. You should preferably get the results for these mocks right away, so I’d recommend taking Unproctored CL mocks, or TIME MCs, TF mocks, or missed mocks. Basically take any mock that gives you an instant result.
+
+
+2. Analysis and pattern recognition: (Expected Time of Completion: 2 days)
+
+
+Then you have to sit and analyze both of them simultaneously according to question types. By this, I mean, first analyze what you did in RCs, in both papers together, then for PJs, for PCs, etc. In this way, you will probably recognize a pattern of mistakes that you’ve made, and most probably a pattern of the reason why you make these mistakes. The point is recognize how much you are attempting for each question type, how many you are getting correct, and the reason why you get some correct and why you get some wrong. Unless you are thorough with the kind of mistakes you make and the reasons, don’t leave the mock.
+
+3. Fix-it:
+
+
+Now that you know where and how you make errors, the only way you can fix them is by practice. But wanton practice often does more harm than good. The point of this practice is to learn how to not make the mistakes that you make often and then make it into a habit through practice. The most important thing here is to be regular. You can’t practice for 4 hours one day, and then do nothing for a week. You will have to keep chipping away for weeks ‘x’ hours everyday depending on how deep a ditch you are in. Let me tackle it question-type wise.
+
+A. Reading Comprehension: 
+
+This probably will give you the most gain, if you can ensure a great accuracy here, because 8-9 questions from LR and 8-9 questions from RCs, and you will score a decent percentile. For people weak at RCs, there are different kinds of question types like Direct questions, Implied questions, Inference questions, Application questions, Main Idea questions, Tone/Style questions (these are described in detail in Reading Comprehension – Sujit Kumar, even with a month to go, this book will work wonders if used well) see which question types you consistently get wrong, why and where your thought process is not aligned with that of the examiner. Once you know that, pick up some good RCs and solve 3 RCs everyday, from now till your CAT. Some good sources are Reading Comprehension – Sujit Kumar, Aristotle RC99, Previous CAT papers, Institute Material. Solve RCs, and analyze them. This will do wonders to your accuracy in RCs. 
+
+B. Paracompletion/Parajumbles: 
+
+These two question types are very similar. Both need you to understand the flow and style of the passage in terms of logic. Again, same grind. You have to analyze how you get stuff wrong from the mock you took earlier and then practice no more than 5 question of PCs and PJs each. Only 5, no more no less. Do this diligently for a while with proper analysis and it will help your accuracy a lot. Unfortunately there aren’t a lot of good sources to solve PCs and PJs, so the best way to go is to solve them from previous years’ mocks and CAT papers. IMS probably has the best material in terms of VA, so you can solve PCs and PJs from there, or any other test series like CL. 
+
+C. Phrasal Verbs/Fill in the Blanks: 
+
+Unfortunately these types test your vocabulary which is built over several years and not much can be done about it in the last month. What you could do for now is note down all the phrasal verb usages and difficult words in a journal and revise them daily and pray that you get those in CAT. Vocabulary for preparation is just too vast to cover even if you have infinite time. You could also do the GRE Barron’s high frequency word list, and read phrasal verbs from any good source on the internet that you could find if you google. 
+
+D. Grammar:
+
+Lastly, full accuracy can be ensured in grammar with sufficient exposure to literature and practice. But again, that’s not something you can aim at in the last month. What you can do is go through all the mocks and previous papers and solve sentence correction questions from them. When you are analyzing them, note down the wrong sentence and why it is wrong in a book and keep revising it. Now the paper-setter is only human and there are only a finite number of errors that can be introduced. So once you are thorough with all the possible ways to induce errors these errors will be easier to spot when you face a question.
+
+Now that I’ve covered each question type, let me move on to a daily plan.
+
+1. 3 Reading Comprehension, solve and analyze: 10minute per RC to solve, 15 minutes per RC for analysis. Total time: 1hr 15mins. 
+
+
+2. 5 PJs, 5PCs: 3 minutes per PC/PJ to solve, 5 minutes per PC/PJ to analyze. Total time: 1hr 20mins.
+
+
+3. Phrasal Verbs/Fill in the Blanks/Grammar: Do it while you analyze any mock or sectional you take as I’ve mentioned above by maintaining a journal and revising it periodically..
+
+So, total fixed time investment you will have to make is 2.5 hrs. per day.
+
+Another thing is, take 2 mocks and 2 VA sectionals a week. Effectively, solve 4 sections of VA a week. Sectionals should take 70 minutes to attempt and about 140minutes to analyze.
+
+This is more or less it and even if it doesn’t sound like anything earth-shattering, if you do this religiously even for the last month it will definitely show some improvement. Also, keep a track of your sectional scores and see if you are progressing, if there’s one area that is continuously bothering you, you can increase the amount of time you devote to it in terms of practice.
+Hope this helps. 
+
+s
+

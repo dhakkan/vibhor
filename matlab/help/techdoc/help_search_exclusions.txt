@@ -1,0 +1,10 @@
+# Contains patterns to be excluded from the search index for MATLAB
+
+/env_csh/
+/extern_csh/
+/graphics_csh/
+/time_series_csh/
+/matlab_mlint_csh/
+/matlab_oop/examples_html/
+/infotool/
+_508longdesc

@@ -1,0 +1,29 @@
+340m1(Build:402)
+/build/buildd/libreoffice-3.4.4/libreoffice-build/build/libreoffice-3.4.3.2/package/source/xstor/xstorage.cxx:2631; 
+/build/buildd/libreoffice-3.4.4/libreoffice-build/build/libreoffice-3.4.3.2/package/source/xstor/xstorage.cxx:2717; Rethrow
+/build/buildd/libreoffice-3.4.4/libreoffice-build/build/libreoffice-3.4.3.2/package/source/xstor/xstorage.cxx:2631; 
+/build/buildd/libreoffice-3.4.4/libreoffice-build/build/libreoffice-3.4.3.2/package/source/xstor/xstorage.cxx:2717; Rethrow
+/build/buildd/libreoffice-3.4.4/libreoffice-build/build/libreoffice-3.4.3.2/package/source/xstor/xstorage.cxx:2198; 
+/build/buildd/libreoffice-3.4.4/libreoffice-build/build/libreoffice-3.4.3.2/package/source/xstor/xstorage.cxx:2542; Rethrow
+/build/buildd/libreoffice-3.4.4/libreoffice-build/build/libreoffice-3.4.3.2/package/source/xstor/xstorage.cxx:2198; 
+/build/buildd/libreoffice-3.4.4/libreoffice-build/build/libreoffice-3.4.3.2/package/source/xstor/xstorage.cxx:2542; Rethrow
+/build/buildd/libreoffice-3.4.4/libreoffice-build/build/libreoffice-3.4.3.2/sfx2/source/doc/sfxbasemodel.cxx:1716; storeAsURL
+/build/buildd/libreoffice-3.4.4/libreoffice-build/build/libreoffice-3.4.3.2/sfx2/source/doc/objstor.cxx:1248; Begin
+/build/buildd/libreoffice-3.4.4/libreoffice-build/build/libreoffice-3.4.3.2/sfx2/source/doc/objstor.cxx:1450; SaveAs/Export
+/build/buildd/libreoffice-3.4.4/libreoffice-build/build/libreoffice-3.4.3.2/sfx2/source/doc/objstor.cxx:1463; Locking
+/build/buildd/libreoffice-3.4.4/libreoffice-build/build/libreoffice-3.4.3.2/sfx2/source/doc/objstor.cxx:1681; Storing in alien format.
+/build/buildd/libreoffice-3.4.4/libreoffice-build/build/libreoffice-3.4.3.2/package/source/xstor/xstorage.cxx:2198; 
+/build/buildd/libreoffice-3.4.4/libreoffice-build/build/libreoffice-3.4.3.2/package/source/xstor/xstorage.cxx:2542; Rethrow
+/build/buildd/libreoffice-3.4.4/libreoffice-build/build/libreoffice-3.4.3.2/sfx2/source/doc/objstor.cxx:3153; 
+/build/buildd/libreoffice-3.4.4/libreoffice-build/build/libreoffice-3.4.3.2/sfx2/source/doc/objmisc.cxx:267; Resetting Error.
+/build/buildd/libreoffice-3.4.4/libreoffice-build/build/libreoffice-3.4.3.2/sfx2/source/doc/sfxbasemodel.cxx:2954; Storing failed!
+/build/buildd/libreoffice-3.4.4/libreoffice-build/build/libreoffice-3.4.3.2/sfx2/source/doc/sfxbasemodel.cxx:1716; storeAsURL
+/build/buildd/libreoffice-3.4.4/libreoffice-build/build/libreoffice-3.4.3.2/sfx2/source/doc/objstor.cxx:1248; Begin
+/build/buildd/libreoffice-3.4.4/libreoffice-build/build/libreoffice-3.4.3.2/sfx2/source/doc/objstor.cxx:1450; SaveAs/Export
+/build/buildd/libreoffice-3.4.4/libreoffice-build/build/libreoffice-3.4.3.2/sfx2/source/doc/objstor.cxx:1463; Locking
+/build/buildd/libreoffice-3.4.4/libreoffice-build/build/libreoffice-3.4.3.2/sfx2/source/doc/objstor.cxx:1681; Storing in alien format.
+/build/buildd/libreoffice-3.4.4/libreoffice-build/build/libreoffice-3.4.3.2/package/source/xstor/xstorage.cxx:2198; 
+/build/buildd/libreoffice-3.4.4/libreoffice-build/build/libreoffice-3.4.3.2/package/source/xstor/xstorage.cxx:2542; Rethrow
+/build/buildd/libreoffice-3.4.4/libreoffice-build/build/libreoffice-3.4.3.2/sfx2/source/doc/objstor.cxx:3153; 
+/build/buildd/libreoffice-3.4.4/libreoffice-build/build/libreoffice-3.4.3.2/sfx2/source/doc/objmisc.cxx:267; Resetting Error.
+/build/buildd/libreoffice-3.4.4/libreoffice-build/build/libreoffice-3.4.3.2/sfx2/source/doc/sfxbasemodel.cxx:2954; Storing failed!

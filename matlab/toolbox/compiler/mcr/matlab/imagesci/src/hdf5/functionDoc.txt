@@ -1,0 +1,1990 @@
+H5Aclose
+
+attr_id 
+Call the HDF5 library H5Aclose function.
+%   H5A.close(attr_id) terminates access to the attribute specified by  
+%   attr_id, releasing the identifier.
+
+H5Acreate
+attr_id 
+loc_id name type_id space_id plist_id 
+Call the HDF5 library H5Acreate function.
+%   attr_id = H5A.create(loc_id, name, type_id, space_id, create_plist) 
+%   creates the attribute name that is attached to the object specified by
+%   loc_id. loc_id is a group, dataset, or named datatype identifier. The
+%   datatype and dataspace identifiers of the attribute, type_id and 
+%   space_id, respectively, are created with the H5T and H5S interfaces.
+%   create_plist is currently unused.
+
+H5Adelete
+
+loc_id name 
+Call the HDF5 library H5Adelete function.
+%   H5A.delete(loc_id, name) removes the attribute specified by name from 
+%   the dataset, group, or named datatype specified by loc_id.
+
+H5Aget_name
+attr_name 
+attr_id  
+Call the HDF5 library H5Aget_name function.
+%   attr_name = H5A.get_name(attr_id) returns the name of the attribute
+%   specified by attr_id. 
+
+H5Aget_num_attrs
+total_attrs 
+loc_id 
+Call the HDF5 library H5Aget_num_attrs function.
+%   total_attrs = H5A.get_num_attrs(loc_id) returns the number of attributes 
+%   attached to the group, dataset, or named datatype specified by loc_id.
+
+H5Aget_space
+dspace_id 
+attr_id 
+Call the HDF5 library H5Aget_space function.
+%   dspace_id = H5A.get_space(attr_id) returns a copy of the dataspace
+%   for the attribute specified by attr_id.
+
+H5Aget_type
+type_id
+attr_id 
+Call the HDF5 library H5Aget_type function.
+%   type_id = H5A.get_type(attr_id) returns a copy of the datatype for the
+%   attribute specified by attr_id.
+
+H5Aiterate
+attr_idx 
+loc_id attr_num op 
+Call the HDF5 library H5Aiterate function.
+%   H5A.iterate(loc_id, attr_idx, op) executes the function, op, for 
+%   each attribute of the group, dataset, or named datatype specified by 
+%   loc_id. attr_idx specifies where the iteration begins.
+
+H5Aopen_idx
+attr_id 
+loc_id idx 
+Call the HDF5 library H5Aopen_idx function.
+%   attr_id = H5A.open_idx(loc_id, idx) opens the attribute specified by idx,
+%   which is attached to the group, dataset, or named datatype specified 
+%   by loc_id.
+
+H5Aopen_name
+attr_id 
+loc_id name 
+Call the HDF5 library H5Aopen_name function.
+%   attr_id = H5A.open_name(loc_id,name) opens the attribute specified by name,
+%   which is attached to the group, dataset, or named datatype specified 
+%   by loc_id.
+
+H5Aread
+attr 
+attr_id type_id 
+Call the HDF5 library H5Aread function.
+%   attr = H5A.read(attr_id, dtype_id) reads the attribute specified by attr_id.
+%   dtype_id specifies the attribute's memory datatype.  The memory datatype may 
+%   be 'H5ML_DEFAULT', which specifies that MATLAB should determine the 
+%   appropriate memory datatype.
+
+H5Awrite
+
+attr_id type_id buf 
+Call the HDF5 library H5Awrite function.
+%   H5A.write(attr_id, type_id, buf) writes the data in buf into the attribute
+%   specified by attr_id. type_id specifies the attribute's memory datatype.
+%   The memory datatype may be 'H5ML_DEFAULT', which specifies that MATLAB should 
+%   determine the appropriate memory datatype.
+
+H5Dclose
+
+dataset_id 
+Call the HDF5 library H5Dclose function.
+%   H5D.close(dataset_id) ends access to a dataset specified by dataset_id 
+%   and releases resources used by it.
+
+H5Dcreate
+dataset_id
+file_id name type_id space_id plist_id 
+Call the HDF5 library H5Dcreate function.
+%   dataset_id = H5D.create(loc_id, name, type_id, space_id, plist_id) creates 
+%   the data set specified by name in the file or in the group specified by 
+%   loc_id. type_id and space_id identify the datatype and dataspace, 
+%   respectively. plist_id identifies the set creation property list.
+
+H5Dextend
+
+dataset_id size 
+Call the HDF5 library H5Dextend function.
+%   H5D.extend(dataset_id,size) extends the dataset specified by dataset_id
+%   to at least the size specified by size.
+
+H5Dfill
+buf 
+fill fill_type buf_type space 
+Call the HDF5 library H5Dfill function.
+%   H5D.fill(fill, fill_type_id, buf, buf_type_id, space_id) fills the 
+%   dataspace selection in memory, space_id, with the fill value specified 
+%   in fill. fill_type_id specifies the datatype of the fill value. buf 
+%   specifies the buffer in which the dataspace elements will be written.
+%   buf_type_id specifies the datatype of those data elements. 
+
+H5Dget_create_plist
+plist_id 
+dataset_id 
+Call the HDF5 library H5Dget_create_plist function.
+%   plist_id = H5D.get_create_plist(dataset_id) returns the identifier to a
+%   copy of the dataset creation property list for the dataset specified by
+%   dataset_id. 
+
+H5Dget_offset
+offset
+dataset_id 
+Call the HDF5 library H5Dget_offset function.
+%   offset = H5D.get_offset(dataset_id) returns the location in the file of
+%   the dataset specified by dataset_id. The location is expressed as an
+%   offset, in bytes, from the beginning of the file.
+
+H5Dget_space
+dspace_id 
+dataset_id 
+Call the HDF5 library H5Dget_space function.
+%   dspace_id = H5D.get_space(dataset_id) returns an identifier for a copy 
+%   of the dataspace for a dataset.
+
+H5Dget_space_status
+status 
+dataset_id 
+Call the HDF5 library H5Dget_space_status function.
+%   status = H5D.get_space_status(dataset_id) determines whether space has
+%   been allocated for the dataset specified by dataset_id.
+
+H5Dget_storage_size
+dataset_size 
+dataset_id 
+Call the HDF5 library H5Dget_storage_size function.
+%   dataset_size = H5D.get_storage_size(dataset_id) returns the amount of storage 
+%   that is required for the dataset specified by dataset_id.
+
+H5Dget_type
+type_id 
+dataset_id 
+Call the HDF5 library H5Dget_type function.
+%   type_id = H5D.get_type(dataset_id) returns an identifier for a copy of 
+%   the datatype for the dataset specified by dataset_id.
+
+H5Dopen
+dataset_id 
+file_id name 
+Call the HDF5 library H5Dopen function.
+%   dataset_id = H5D.open(loc_id, name) opens the dataset specified by name
+%   in the file or group specified by loc_id. 
+
+H5Dread
+buf 
+dset_id mem_type_id mem_space_id file_space_id plist_id 
+Call the HDF5 library H5Dread function.
+%   buf = H5D.read(dataset_id, mem_type_id, mem_space_id, file_space_id, 
+%   plist_id) reads the dataset specified by dataset_id from the file 
+%   specified by file_space_id, returning the data in buf. plist_id specifies
+%   the transfer property list for this I/O operation.  The memory datatype 
+%   may be 'H5ML_DEFAULT', which specifies that MATLAB should determine the 
+%   appropriate memory datatype.
+
+H5Dvlen_get_buf_size
+size 
+dataset_id type_id space_id 
+Call the HDF5 library H5Dvlen_get_buf_size function.
+%   size = H5D.vlen_get_buf_size(dataset_id, type_id, space_id) determines 
+%   the number of bytes required to store the VL data from the dataset, 
+%   using the space_id for the selection in the dataset on disk and the 
+%   type_id for the memory representation of the VL data in memory.
+
+H5Dwrite
+
+dataset_id mem_type_id mem_space_id file_space_id plist_id buf 
+Call the HDF5 library H5Dwrite function.
+%   H5D.write(dataset_id, mem_type_id, mem_space_id, file_space_id, plist_id,
+%   buf) writes the dataset specified by dataset_id from the application 
+%   memory buffer buf into the file. plist_id specifies the data transfer 
+%   properties. mem_type_id identifies the memory datatype of the dataset. 
+%   mem_space_id and file_space_id define the part of the dataset to write. 
+%   The memory datatype may be 'H5ML_DEFAULT', which specifies that MATLAB 
+%   should determine the appropriate memory datatype.
+
+H5Eclear
+
+
+Call the HDF5 library H5Eclear function.
+%   H5E.clear() clears the error stack for the current thread.
+
+H5Eget_major
+err_string 
+major_number 
+Call the HDF5 library H5Eget_major function.
+%   err_string = H5E.get_major(major_number) returns a character string 
+%   describing an error specified by the major error number, major_number.
+
+H5Eget_minor
+err_string 
+minor_number 
+Call the HDF5 library H5Eget_minor function.
+%   err_string = H5E.get_minor(minor_number) returns a character string
+%   describing an error specified by the minor error number, minor_number.
+
+H5Ewalk
+
+direction func 
+Call the HDF5 library H5Ewalk function.
+%   H5E.walk(direction, func) walks the error stack for the current thread
+%   and calls the specified function for each error along the way.
+
+H5Fclose
+
+file_id 
+Call the HDF5 library H5Fclose function.
+%   H5F.close(file_id) terminates access to HDF5 file identified by file_id,
+%   flushing all data to storage.
+
+H5Fcreate
+file_id 
+filename flags plist_id access_id 
+Call the HDF5 library H5Fcreate function.
+%   file_id = H5F.create(name, flags, plist_id, access_id) creates the file
+%   specified by name. flags specifies whether to truncate the file, if it 
+%   already exists, or to fail if the file already exists. create_id is the
+%   file creation property list identifier. access_id is the file access 
+%   property list identifier.
+
+H5Fflush
+
+object_id scope 
+Call the HDF5 library H5Fflush function.
+%   H5F.flush(object_id, scope) causes all buffers associated with a file to
+%   be immediately flushed to disk without removing the data from the cache.
+%   object_id can be any object associated with the file, including the file
+%   itself, a dataset, a group, an attribute, or a named data type. scope 
+%   specifies whether the scope of the flushing action is global or local. 
+
+H5Fget_access_plist
+plist_id 
+file_id 
+Call the HDF5 library H5Fget_access_plist function.
+%   plist_id = H5F.get_access_plist(file_id) returns the file access property
+%   list identifier of the file specified by file_id.
+
+H5Fget_create_plist
+plist_id 
+file_id 
+Call the HDF5 library H5Fget_create_plist function.
+%   plist_id = H5F.get_create_plist(file_id) returns a file creation property
+%   list identifier identifying the creation properties used to create the
+%   file specified by file_id.
+
+H5Fget_filesize
+size 
+file_id 
+Call the HDF5 library H5Fget_filesize function.
+%   size = H5F.get_filesize(file_id) returns the size of the HDF5 file 
+%   specified by file_id
+
+H5Fget_freespace
+free_space 
+file_id 
+Call the HDF5 library H5Fget_freespace function.
+%   free_space = H5F.get_freespace(file_id) returns the amount of space that 
+%   is unused by any objects in the file specified by file_id.
+
+H5Fget_name
+name 
+obj_id
+Call the HDF5 library H5Fget_name function.
+%   name = H5F.get_name(obj_id) retrieves the name of the file to which the
+%   object obj_id belongs. The object can be a group, dataset, attribute, or
+%   named datatype
+
+H5Fget_obj_count
+obj_count 
+file_id types 
+Call the HDF5 library H5Fget_obj_count function.
+%   obj_count = H5F.get_obj_count(file_id, types) returns the number of open  
+%   object identifiers for the file specified by file_id.  
+
+H5Fget_obj_ids
+num_obj_ids obj_id_list 
+file_id types max_objs 
+Call the HDF5 library H5Fget_obj_ids function.
+%   [num_obj_ids obj_id_list] = H5F.get_obj_ids(file_id, types, max_objs) 
+%   returns a list of all open identifiers for HDF5 objects of the type 
+%   specified by types in the file specified by file_id. max_objs specifies
+%   the maximum number of object identifiers to return. num_obj_ids is the 
+%   total number of objects in the list.
+
+H5Fis_hdf5
+value 
+filename 
+Call the HDF5 library H5Fis_hdf5 function.
+%   value = H5F.is_hdf5(name) returns a positive number if the file 
+%   specified by name is in the HDF5 format, and zero if it is not.  
+%   A negative return value indicates failure.
+
+H5Fmount
+
+loc_id name child plist 
+Call the HDF5 library H5Fmount function.
+%   H5F.mount(loc_id, name, child_id, plist_id) mounts the file specified by
+%   child_id onto the group specified by loc_id and name, using the mount 
+%   properties specified by plist_id.   
+
+H5Fopen
+file_id
+filename flags plist_id 
+Call the HDF5 library H5Fopen function.
+%   file_id = H5F.open(name, flags, plist_id) opens the file specified by name,
+%   returning the file identifier, file_id. flags specifies file access flags.
+%   plist_id is the identifier of the file access properties list. 
+
+H5Freopen
+new_file_id 
+file_id 
+Call the HDF5 library H5Freopen function.
+%   new_file_id = H5F.reopen(file_id) returns a new file identifier for the 
+%   already open HDF5 file specified by file_id.  
+
+H5Funmount
+
+loc_id name 
+Call the HDF5 library H5Funmount function.
+%   H5F.unmount(loc_id, name) dissassociates the file or group specified by
+%   loc_id from the mount point specified by name. loc_id can be a file or
+%   group identifier. 
+
+H5Gclose
+
+group_id 
+Call the HDF5 library H5Gclose function.
+%   H5G.close(group_id) releases resources used by the group specified by
+%   group_id. group_id was returned by either H5Gcreate or H5Gopen. 
+
+H5Gcreate
+group_id 
+loc_id name size_hint 
+Call the HDF5 library H5Gcreate function.
+%   group_id = H5G.create(loc_id, name, size_hint) creates a new group with 
+%   the name specified by name at the location specified by loc_id. loc_id 
+%   can be a file or group identifier. size_hint specifies the number of bytes
+%   to reserve for the names that will appear in the group.
+
+H5Gget_comment
+comment
+loc_id name
+Call the HDF5 library H5Gget_comment function.
+%   comment = H5G.get_comment(loc_id, name) returns the comment for the
+%   object specified by loc_id and name. loc_id is a file, group, or named 
+%   datatype. name is the object in loc_id whose comment is to be retrieved. 
+
+H5Gget_linkval
+buf 
+loc_id name  
+Call the HDF5 library H5Gget_linkval function.
+%   buf = H5G.get_linkval(loc_id, name) returns the name of the object that the
+%   symbolic link specified by name points to. loc_id is a file or group
+%   identifier.
+
+H5Gget_num_objs
+num_objs 
+loc_id 
+Call the HDF5 library H5Gget_num_objs function.
+%   num_objs = H5G.get_num_objs(loc_id) returns number of objects in the group
+%   or file specified loc_id. 
+
+H5Gget_objinfo
+statbuf 
+loc_id name follow_link 
+Call the HDF5 library H5Gget_objinfo function.
+%   statbuf = H5G.get_objinfo(loc_id, name, follow_link) returns information
+%   about the object specified by loc_id and name. If follow_link is non-zero, 
+%   this function follows the symbolic link and returns information about the
+%   object being pointed to.
+
+H5Gget_objname_by_idx
+obj_name 
+loc_id idx
+Call the HDF5 library H5Gget_objname_by_idx function.
+%   obj_name = H5G.get_objname_by_idx(loc_id, idx) returns the name of the
+%   object specified by the index idx, in the group or file specified by
+%   loc_id. 
+
+H5Gget_objtype_by_idx
+type 
+loc_id idx 
+Call the HDF5 library H5Gget_objtype_by_idx function.
+%   type = H5G.get_objtype_by_idx(loc_id, idx) returns the type of the object
+%   specified by the index idx, in the file or group specified by loc_id.
+
+H5Giterate
+idx 
+loc_id name idx operator
+Call the HDF5 library H5Giterate function.
+%   idx = H5G.iterate(loc_id, name, idx, operator) executes the function
+%   specified by operator over entries in the file or group specified by
+%   loc_id. idx specifies the location at which to begin the iteration.    
+
+H5Glink2
+
+src_loc cur_name type dst_loc new_name 
+Call the HDF5 library H5Glink2 function.
+%   H5G.link2(curr_loc_id, current_name, link_type, new_loc_id, new_name) creates
+%   a link of the type specified by link_type from new_name to current_name.
+%   curr_loc_id is the file of group identifier of the original object. 
+%   new_loc_id is the file or group identifier for the new link.
+
+H5Gmove2
+
+src_loc src dst_loc dst 
+Call the HDF5 library H5Gmove2 function.
+%   H5G.move2(src_loc_id, src_name, dst_loc_id, dst_name) renames the file or
+%   group object specified by src_loc_id, with the name specified by src_name,
+%   with the name specified by dst_name and location specified by dst_loc_id.
+
+H5Gopen
+group_id
+loc_id name 
+Call the HDF5 library H5Gopen function.
+%   group_id = H5G.open(loc_id, name) opens the group specified by name at the
+%   location specified location, loc_id. loc_id is a file or group identifier.
+
+H5Gset_comment
+
+loc_id name comment 
+Call the HDF5 library H5Gset_comment function.
+%   H5G.set_comment(loc_id, name, comment) sets the comment for the object 
+%   specified by loc_id and name to comment. loc_id is a file, group, dataset,
+%   or datatype identifier.
+
+H5Gunlink
+
+loc_id name 
+Call the HDF5 library H5Gunlink function.
+%   H5G.unlink(loc_id, name) removes the object specified by name from the file
+%   or group specified by loc_id.
+
+H5Idec_ref
+ref_count 
+id 
+Call the HDF5 library H5Idec_ref function.
+%   ref_count = H5I.dec_ref(obj_id) decrements the reference count of the object
+%   identified by obj_id and returns the new count.
+
+H5Iget_file_id
+file_id 
+id 
+Call the HDF5 library H5Iget_file_id function.
+%   file_id = H5I.get_file_id(obj_id) returns the identifier of the file associated
+%   with the object referenced by obj_id.
+
+H5Iget_name
+name 
+id
+Call the HDF5 library H5Iget_name function.
+%   name = H5I.get_name(obj_id) returns the name of the object
+%   specified by obj_id.
+
+H5Iget_ref
+ref_count 
+id 
+Call the HDF5 library H5Iget_ref function.
+%   refcount = H5I.get_ref(obj_id) returns the reference count of the object
+%   specified by obj_id.
+
+H5Iget_type
+obj_type 
+id 
+Call the HDF5 library H5Iget_type function.
+%   obj_type = H5I.get_type(obj_id) returns the type of the object specified
+%   by obj_id.
+
+H5Iinc_ref
+ref_count 
+obj_id 
+Call the HDF5 library H5Iinc_ref function.
+%   ref_count = H5I.inc_ref(obj_id) increments the reference count of the
+%   specified by obj_id and returns the new count.
+
+H5Pall_filters_avail
+value 
+plist_id 
+Call the HDF5 library H5Pall_filters_avail function.
+%   value = H5P.all_filters_avail(dcpl_id) returns a positive value if all of 
+%   the filters set in the dataset creation property list dcpl_id are currently 
+%   available, and zero if they are not.  A negative value indicates failure.
+
+H5Pclose
+
+plist_id 
+Call the HDF5 library H5Pclose function.
+%   H5P.close(plist_id) terminates access to the property list specified by 
+%   plist_id. 
+
+H5Pclose_class
+
+plist_id 
+Call the HDF5 library H5Pclose_class function.
+%   H5P.close_class(class) closes the property list class specified by class.
+
+H5Pcopy
+plist_copy 
+plist_id 
+Call the HDF5 library H5Pcopy function.
+%   plist_copy = H5P.copy(plist_id) returns a copy of the property list specified
+%   by plist_id.
+
+H5Pcopy_prop
+
+dst_plist_id src_plist_id name 
+Call the HDF5 library H5P.copy_prop function.
+%   H5Pcopy_prop(src_plist_id, dst_plist_id, name) copies the property specified 
+%   by name from the property list specified by src_plist_id to the property
+%   list specified by dst_plist_id. 
+
+H5Pcreate
+output 
+cls_id 
+Call the HDF5 library H5Pcreate function.
+%   plist = H5P.create(class_id) creates a new property as an instance of the
+%   property list class specified by class_id.
+
+H5Pequal
+output 
+id1 id2 
+Call the HDF5 library H5Pequal function.
+%   value = H5P.equal(plist1_id, plist2_id) returns a positive number if the two 
+%   property lists specified are equal, and zero if they are not. A negative 
+%   value indicates failure.
+ 
+H5Pexist
+value 
+prop_id name 
+Call the HDF5 library H5Pexist function.
+%   value = H5P.exist(prop_id, name) returns a positive value if the property 
+%   specified by the text string name exists within the property list or 
+%   class specified by prop_id.  
+
+H5Pfill_value_defined
+status 
+plist_id 
+Call the HDF5 library H5Pfill_value_defined function.
+%   status = H5P.fill_value_defined(plist_id) determines whether a fill value
+%   is defined in the dataset creation property list plist_id. status can 
+%   have any of the following values: H5D_FILL_VALUE_UNDEFINED, 
+%   H5D_FILL_VALUE_DEFAULT, or H5D_FILL_VALUE_USER_DEFINED. 
+
+H5Pget
+value 
+plist_id name 
+Call the HDF5 library H5Pget function.
+%   value = H5P.get(plist_id, name) retrieves a copy of the value of the 
+%   property specified by the text string name in the property list specified
+%   by plist_id. value contains the value of the property.
+
+H5Pget_alignment
+threshold alignment 
+fapl_id 
+Call the HDF5 library H5Pget_alignment function.
+%   [threshold alignment] = H5P.get_alignment(plist_id) retrieves the current
+%   settings for alignment properties from the file access property list
+%   specified by plist_id.
+
+H5Pget_alloc_time
+alloc_time 
+plist_id 
+Call the HDF5 library H5Pget_alloc_time function.
+%   alloc_time = H5P.get_alloc_time(plist_id) retrieves the timing for 
+%   storage space allocation from the dataset creation property list 
+%   specified by plist_id. alloc_time can have any of the following values:
+%   H5D_ALLOC_TIME_DEFAULT, H5D_ALLOC_TIME_EARLY, H5D_ALLOC_TIME_INCR, or 
+%   H5D_ALLOC_TIME_LATE.       
+
+H5Pget_btree_ratios
+left middle right 
+plist_id 
+Call the HDF5 library H5Pget_btree_ratios function.
+%   [left middle right] = H5P.get_btree_ratios(plist_id) returns the B-tree
+%   split ratios for the dataset transfer property list specified by plist_id. 
+%   left specifies the B-tree split ratio for left-most nodes; right for the
+%   right-most nodes and lone nodes, and middle for all other nodes.
+ 
+H5Pget_cache
+mdc_nelmts rdcc_nelmts rdcc_nbytes rdcc_w0 
+plist_id 
+Call the HDF5 library H5Pget_cache function.
+%   [mdc_nelmts rdcc_nelmts rdcc_nbytes rdcc_w0] = H5P.get_cache(plist_id) 
+%   returns the maximum possible number of elements in the meta data cache 
+%   (mdc_nelmts), the raw data chunk cache (rdcc_nelmts), the maximum possible
+%   number of bytes in the raw data chunk cache (rdcc_nbytes), and the 
+%   preemption policy value (rdcc_w0) for the file access property list 
+%   specified by plist_id. 
+
+H5Pget_chunk
+rank chunk_dims
+plist_id 
+Call the HDF5 library H5Pget_chunk function.
+%   [rank, chunk_dims] = H5P.get_chunk(plist_id) retrieves the size of chunks
+%   for the raw data of a chunked layout dataset for the dataset creation
+%   property list specified by plist_id.
+
+H5Pget_class
+plist_class 
+plist_id 
+Call the HDF5 library H5Pget_class function.
+%   plist_class = H5P.get_class(plist_id) returns the property list class for 
+%   the property list specified by plist_id. Possible values include:
+%   H5P_NO_CLASS, H5P_FILE_CREATE, H5P_FILE_ACCESS,  H5PE_DATASET_CREATE,
+%   H5P_DATASET_XFER, or H5P_MOUNT. 
+
+H5Pget_class_name
+classname
+pclass_id 
+Call the HDF5 library H5Pget_class_name function.
+%   classname = H5P.get_class_name(pclass_id) retrieves the name of the generic
+%   property list class. classname is a text string. 
+
+H5Pget_class_parent
+pclass_obj_id 
+pclass_id 
+Call the HDF5 library H5Pget_class_parent function.
+%   pclass_obj_id = H5P.get_class_parent(pclass_id) returns an identifier to the
+%   parent class object of the property class specified by pclass_id. 
+
+H5Pget_driver
+driver_id
+plist_id 
+Call the HDF5 library H5Pget_driver function.
+%   driver_id = H5P.get_driver(plist_id) returns the identifier of the low-level 
+%   file driver associated with the file access property list or data transfer 
+%   property list specified by plist_id. See HDF5 documentation for a list of
+%   valid return values.
+
+H5Pget_dxpl_multi
+memb_dxpl 
+dxpl_id 
+Call the HDF5 library H5Pget_dxpl_multi function.
+%   memb_dxpl = H5P.get_dxpl_multi(dxpl_id) returns an array of data access 
+%   property lists for the multi-file data transfer property list specified
+%   by dxpl_id.
+
+H5Pget_edc_check
+value 
+plist_id 
+Call the HDF5 library H5Pget_edc_check function.
+%   value = H5P.get_edc_check(plist_id) queries the dataset transfer property
+%   list, specified by plist, to determine whether error detection is enabled
+%   for data read operations. Returns either H5Z_ENABLE_EDC or H5Z_DISABLE_EDC. 
+
+H5Pget_external
+name offset size 
+plist_id idx 
+Call the HDF5 library H5Pget_external function.
+%   [name offset size] = H5P.get_external(plist_id, idx) returns 
+%   information about the external file specified by the dataset creation 
+%   property list, plist_id. idx is the external file index, which is a number
+%   from zero to N-1, where N is the value returned by H5Pget_external_count.
+%   The return value offset contains the location in bytes, from the beginning 
+%   of the file to the location in the file where the data starts. size 
+%   specifies the amount of external data returned.
+
+H5Pget_external_count
+num_files
+plist_id 
+Call the HDF5 library H5P.get_external_count function.
+%   num_files = H5Pget_external_count(plist_id) returns the number of external 
+%   files for the dataset creation property list, plist_id. 
+
+H5Pget_family_offset
+offset 
+fapl_id 
+Call the HDF5 library H5Pget_family_offset function.
+%   offset = H5P.get_family_offset(fapl_id) retrieves the value of offset from
+%   the file access property list, fapl_id. offset is the offset of the data
+%   in the HDF5 file that is stored on disk in the selected member file in 
+%   a family of files
+
+H5Pget_fapl_core
+increment backing_store 
+fapl_id 
+Call the HDF5 library H5Pget_fapl_core function.
+%   [increment backing_store] = H5P.get_fapl_core(fapl_id) queries the H5FD_CORE 
+%   driver properties as set by H5Pset_fapl_core. fapl_id specifies a file access
+%   property list. The return value increment specifies the size, in bytes, 
+%   of memory increments. backing_store is a Boolean flag indicating whether
+%   to write the file contents to disk when the file is closed.
+
+H5Pget_fapl_family
+memb_size memb_fapl_id 
+fapl_id 
+Call the HDF5 library H5Pget_fapl_family function.
+%   [memb_size memb_fapl_id] = H5P.get_fapl_family(fapl_id) returns a file 
+%   access property list for use with the family driver specified by fapl_id.
+
+H5Pget_fapl_multi
+memb_map memb_fapl memb_name memb_addr relax 
+fapl_id 
+Call the HDF5 library H5Pget_fapl_multi function.
+%   [memb_map memb_fapl memb_name memb_addr relax] = H5P.get_fapl_multi(fapl_id)
+%   returns information about the multi-file access property list specified
+%   by fapl_id. memb_map maps memory usage types to other memory usage types. 
+%   memb_fapl is a property list for each memory usage type. memb_name is the 
+%   name generator for names of member files. relax is a Boolean value that, 
+%   when non-zero, allows read-only access to incomplete file sets. 
+
+H5Pget_fclose_degree
+degree 
+fapl_id 
+Call the HDF5 library H5Pget_fclose_degree function.
+%   degree = H5P.get_fclose_degree(fapl_id) returns the current setting of the
+%   file close degree property fc_degree in the file access property list 
+%   specified by fapl_id. Possible return values are: H5F_CLOSE_DEFAULT,
+%   H5F_CLOSE_WEAK, H5F_CLOSE_SEMI, or H5F_CLOSE_STRONG.
+
+H5Pget_fill_time
+fill_time 
+plist_id 
+Call the HDF5 library H5Pget_fill_time function.
+%   fill_time = H5P.get_fill_time(plist_id) returns the time when fill values
+%   are written to the dataset specified by the dataset creation property list
+%   plist_id. fill_time is one of the following values: H5D_FILL_TIME_ERROR,
+%   H5D_FILL_TIME_ALLOC, or H5D_FILL_TIME_NEVER.
+
+H5Pget_fill_value
+value 
+plist_id type_id 
+Call the HDF5 library H5Pget_fill_value function.
+%   value = H5P.get_fill_value(plist_id, type_id) returns the dataset fill value
+%   defined in the dataset creation property list plist_id. type_id specifies
+%   the datatype of the returned fill value.
+
+H5Pget_filter
+output flags cd_values name  
+plist_id filter 
+Call the HDF5 library H5Pget_filter function.
+%   [output flags cd_values name] = H5P.get_filter(plist_id, filter)
+%   returns information about the filter, specified by its filter number, in
+%   the filter pipeline, specified by the property list with which it is 
+%   associated.
+
+H5Pget_filter_by_id
+output flags cd_values name 
+plist_id id
+Call the HDF5 library H5Pget_filter_by_id function.
+%   [output flags cd_values name] = H5P.get_filter_by_id(plist_id, id)
+%   returns information about the filter specified by the filter id, id. 
+
+H5Pget_gc_references
+gc_ref 
+fapl_id 
+Call the HDF5 library H5Pget_gc_references function.
+%   gc_ref = H5P.get_gc_references(fapl_id) returns the current setting for the
+%   garbage collection references property from the file access property list
+%   specified by fapl_id. If gc_ref is 1, garbage collection is on; if 0, 
+%   garbage collection is off. 
+
+H5Pget_hyper_vector_size
+size 
+fapl_id 
+Call the HDF5 library H5Pget_hyper_vector_size function.
+%   size = H5P.get_hyper_vector_size(fapl_id) returns the number of I/O vectors
+%   to be read/written in hyperslab I/O.
+
+H5Pget_istore_k
+ik 
+plist_id 
+Call the HDF5 library H5Pget_istore_k function.
+%   ik = H5P.get_istore_k(plist_id) returns the chunked storage B-tree 1/2 rank
+%   of the property list specified by plist_id.
+
+H5Pget_layout
+output 
+plist_id 
+Call the HDF5 library H5Pget_layout function.
+%   output = H5P.get_layout(plist_id) returns the layout of the raw data for
+%   the dataset specified by the dataset creation property list, plist_id.
+%   Possible values are: possible values are: H5D_COMPACT, H5D_CONTIGUOUS, or
+%   H5D_CHUNKED.
+
+H5Pget_meta_block_size
+size 
+fapl_id 
+Call the HDF5 library H5Pget_meta_block_size function.
+%   size = H5P.get_meta_block_size(fapl_id) returns the current minimum size,
+%   in bytes, of new metadata block allocations.
+
+H5Pget_multi_type
+type 
+fapl_id 
+Call the HDF5 library H5Pget_multi_type function.
+%   type = H5P.get_multi_type(fapl_id) returns the type of data setting from
+%   the file access or data transfer property list, fapl_id.
+
+H5Pget_nfilters
+output 
+plist_id 
+Call the HDF5 library H5Pget_nfilters function.
+%   output = H5P.get_nfilters(plist_id) returns the number of filters defined
+%   in the filter pipeline associated with the property list, plist.
+
+H5Pget_nprops
+nprops 
+id 
+Call the HDF5 library H5Pget_nprops function.
+%   nprops = H5P.get_nprops(id) returns the number of properties in the property
+%   list or class specified by id.
+
+H5Pget_preserve
+output 
+plist_id 
+Call the HDF5 library H5Pget_preserve function.
+%   output = H5P.get_preserve(plist_id) returns the status of the dataset transfer
+%   property list.
+
+H5Pget_sieve_buf_size
+size 
+fapl_id 
+Call the HDF5 library H5Pget_sieve_buf_size function.
+%   size = H5P.get_sieve_buf_size(fapl_id) returns the current maximum size 
+%   of the data sieve buffer.
+
+H5Pget_size
+size 
+id name 
+Call the HDF5 library H5Pget_size function.
+%   size = H5P.get_size(id, name) returns the size, in bytes, of the property
+%   specified by the text string name in the property list or property class
+%   specified by id. 
+
+H5Pget_sizes
+sizeof_addr sizeof_size 
+plist_id 
+Call the HDF5 library H5Pget_sizes function.
+%   [sizeof_addr sizeof_size] = H5P.get_sizes(plist_id) returns the size of 
+%   the offsets and lengths used in an HDF5 file. plist_id specifies a file
+%   creation property list.
+
+H5Pget_small_data_block_size
+size 
+fapl_id 
+Call the HDF5 library H5Pget_small_data_block_size function.
+%   size = H5P.get_small_data_block_size(fapl_id) returns the current setting
+%   for the size of the small data block. fapl_id is a file access property
+%   list identifier.
+
+H5Pget_sym_k
+ik lk 
+plist_id 
+Call the HDF5 library H5Pget_sym_k function.
+%   [ik size] = H5P.get_sym_k(plist_id) returns the size of the symbol table
+%   B-tree 1/2 rank, ik, and the symbol table leaf node 1/2 size, lk. plist_id
+%   is a property list identifier.
+
+H5Pget_userblock
+size 
+plist_id 
+Call the HDF5 library H5Pget_userblock function.
+%   size = H5P.get_userblock(plist_id) returns the size of a user block in a
+%   file creation property list. plist_id is a property list identifier.
+
+H5Pget_version
+boot freelist stab shhdr 
+plist_id 
+Call the HDF5 library H5Pget_version function.
+%   [boot freelist stab shhdr] = H5P.get_version(plist_id) returns the version 
+%   of various objects for a file creation property list specified by plist_id.
+
+H5Pisa_class
+output 
+plist_id pclass_id 
+Call the HDF5 library H5Pisa_class function.
+%   output = H5P.isa_class(plist_id, pclass_id) returns a positive number if 
+%   the property list specified by plist_id is a member of the class specified 
+%   by pclass_id, zero if it is not, and a negative value to indicate an error.
+
+H5Piterate
+output idx_out
+id idx_in iter_func 
+Call the HDF5 library H5Piterate function.
+%   [output idx_out] = H5P.iterate(id, idx_in, iter_func) executes the operation
+%   iter_func on each property in the property object specified in id. id
+%   can be a property list or a property class. idx_in specifies the index 
+%   of the next property to be processed. output is the value returned by 
+%   the last call to iter_func. idx_out is the index of the last property 
+%   processed.
+
+H5Pmodify_filter
+
+plist_id filter flags cd_nelmts cd_values 
+Call the HDF5 library H5Pmodify_filter function.
+%   H5P.modify_filter(plist_id, filter, flags, cd_nelmts, cd_values) modifies
+%   the specified filter in the filter pipeline. plist_id is a property list 
+%   identifier. flags is a bit vector specifying certain general properties
+%   of the filter. cd_nelmts specifies the number of elements in cd_values.
+%   cd_values specifies auxiliary data for the filter.
+
+H5Premove_filter
+
+plist_id filter 
+Call the HDF5 library H5Premove_filter function.
+%   H5P.remove_filter(plist_id, filter) removes the specified filter from the 
+%   filter pipeline.  plist_id is the dataset creation property list identifier.
+
+H5Pset
+
+plist_id name value 
+Call the HDF5 library H5Pset function.
+%   H5P.set(plist_id, name, value) sets the value of the property specified
+%   by name in the property list specified by plist_id to the value specified
+%   in value.
+
+H5Pset_alignment
+
+fapl_id threshold alignment 
+Call the HDF5 library H5Pset_alignment function.
+%   H5P.set_alignment(fapl_id, threshold, alignment) sets the alignment properties
+%   of the file access property list specified by fapl_id so that any file 
+%   object greater than or equal in size to threshold (in bytes) is aligned
+%   on an address which is a multiple of alignment.
+
+H5Pset_alloc_time
+
+plist_id alloc_time 
+Call the HDF5 library H5Pset_alloc_time function.
+%   H5P.set_alloc_time(plist_id, alloc_time) sets the timing for the allocation
+%   of storage space for a dataset's raw data. plist_id is a dataset creation
+%   property list. alloc_time can have any of the following values: 
+%   H5D_ALLOC_TIME_DEFAULT, H5D_ALLOC_TIME_EARLY, H5D_ALLOC_TIME_INC, or
+%   H5D_ALLOC_TIME_LATE.
+
+H5Pset_btree_ratios
+
+plist_id left middle right 
+Call the HDF5 library H5Pset_btree_ratios function.
+%   H5P.set_btree_ratios(plist_id, left, middle, right) sets the B-tree split
+%   ratios for the dataset transfer property list specified by plist_id. left
+%   specifies the B-tree split ratio for left-most nodes; right specifies the
+%   B-tree split ratio for right-most nodes and lone nodes; middle specifies
+%   the B-tree split ratio for all other nodes.
+
+H5Pset_cache
+
+plist_id mdc_nelmts rdcc_nelmts rdcc_nbytes rdcc_w0 
+Call the HDF5 library H5Pset_cache function.
+%   H5P.set_cache(plist_id, mdc_nelmts, rdcc_nelmts, rdcc_nbytes, rdcc_w0) 
+%   sets the number of elements in the meta data cache (mdc_nelmts), and the
+%   number of elementse, the total number of bytes, and the preemption policy
+%   value in the raw data chunk cache. plist_id is a file access property list
+%   identifier.
+
+H5Pset_chunk
+
+plist_id dims 
+Call the HDF5 library H5Pset_chunk function.
+%   H5P.set_chunk(plist_id, dims) sets the size of the chunks used to store a
+%   chunked layout dataset. plist_id is a dataset creation property list
+%   identifier. dims is an array specifying the size, in dataset elements, 
+%   of each chunk. 
+ 
+H5Pset_deflate
+
+plist_id level 
+Call the HDF5 library H5Pset_deflate function.
+%   H5P.set_deflate(plist_id, level) sets the compression method for the 
+%   dataset creation property list specified by plist_id to 
+%   H5D_COMPRESS_DEFLATE. level specifies the compression level as a value
+%   from 0 and 9, inclusive. Lower values results in less compression.
+
+H5Pset_dxpl_multi
+
+dxpl_id memb_dxpl 
+Call the HDF5 library H5Pset_dxpl_multi function.
+%   H5P.set_dxpl_multi(dxpl_id, memb_dxpl) sets the data transfer property 
+%   list dxpl_id to use the multi-file driver. memb_dxpl is an array of data
+%   access property lists. 
+
+H5Pset_edc_check
+
+plist_id check 
+Call the HDF5 library H5Pset_edc_check function.
+%   H5P.set_edc_check(plist_id, check) sets the dataset transfer property list
+%   specified by plist_id to enable or disable error detection when reading data.
+%   check can have the value H5Z_ENABLE_EDC or H5Z_DISABLE_EDC.
+
+H5Pset_external
+
+plist_id name offset size 
+Call the HDF5 library H5Pset_external function.
+%   H5P.set_external(plist_id, name, offset, size) adds the external file 
+%   specified by name to the list of external files in the dataset creation
+%   property list, plist_id. Offset specifies the location, in bytes, where
+%   the data starts relative to the beginning of the file. size is the number
+%   of bytes reserved in the file for the data.
+
+H5Pset_family_offset
+
+fapl_id offset 
+Call the HDF5 library H5Pset_family_offset function.
+%   H5P.set_family_offset(fapl_id, offset) sets offset property in the file 
+%   access property list specified by fapl_id for low-level access to a file
+%   in a family of files. offset identifies a user-determined location
+%   from the beginning of the HDF5 file in bytes.
+
+H5Pset_fapl_core
+
+fapl_id increment backing_store 
+Call the HDF5 library H5Pset_fapl_core function.
+%   H5P.set_fapl_core(fapl_id, increment, backing_store) modifies the file 
+%   access property list to use the H5FD_CORE driver. increment specifies 
+%   the increment by which allocated memory is to be increased each time 
+%   more memory is required. backing_store is a Boolean flag that, when non-zero,
+%   indicates the file contents should be written to disk when the file is 
+%   closed.
+
+H5Pset_fapl_family
+
+fapl_id memb_size memb_fapl_id 
+Call the HDF5 library H5Pset_fapl_family function.
+%   H5P.set_fapl_family(fapl_id, memb_size, memb_fapl_id) sets the file access
+%   property list, specified by fapl_id, to use the family driver. memb_size
+%   is the size in bytes of each file member. memb_fapl_id is the identifier
+%   of the file access property list to be used for each family member.
+
+H5Pset_fapl_log
+
+fapl_id logfile flags buf_size 
+Call the HDF5 library H5Pset_fapl_log function.
+%   H5P.set_fapl_log(fapl_id, logfile, flags, buf_size) modifies the file 
+%   access property list, fapl_id, to use the logging driver H5FD_LOG.
+%   logfile is the name of the file in which the logging entries are to be 
+%   recorded. flags is a bit mask that specifies the types of activity to log.
+%   See the HDF5 documentation for a list of available flag settings. buf_size
+%   specifies the size of the logging buffer.
+
+H5Pset_fapl_multi
+
+fapl_id memb_map memb_fapl memb_name memb_addr relax 
+Call the HDF5 library H5Pset_fapl_multi function.
+%   H5P.set_fapl_multi(fapl_id, memb_map, memb_fapl, memb_name, memb_addr,
+%   relax) sets the file access property list fapl_id to use the multi-file
+%   driver H5Pset_fapl_sec2. memb_map maps memory usage types to other memory
+%   usage types. memb_fapl contains a property list for each memory usage 
+%   type. memb_name is a name generator for names of member files. memb_addr
+%   specifies the offsets within the virtual address space at which each type
+%   of data storage begins. relax is a Boolean value that allows read-only 
+%   access to incomplete file sets when set to 1. 
+
+H5Pset_fapl_sec2
+
+fapl_id 
+Call the HDF5 library H5Pset_fapl_sec2 function.
+%   H5P.set_fapl_sec2(fapl_id) modifies the file access property list, fapl_id, 
+%   to use the H5FD_SEC2 driver.
+
+H5Pset_fapl_split
+
+fapl_id meta_ext meta_plist_id raw_ext raw_plist_id 
+Call the HDF5 library H5Pset_fapl_split function.
+%   H5P.set_fapl_split(fapl_id, meta_ext, meta_plist_id, raw_ext, raw_plist_id)
+%   is a compatibility function that enables the multi-file driver to emulate
+%   the split driver from HDF5 Releases 1.0 and 1.2. meta_ext is a text string
+%   that specifies the metadata filename extension. meta_plist_id is a file
+%   access property list identifier for the metadata file. raw_ext is a text
+%   string that specifies the raw data filename extension. raw_plist_id is
+%   the file access property list identifier for the raw data file. 
+
+H5Pset_fapl_stdio
+
+fapl_id 
+Call the HDF5 library H5Pset_fapl_stdio function.
+%   H5P.set_fapl_stdio(fapl_id) modifies the file access property list, fapl_id,
+%   to use the standard I/O driver, H5FD_STDIO.
+
+H5Pset_fclose_degree
+
+fapl_id degree 
+Call the HDF5 library H5Pset_fclose_degree function.
+%   H5P.set_fclose_degree(fapl_id, degree) sets the file close degree property
+%   in the file access property list fapl_id to the value specified by degree.
+%   degree can have any of the following values: H5F_CLOSE_WEAK,
+%   H5F_CLOSE_SEMI, H5F_CLOSE_STRONG, or H5F_CLOSE_DEFAULT.
+
+H5Pset_fill_time
+
+plist_id fill_time 
+Call the HDF5 library H5Pset_fill_time function.
+%   H5P.set_fill_time(plist_id, fill_time) sets the timing for writing fill 
+%   values to a dataset in the dataset creation property list plist_id.
+%   fill_time specifies when to write fill values to a dataset: 
+%   H5D_FILL_TIME_IFSET, H5D_FILL_TIME_ALLOC, or H5D_FILL_TIME_NEVER. 
+
+H5Pset_fill_value
+
+plist_id type_id value 
+Call the HDF5 library H5Pset_fill_value function.
+%   H5P.set_fill_value(plist_id, type_id, value) sets the fill value for a 
+%   the dataset creation property list specified by plist_id. value specifies
+%   the fill value and type_id the datatype of the fill value.
+
+H5Pset_filter
+
+plist_id filter flags cd_values
+Call the HDF5 library H5Pset_filter function.
+%   H5P.set_filter(plist_id, filter, flags, cd_values) adds the 
+%   specified filter and corresponding properties to the end of an output 
+%   filter pipeline. plist_id is a property list identifier. filter is a 
+%   filter identifier. flags is a bit vector specifying properties of the
+%   filter. cd_values is an array that contains auxiliary data for the filter.
+
+H5Pset_fletcher32
+
+plist_id 
+Call the HDF5 library H5Pset_fletcher32 function.
+%   H5P.set_fletcher32(plist_id) sets the Fletcher32 checksum filter in the 
+%   dataset creation property list specified by plist. 
+
+H5Pset_gc_references
+
+fapl_id gc_ref 
+Call the HDF5 library H5Pset_gc_references function.
+%   H5P.set_gc_references(fapl_id, gc_ref) sets the flag for garbage collecting
+%   references for the file specified by the file access property list 
+%   identifier, fapl_id. gc_ref is a flag setting reference garbage 
+%   collection to on (1) or off (0).
+
+H5Pset_hyper_vector_size
+
+dxpl_id size 
+Call the HDF5 library H5Pset_hyper_vector_size function.
+%   H5P.set_hyper_vector_size(dxpl_id, size) sets the number of I/O vectors
+%   to be accumulated in memory before being issued to the lower levels of 
+%   the HDF5 library for reading or writing the actual data. dxpl_id is a
+%   dataset transfer property list identifier. size specifies the number of
+%   I/O vectors to accumulate in memory for I/O operations.
+
+H5Pset_istore_k
+
+plist_id ik 
+Call the HDF5 library H5Pset_istore_k function.
+%   H5P.set_istore_k(plist_id, ik) sets the size of the parameter used to 
+%   control the B-trees for indexing chunked datasets for the file creation
+%   property list specified by plist_id. ik is one half the rank of a tree 
+%   that stores chunked raw data.
+
+H5Pset_layout
+
+plist_id layout 
+Call the HDF5 library H5Pset_layout function.
+%   H5P.set_layout(plist_id, layout) sets the type of storage used to store 
+%   the raw data for the dataset creation property list, plist_id. layout
+%   specifies the type of storage layout for raw data: H5D_COMPACT, 
+%   H5D_CONTIGUOUS, or H5D_CHUNKED.
+
+H5Pset_meta_block_size
+
+fapl_id size 
+Call the HDF5 library H5Pset_meta_block_size function.
+%   H5P.set_meta_block_size(fapl_id, size) sets the minimum metadata block size
+%   for the file access property list specified by fapl_id. size specifies
+%   minimum size, in bytes, of metadata block allocations.
+
+H5Pset_multi_type
+
+fapl_id type 
+Call the HDF5 library H5Pset_multi_type function.
+%   H5P.set_multi_type(fapl_id, type) sets the type of data property in the 
+%   file access or data transfer property list fapl_id. type can have any
+%   of the following values: H5FD_MEM_SUPER, H5FD_MEM_BTREE, H5FD_MEM_DRAW,
+%   H5FD_MEM_GHEAP, H5FD_MEM_LHEAP, or H5FD_MEM_OHDR.
+
+H5Pset_preserve
+
+plist_id status 
+Call the HDF5 library H5Pset_preserve function.
+%   H5P.set_preserve(plist_id, status) sets the dataset transfer property list,
+%   plist_id, to the Boolean value specified by status.
+
+H5Pset_shuffle
+
+plist_id 
+Call the HDF5 library H5Pset_shuffle function.
+%   H5P.set_shuffle(plist_id) sets the shuffle filter, H5Z_FILTER_SHUFFLE, in the
+%   dataset creation property list plist_id.
+
+H5Pset_sieve_buf_size
+
+fapl_id size 
+Call the HDF5 library H5Pset_sieve_buf_size function.
+%   H5P.set_sieve_buf_size(fapl_id, size) sets size, the maximum size in bytes
+%   of the data sieve buffer, which is used by file drivers that are capable
+%   of using data sieving. fapl_id is a file access property list identifier.
+
+H5Pset_sizes
+
+plist_id sizeof_addr sizeof_size 
+Call the HDF5 library H5Pset_sizes function.
+%   H5P.set_sizes(plist_id, sizeof_addr, sizeof_size) sets the byte size of 
+%   the offsets and lengths used to address objects in an HDF5 file. plist_id
+%   is a file creation property list.
+
+H5Pset_small_data_block_size
+
+fapl_id size 
+Call the HDF5 library H5Pset_small_data_block_size function.
+%   H5P.set_small_data_block_size(fapl_id, size) sets the maximum size, in bytes,
+%   of a contiguous block reserved for small data. fapl_id is a file access
+%   property list identifier.
+
+H5Pset_sym_k
+
+plist_id ik lk 
+Call the HDF5 library H5Pset_sym_k function.
+%   H5P.set_sym_k(plist_id, ik, lk) sets the size of parameters used to 
+%   control the symbol table nodes for the file access property list, plist_id.
+%   ik is one half the rank of a tree that stores a symbol table for a group.
+%   lk is one half of the number of symbols that can be stored in a symbol 
+%   table node.
+ 
+H5Pset_userblock
+
+plist_id size 
+Call the HDF5 library H5Pset_userblock function.
+%   H5P.set_userblock(plist_id, size) sets the user block size of the file 
+%   creation property list, plist_id. 
+
+H5Rcreate
+ref 
+loc_id name ref_type space_id 
+Call the HDF5 library H5Rcreate function.
+%   ref = H5R.create(loc_id, name, ref_type, space_id) creates the reference,
+%   ref, of the type specified in ref_type, pointing to the object specified
+%   by name located at loc_id. 
+
+H5Rdereference
+output
+dataset ref_type ref
+Call the HDF5 library H5Rdereference function.
+%   output = H5R.dereference(dataset, ref_type, ref) returns an identifier
+%   to the object specified by ref in the dataset specified by dataset.
+
+H5Rget_obj_type
+output 
+id ref_type ref
+Call the HDF5 library H5Rget_obj_type function.
+%   output = H5R.get_obj_type(id, ref_type, ref) returns the type of object
+%   that an object reference points to. Valid ref_types are: H5R_OBJECT or
+%   H5R_DATASET_REGION. Valid object type return values are: H5G_LINK,
+%   H5G_GROUP, H5G_DATASET, or H5G_TYPE.
+
+H5Rget_region
+output
+dataset ref_type ref
+Call the HDF5 library H5Rget_region function.
+%   output = H5R.get_region(dataset, ref_type, ref) returns a dataspace 
+%   with the specified region selected.
+
+H5Sclose
+
+space_id 
+Call the HDF5 library H5Sclose function.
+%   H5S.close(space_id) releases and terminates access to a dataspace.
+%   space_id is a dataspace identifier.
+
+H5Scopy
+output 
+space_id 
+Call the HDF5 library H5Scopy function.
+%   output = H5S.copy(space_id) creates a new dataspace which is an exact copy
+%   of the dataspace identified by space_id. output is a dataspace identifier.
+
+H5Screate
+output 
+type 
+Call the HDF5 library H5Screate function.
+%   output = H5S.create(type) creates a new dataspace of the type specified
+%   by type. type can have the value H5S_SCALAR or H5S_SIMPLE.
+%   output is a dataspace identifier. output is a dataspace identifier.
+
+H5Screate_simple
+output 
+rank dims maxdims 
+Call the HDF5 library H5Screate_simple function.
+%   output = H5S.create_simple(rank, dims, maxdims) creates a new simple 
+%   dataspace and opens it for access. rank is the number of dimensions used
+%   in the dataspace. dims is an array specifying the size of each dimension
+%   of the dataset. maxdims is an array specifying the upper limit on the 
+%   size of each dimension. output is a dataspace identifier.
+
+H5Sextent_copy
+
+dst_id src_id 
+Call the HDF5 library H5Sextent_copy function.
+%   H5S.extent_copy(dst_id, src_id) copies the extent from source_space_id to 
+%   dest_space_id.
+
+H5Sget_select_bounds
+start finish 
+spaceid 
+Call the HDF5 library H5Sget_select_bounds function.
+%   [start finish] = H5S.get_select_bounds(space_id) returns the coordinates of
+%   the bounding box containing the current selection. start contains the
+%   starting coordinates of the bounding box and finish contains the
+%   coordinates of the diagonally opposite corner.
+
+H5Sget_select_elem_npoints
+output 
+spaceid 
+Call the HDF5 library H5Sget_select_elem_npoints function.
+%   output = H5S.get_select_elem_npoints(space_id) returns the number of 
+%   element points in the current dataspace selection. 
+
+H5Sget_select_elem_pointlist
+buf 
+space_id startpoint numpoints 
+Call the HDF5 library H5Sget_select_elem_pointlist function.
+%   buf = H5S.get_select_elem_pointlist(space_id, startpoint, numpoints) returns
+%   the list of element points in the current dataspace selection. startpoint
+%   specifies the element point to start with and numpoints specifies the 
+%   total number of points.
+
+H5Sget_select_hyper_blocklist
+buf 
+space_id startblock numblocks 
+Call the HDF5 library H5Sget_select_hyper_blocklist function.
+%   buf = H5S.get_select_hyper_blocklist(space_id, startblock, numblocks)  
+%   returns a list of the hyperslab blocks currently selected. space_id is a
+%   dataspace identifier. startblock specifies the block to start with and 
+%   numblocks specifies the number of hyperslab blocks to get. 
+
+H5Sget_select_hyper_nblocks
+output 
+space_id 
+Call the HDF5 library H5Sget_select_hyper_nblocks function.
+%   output = H5S.get_select_hyper_nblocks(space_id) returns the number of 
+%   hyperslab blocks in the current dataspace selection. 
+
+H5Sget_select_npoints
+output 
+space_id 
+Call the HDF5 library H5Sget_select_npoints function.
+%   output = H5S.get_select_npoints(space_id) returns the number of elements
+%   in the current dataspace selection. 
+
+H5Sget_select_type
+output 
+spaceid 
+Call the HDF5 library H5Sget_select_type function.
+%   output = H5S.get_select_type(space_id) returns the dataspace selection 
+%   type, a value of the enumerated datatype H5S_sel_type. Valid return 
+%   values are as follows: H5S_SEL_NONE, H5S_SEL_POINTS, H5S_SEL_HYPERSLABS,
+%   or H5S_SEL_ALL.  
+
+H5Sget_simple_extent_dims
+numdims dims maxdims 
+space_id 
+Call the HDF5 library H5Sget_simple_extent_dims function.
+%   [numdims dims maxdims] = H5S.get_simple_extent_dims(space_id) returns the
+%   number of dimensions in the dataspace, the size of each dimension, and 
+%   the maximum size of each dimension. 
+
+H5Sget_simple_extent_ndims
+output 
+space_id 
+Call the HDF5 library H5Sget_simple_extent_ndims function.
+%   output = H5S.get_simple_extent_ndims(space_id) returns the dimensionality
+%   (also called the rank) of a dataspace. 
+
+H5Sget_simple_extent_npoints
+output 
+space_id 
+Call the HDF5 library H5Sget_simple_extent_npoints function.
+%   output = H5S.get_simple_extent_npoints(space_id) returns the number of 
+%   elements in the dataspace specified by space_id.
+
+H5Sget_simple_extent_type
+output 
+space_id 
+Call the HDF5 library H5Sget_simple_extent_type function.
+%   output = H5S.get_simple_extent_type(space_id) returns the dataspace class
+%   name of the dataspace specified by space_id.
+
+H5Sis_simple
+output 
+space_id 
+Call the HDF5 library H5Sis_simple function.
+%   output = H5S.is_simple(space_id) returns a positive value if the dataspace 
+%   specified by space_id is a simple dataspace, zero if it is not, and a 
+%   negative value to indicate failure.
+
+H5Soffset_simple
+
+space_id offset 
+Call the HDF5 library H5Soffset_simple function.
+%   H5S.offset_simple(space_id, offset) specifies the offset of the simple
+%   dataspace specified by space_id.
+
+H5Sselect_all
+
+space_id 
+Call the HDF5 library H5Sselect_all function.
+%   H5S.select_all(space_id) selects the entire extent of the dataspace 
+%   specified by space_id.
+
+H5Sselect_elements
+
+space_id op coord 
+Call the HDF5 library H5Sselect_elements function.
+%   H5S.select_elements(space_id, op, coord) selects the array 
+%   elements to be included in the selection for the dataspace specified by
+%   space_id. op determines how the new selection is to be combined with the
+%   previously existing selection for the dataspace. Possible values include:
+%   H5S_SELECT_SET, H5S_SELECT_APPEND, or H5S_SELECT_PREPEND. coord is a 
+%   2-dimensional array of 0-based values specifying the coordinates of the 
+%   elements being selected.
+
+H5Sselect_hyperslab
+
+space_id op start stride count block 
+Call the HDF5 library H5Sselect_hyperslab function.
+%   H5S.select_hyperslab(space_id, op, start, stride, count, block)
+%   selects a hyperslab region to add to the current selected region for the
+%   dataspace specified by space_id. op determines how the new selection is
+%   to be combined with the previously existing selection for the dataspace.
+%   Possible values include: H5S_SELECT_SET, H5S_SELECT_OR, H5S_SELECT_AND,
+%   H5S_SELECT_XOR, H5S_SELECT_NOTA, or H5S_SELECT_NOTB. start array 
+%   determines the starting coordinates of the hyperslab to select. count 
+%   array determines how many blocks to select from the dataspace, in each 
+%   dimension. stride array specifies how many elements to move in each 
+%   dimension. block array determines the size of the element block selected
+%   from the dataspace.
+
+H5Sselect_none
+
+space_id 
+Call the HDF5 library H5Sselect_none function.
+%   H5S.select_none(space_id) resets the selection region for the dataspace 
+%   space_id to include no elements.
+
+H5Sselect_valid
+output 
+space_id 
+Call the HDF5 library H5Sselect_valid function.
+%   output = H5S.select_valid(space_id) returns a positive value if the selection 
+%   of the dataspace space_id is within the extent of that dataspace, and zero 
+%   if it is not.  A negative value indicates failure.
+
+H5Sset_extent_none
+
+space_id 
+Call the HDF5 library H5Sset_extent_none function.
+%   H5S.set_extent_none(space_id) removes the extent from a dataspace and 
+%   sets the type to H5S_NO_CLASS.
+
+H5Sset_extent_simple
+
+space_id rank dims maxdims
+Call the HDF5 library H5Sset_extent_simple function.
+%   H5S.set_extent_simple(space_id, rank, dims, maxdims) sets the size of the 
+%   dataspace identified by space_id. rank is the number of dimensions used 
+%   in the dataspace. dims is an array specifying the size of each dimension 
+%   of the dataset. maxdims is an array specifying the upper limit on the 
+%   size of each dimension.
+
+H5Tarray_create
+output 
+base_id ndims offset member_id 
+Call the HDF5 library H5Tarray_create function.
+%   output = H5T.array_create(base_id, ndims, offset, member_id) creates a new 
+%   array datatype object.
+
+H5Tclose
+
+type_id 
+Call the HDF5 library H5Tclose function.
+%   H5T.close(type_id) releases the datatype specified by type_id.
+
+H5Tcommit
+
+loc_id name type_id 
+Call the HDF5 library H5Tcommit function.
+%   H5T.commit(loc_id, name, type_id) commits a transient datatype to a file,
+%   creating a new named datatype. loc_id is a file or group identifier. name
+%   is the name of the datatype and type_id is the datatype id.
+
+H5Tcommitted
+output 
+type_id 
+Call the HDF5 library H5Tcommitted function.
+%   output = H5T.committed(type_id) returns a positive value to indicate that
+%   the datatype has been committed, and zero to indicate that it has not.
+%   A negative value indicates failure.
+
+H5Tcopy
+output 
+type_id 
+Call the HDF5 library H5Tcopy function.
+%   output = H5T.copy(type_id) copies the existing datatype identifier,
+%   predefined datatype (defined in H5Tpublic.h), or dataset identifier 
+%   specified by type_id. output is a datatype identifier.
+
+H5Tcreate
+output 
+class_id size 
+Call the HDF5 library H5Tcreate function.
+%   output = H5T.create(class_id, size) creates a new datatype of the class
+%   specified by class_id, with the number of bytes specified by size. 
+%   output is a datatype identifier.
+
+H5Tdetect_class
+output 
+type_id class_id 
+Call the HDF5 library H5Tdetect_class function.
+%   output = H5T.detect_class(type_id, class_id) returns a positive value if 
+%   the datatype specified in type_id contains any datatypes of the datatype 
+%   class specified in class_id, or zero to indicate that it does not.
+%   A negative value indicates failure. 
+
+H5Tenum_create
+output 
+parent_id 
+Call the HDF5 library H5Tenum_create function.
+%   output = H5T.enum_create(parent_id) creates a new enumeration datatype based
+%   on the specified base datatype, parent_id, which must be an integer type.
+%   output is a datatype identifier for the new enumeration datatype.
+
+H5Tenum_insert
+
+type name value 
+Call the HDF5 library H5Tenum_insert function.
+%   H5T.enum_insert(type, name, value) inserts a new enumeration datatype member
+%   into the enumeration datatype specified by type. name is a text string
+%   that specifies the name of the new member of the enumeration and value
+%   is the value of the member.
+
+H5Tenum_nameof
+name 
+type value 
+Call the HDF5 library H5Tenum_nameof function.
+%   name = H5T.enum_nameof(type, value) returns the symbol name 
+%   corresponding to a member of an enumeration datatype. type specifies the
+%   enumeration datatype. value identifies the member of the enumeration.
+
+H5Tenum_valueof
+value 
+type name 
+Call the HDF5 library H5Tenum_valueof function.
+%   value = H5T.enum_valueof(type, name) returns the value corresponding to 
+%   a specified member of an enumeration datatype. type specifies the 
+%   enumeration datatype and name specifies the member. 
+
+H5Tequal
+output 
+type1_id type2_id
+Call the HDF5 library H5Tequal function.
+%   output = H5T.equal(type1_id, type2_id) returns a positive number if the 
+%   datatype identifiers refer to the same datatype, and zero to indicate 
+%   that they do not.  A negative value indicates failure.
+
+H5Tget_array_dims
+output ndims offset 
+type_id 
+Call the HDF5 library H5Tget_array_dims function.
+%   [output ndims offset] = H5T.get_array_dims(type_id) returns the sizes of
+%   the dimensions and the dimension permutations of the specified array 
+%   datatype object. 
+
+H5Tget_array_ndims
+output 
+type_id 
+Call the HDF5 library H5Tget_array_ndims function.
+%   output = H5T.get_array_ndims(type_id) returns the rank, the number of 
+%   dimensions, of an array datatype object.
+
+H5Tget_class
+output 
+type_id 
+Call the HDF5 library H5Tget_class function.
+%   output = H5T.get_class(type_id) returns the datatype class identifier of
+%   the datatype specified by type_id. For a list of valid class identifiers,
+%   see the HDF5 documentation.
+
+H5Tget_cset
+output 
+type_id 
+Call the HDF5 library H5Tget_cset function.
+%   output = H5T.get_cset(type_id) returns the character set type of the 
+%   datatype specified by type_id.
+
+H5Tget_ebias
+output 
+type_id 
+Call the HDF5 library H5Tget_ebias function.
+%   output = H5T.get_ebias(type_id) returns the exponent bias of a 
+%   floating-point type. type_id is datatype identifier.
+
+H5Tget_fields
+spos epos esize mpos msize 
+type_id 
+Call the HDF5 library H5Tget_fields function.
+%   [spos epos esize mpos msize] = H5T.get_fields(type_id) returns information
+%   about the locations of the various bit fields of a floating point datatype.
+%   type_id is a datatype identifier. spos is the floating-point sign bit. 
+%   epos is the exponent bit-position. esize is the size of the exponent in
+%   bits. mpos is the mantissa bit-position. msize is the size of the mantissa
+%   in bits.
+
+H5Tget_inpad
+output 
+type_id 
+Call the HDF5 library H5Tget_inpad function.
+%   output = H5T.get_inpad(type_id) returns the internal padding type for 
+%   unused bits in floating-point datatypes. type_id is a datatype identifier.
+%   output can be H5T_PAD_ZERO, H5T_PAD_ONE, or H5T_PAD_BACKGROUND.  
+
+H5Tget_member_class
+output 
+type_id membno 
+Call the HDF5 library H5Tget_member_class function.
+%   output = H5T.get_member_class(type_id, membno) returns the datatype class
+%   of the compound datatype member specified by membno. type_id is the 
+%   datatype identifier of a compound object.
+
+H5Tget_member_index
+output 
+type_id name 
+Call the HDF5 library H5Tget_member_index function.
+%   output = H5T.get_member_index(type_id, name) returns the index of a field
+%   of a compound datatype or an element of an enumeration datatype. type_id
+%   is a datatype identifier and name is a text string that identifies the 
+%   target field or element.
+
+H5Tget_member_name
+output 
+type_id membno 
+Call the HDF5 library H5Tget_member_name function.
+%   output = H5T.get_member_name(type_id, membno) returns the name of a field
+%   of a compound datatype or an element of an enumeration datatype. type_id
+%   is a datatype identifier. membno is a zero-based index of the field or 
+%   element whose name is to be retrieved. output is a text string containing
+%   the name of the member.
+
+H5Tget_member_offset
+output 
+type_id membno 
+Call the HDF5 library H5Tget_member_offset function.
+%   output = H5T.get_member_offset(type_id, membno) returns the byte offset 
+%   of the field specified by membno in the compound datatype specified by
+%   type_id. Note that zero (0) is a valid offset.
+
+H5Tget_member_type
+output 
+type_id membno 
+Call the HDF5 library H5Tget_member_type function.
+%   output = H5T.get_member_type(type_id, membno) returns the datatype of the
+%   member specified by membno in the datatype specified by type_id.
+
+H5Tget_member_value
+value 
+type_id membno 
+Call the HDF5 library H5Tget_member_value function.
+%   value = H5T.get_member_value(type_id, membno) returns the value of the 
+%   enumeration datatype member specified by membno. type_id is the datatype
+%   identifier for the enumeration datatype.
+
+H5Tget_native_type
+output 
+type_id direction 
+Call the HDF5 library H5Tget_native_type function.
+%   output = H5T.get_native_type(type_id, direction) returns the equivalent 
+%   native datatype for the dataset datatype specified in type_id. direction
+%   indicates the order in which the library searches for a native datatype match: 
+%   match: H5T_DIR_ASCEND or H5T_DIR_DESCEND.
+
+H5Tget_nmembers
+output 
+type_id 
+Call the HDF5 library H5Tget_nmembers function.
+%   output = H5T.get_nmembers(type_id) retrieves the number of fields in a 
+%   compound datatype or the number of members of an enumeration datatype.
+%   type_id is a datatype identifier.
+
+H5Tget_norm
+output 
+type_id 
+Call the HDF5 library H5Tget_norm function.
+%   output = H5T.get_norm(type_id) returns the mantissa normalization of a 
+%   floating-point datatype. type_id is a datatype identifier. output can 
+%   be: H5T_NORM_IMPLIED, H5T_NORM_MSBSET, or H5T_NORM_NONE.
+
+H5Tget_offset
+output 
+type_id 
+Call the HDF5 library H5Tget_offset function.
+%   output = H5T.get_offset(type_id) returns the bit offset of the first 
+%   significant bit. type_id is a datatype identifier.
+
+H5Tget_order
+output 
+type_id 
+Call the HDF5 library H5Tget_order function.
+%   output = H5T.get_order(type_id) returns the byte order of an atomic 
+%   datatype. type_id is a datatype identifier. Possible return values are: 
+%   H5T_ORDER_LE, H5T_ORDER_BE, or H5T_ORDER_VAX.
+
+H5Tget_pad
+lsb msb 
+type_id 
+Call the HDF5 library H5Tget_pad function.
+%   [lsb msb] = H5T.get_pad(type_id) Returns the padding type of the least 
+%   and most-significant bit padding. type_id is a datatype identifier.
+%   lsb is the least-significant bit padding type. msb is the most-significant
+%   bit padding type.
+
+H5Tget_precision
+output 
+type_id 
+Call the HDF5 library H5Tget_precision function.
+%   output = H5T.get_precision(type_id) returns the precision of an atomic 
+%   datatype. type_id is a datatype identifier.
+
+H5Tget_sign
+output 
+type_id 
+Call the HDF5 library H5Tget_sign function.
+%   output = H5T.get_sign(type_id) returns the sign type for an integer type.
+%   type_id is a datatype identifier. Valid types are: H5T_SGN_NONE or 
+%   H5T_SGN_2. 
+
+H5Tget_size
+output 
+type_id 
+Call the HDF5 library H5Tget_size function.
+%   output = H5T.get_size(type_id) returns the size of a datatype in bytes.
+%   type_id is a datatype identifier. 
+
+H5Tget_strpad
+output 
+type_id 
+Call the HDF5 library H5Tget_strpad function.
+%   output = H5T.get_strpad(type_id) returns the storage mechanism (padding
+%   type) for a string datatype. Possible values are: H5T_STR_NULLPAD (pad
+%   with zeros) or H5T_STR_SPACEPAD (pad with spaces). 
+
+H5Tget_super
+output 
+type 
+Call the HDF5 library H5Tget_super function.
+%   output = H5T.get_super(type_id) returns the base datatype from which the
+%   datatype type specified by type_id is derived.
+
+H5Tget_tag
+output 
+type 
+Call the HDF5 library H5Tget_tag function.
+%   output = H5T.get_tag(type_id) returns the tag associated with the opaque
+%   datatype specified by type_id.
+
+H5Tinsert
+
+type_id name offset member_id 
+Call the HDF5 library H5Tinsert function.
+%   H5T.insert(type_id, name, offset, member_id) adds another member to the
+%   compound datatype specified by type_id. name is a text string that specifies
+%   the name of the new member, which must be unique in the compound datatype.
+%   offset specifies where you want to insert the new member and member_id 
+%   specifies the datatype identifier of the new member.
+
+H5Tis_variable_str
+output 
+type_id 
+Call the HDF5 library H5Tis_variable_str function.
+%   output = H5T.is_variable_str(type_id) returns a positive value if the 
+%   datatype specified by type_id is a variable-length string, and zero if it 
+%   is not.  A negative value indicates failure.
+
+H5Tlock
+
+type_id 
+Call the HDF5 library H5Tlock function.
+%   H5T.lock(type_id) locks the datatype specified by the type_id identifier,
+%   making it read-only and non-destructible.
+
+H5Topen
+output 
+loc_id name 
+Call the HDF5 library H5Topen function.
+%   output = H5T.open(loc_id, name) opens a named datatype at the location 
+%   specified by loc_id and returns an identifier for the datatype. loc_id 
+%   is either a file or group identifier.
+
+H5Tpack
+
+type_id 
+Call the HDF5 library H5Tpack function.
+%   H5T.pack(type_id) recursively removes padding from within a compound datatype
+%   to make it more efficient (space-wise) to store that data. type_id is a
+%   datatype identifier.
+
+H5Tset_cset
+
+type_id cset 
+Call the HDF5 library H5Tset_cset function.
+%   H5T.set_cset(type_id, cset) sets character set to be used. Valid character
+%   set types is H5T_CSET_ASCII. 
+
+H5Tset_ebias
+
+type_id ebias 
+Call the HDF5 library H5Tset_ebias function.
+%   H5T.set_ebias(type_id, ebias) sets the exponent bias of a floating-point
+%   type. type_id is a datatype identifier. ebias is an exponent bias value. 
+
+H5Tset_fields
+
+type_id spos epos esize mpos msize 
+Call the HDF5 library H5Tset_fields function.
+%   H5T.set_fields(type_id, spos, epos, esize, mpos, msize) sets the locations
+%   and sizes of the various floating-point bit fields. spos is the sign
+%   position. epos is the exponent in bits. esize is the size of exponent in
+%   bits. mpos is the mantissa bit position. msize is the size of the mantissa
+%   in bits.
+
+H5Tset_inpad
+
+type_id pad 
+Call the HDF5 library H5Tset_inpad function.
+%   H5T.set_inpad(type_id, pad) sets how unused internal bits of a floating 
+%   point type are filled. type_id is the identifier of the datatype. inpad
+%   specifies how to fill the bits: H5T_PAD_ZERO, H5T_PAD_ONE, or 
+%   H5T_PAD_BACKGROUND (leave background alone).
+
+H5Tset_norm
+
+type_id norm 
+Call the HDF5 library H5Tset_norm function.
+%   H5T.set_norm(type_id, norm) sets the mantissa normalization of a 
+%   floating-point datatype. Valid normalization types are: H5T_NORM_IMPLIED,
+%   H5T_NORM_MSBSET, or H5T_NORM_NONE.
+
+H5Tset_offset
+
+type_id offset 
+Call the HDF5 library H5Tset_offset function.
+%   H5T.set_offset(type_id, offset) sets the bit offset of the first 
+%   significant bit. type_id is the identifier of the datatype. offset
+%   specifies the number of bits of padding that appear.
+
+H5Tset_order
+
+type_id order 
+Call the HDF5 library H5Tset_order function.
+%   H5T.set_order(type_id, order) sets the byte ordering of an atomic 
+%   datatype: H5T_ORDER_LE, H5T_ORDER_BE, or H5T_ORDER_VAX. type_id is the 
+%   identifier of the datatype.
+
+H5Tset_pad
+
+type_id lsb msb 
+Call the HDF5 library H5Tset_pad function.
+%   H5T.set_pad(type_id, lsb, msb) sets the padding type for the least and 
+%   most-significant bits. type_id is the identifier of the datatype. lsb
+%   specifies the padding type for least-significant bits; msb for 
+%   most-significant bits. Valid padding types are: H5T_PAD_ZERO, H5T_PAD_ONE,
+%   or H5T_PAD_BACKGROUND (leave background alone).
+
+H5Tset_precision
+
+type_id prec 
+Call the HDF5 library H5Tset_precision function.
+%   H5T.set_precision(type_id, prec) sets the precision of an atomic datatype.
+%   type_id is a datatype identifier. prec specifies the number of bits of
+%   precision for the datatype.
+
+H5Tset_sign
+
+type_id sign 
+Call the HDF5 library H5Tset_sign function.
+%   H5T.set_sign(type_id, sign) sets the sign property for an integer type. 
+%   type_id is a datatype identifier. sign specifies the sign type. Valid
+%   values are H5T_SGN_NONE or H5T_SGN_2.
+
+H5Tset_size
+
+type_id size 
+Call the HDF5 library H5Tset_size function.
+%   H5T.set_size(type_id, size) sets the total size in bytes, size, for the
+%   datatype specified by type_id.
+
+H5Tset_strpad
+
+type_id strpad 
+Call the HDF5 library H5Tset_strpad function.
+%   H5T.set_strpad(type_id, strpad) specifies how strings are padded when 
+%   stored. Valid values for strpad are: H5T_STR_NULLTERM (null terminate),
+%   H5T_STR_NULLPAD (pad with zeros), or H5T_STR_SPACEPAD (pad with spaces). 
+%   type_id is a datatype identifier.
+
+H5Tset_tag
+
+type tag 
+Call the HDF5 library H5Tset_tag function.
+%   H5T.set_tag(type, tag) tags the opaque datatype, specified by type_id,
+%   with the descriptive ASCII string identifier, tag.
+
+H5Tvlen_create
+output 
+base_id 
+Call the HDF5 library H5Tvlen_create function.
+%   output = H5T.vlen_create(base_id) creates a new variable-length (VL) datatype.
+%   base_id specifies the base type of the datatype to create.
+
+H5Zfilter_avail
+output 
+filter_id 
+Call the HDF5 library H5Zfilter_avail function.
+%   output = H5Z.filter_avail(filter_id) determines whether the filter specified
+%   by the filter identifier is available to the application.
+
+H5Zget_filter_info
+filter_config_flags 
+filter 
+Call the HDF5 library H5Zget_filter_info function.
+%   [filter_config_flags] = H5Z.get_filter_info(filter) retrieves information
+%   about the filter specified by its identifier. At present, the information
+%   returned is the filter's configuration flags, indicating whether the filter
+%   is configured to decode data, to encode data, neither, or both.
+
+H5close
+
+
+Call the HDF5 library H5close function.
+%   H5.close() closes the HDF5 library.
+
+H5garbage_collect
+
+
+Call the HDF5 library H5garbage_collect function.
+%   H5.garbage_collect() frees unused memory in the HDF5 library.
+
+H5get_libversion
+majnum minnum relnum 
+
+Call the HDF5 library H5get_libversion function.
+%   [majnum minnum relnum] = H5.get_libversion() returns the version of the HDF5
+%   library in use.
+
+H5open
+
+
+Call the HDF5 library H5open function.
+%   H5.open() opens the HDF5 library.
+
+H5set_free_list_limits
+
+reg_global_lim reg_list_lim arr_global_lim arr_list_lim blk_global_lim blk_list_lim 
+Call the HDF5 library H5set_free_list_limits function.
+%   H5.set_free_list_limits(reg_global_lim reg_list_lim arr_global_lim 
+%   arr_list_lim blk_global_lim blk_list_lim ) sets size limits on all types of free lists.
+

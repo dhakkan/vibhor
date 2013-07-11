@@ -1,0 +1,5 @@
+Third Party Software Packages Included With CANVAS
+
+files/directories, name, license, contact
+lex.py yacc.py lex2.py yacc2.py , Parsing libraries, LGPL,  David M. Beazley (beazley@cs.uchicago.edu)
+spark.py ast.py, Parsing library, BSD, John Aycock

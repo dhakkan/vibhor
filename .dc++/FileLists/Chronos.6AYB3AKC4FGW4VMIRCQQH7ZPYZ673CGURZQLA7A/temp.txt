@@ -1,0 +1,813 @@
+    1  sudo apt-get update
+    2  sudo apt-get install rar
+    3  sudo apt-get install vlc
+    4  sudo apt-get install vim
+    5  sudo apt-get install g++
+    6  ls
+    7  cd Desktop/
+    8  javac HelloWorldApp.java 
+    9  sudo apt-get install openjdk-7-jdk
+   10  sudo apt-get update
+   11  sudo apt-get install openjdk-7-jdk
+   12  ping proxy.iiit.ac.in
+   13  sudo apt-get install openjdk-7-jdk
+   14  sudo add-apt-repository ppa:noobslab/themes
+   15  sudo apt-get update
+   16  sudo apt-get install mac-os-lion-icons
+   17  sudo apt-get install mac-os-lion-theme
+   18  wget http://dl.dropbox.com/u/53319850/NoobsLab.com/Paw-OSX.zip
+   19  unzip Paw-OSX.zip
+   20  sudo cp -R Paw-OSX/ /lib/plymouth/themes
+   21  sudo update-alternatives --install /lib/plymouth/themes/default.plymouth default.plymouth /lib/plymouth/themes/Paw-OSX/paw-osx.plymouth 100
+   22  sudo update-alternatives --config default.plymouth
+   23  sudo update-initramfs -u
+   24  sudo apt-get install openjdk-7-jdk
+   25  cd Desktop/
+   26  javac HelloWorldApp.java 
+   27  java HelloWorldApp 
+   28  javac HelloWorldApp 
+   29  java HelloWorldApp 
+   30  javac HelloWorldApp.java 
+   31  java HelloWorldApp
+   32  sudo update-initramfs -u
+   33  vi temp.c
+   34  gcc temp.c
+   35  g++ temp.c
+   36  mv temp.c temp.cpp
+   37  g++ temp.cpp 
+   38  vi temp.c
+   39  vi temp.cpp 
+   40  g++ temp.cpp 
+   41  vi temp.cpp 
+   42  g++ temp.cpp 
+   43  vi temp.cpp 
+   44  g++ temp.cpp 
+   45  vi temp.cpp 
+   46  g++ temp.cpp 
+   47  vi temp.cpp 
+   48  g++ temp.cpp 
+   49  ./a.out
+   50  cd ..
+   51  vi .vimrc
+   52  sudo vi .vimrc
+   53  cd Desktop/
+   54  vi m.cpp 
+   55  g++ m.cpp 
+   56  c
+   57  clear
+   58  g++ m.cpp 
+   59  clear
+   60  g++ m.cpp 
+   61  clear
+   62  g++ m.cpp 
+   63  clear
+   64  g++ m.cpp 
+   65  clear
+   66  g++ m.cpp 
+   67  pid
+   68  pid-all
+   69  cd LinkedList/
+   70  vi createLinkedList.cpp 
+   71  ls
+   72  ls - al
+   73  ls - a
+   74  ls -a
+   75  mv .createLinkedList.cpp.swp createLinkedList.cpp 
+   76  vi createLinkedList.cpp 
+   77  vim -r createLinkedList.cpp 
+   78  vi createLinkedList.cpp 
+   79  cd ..
+   80  cd .ssh/
+   81  ls
+   82  sudo apt-get install ssh
+   83  sudo apt-get install subversion
+   84  ssh-keygen -t rsa
+   85  cc createLinkedList.cpp
+   86  g++ createLinkedList.cpp
+   87  ./a.out
+   88  g++ createLinkedList.cpp
+   89  ./a.out
+   90  cp createLinkedList.cpp createLinkedListReverse.cpp
+   91  g++ createLinkedList.cpp
+   92  ./a.out
+   93  g++ createLinkedList.cpp
+   94  ./a.out
+   95  g++ createLinkedList.cpp
+   96  ./a.out
+   97  g++ createLinkedList.cpp
+   98  ./a.out
+   99  g++ createLinkedList.cpp
+  100  ./a.out
+  101  g++ createLinkedList.cpp
+  102  ./a.out
+  103  g++ createLinkedList.cpp
+  104  ./a.out
+  105  g++ createLinkedList.cpp
+  106  ./a.out
+  107  g++ createLinkedList.cpp
+  108  ./a.out
+  109  g++ createLinkedList.cpp
+  110  ./a.out
+  111  g++ createLinkedList.cpp
+  112  ./a.out
+  113  g++ createLinkedList.cpp
+  114  ./a.out
+  115  g++ createLinkedList.cpp
+  116  ./a.out
+  117  g++ createLinkedList.cpp
+  118  ./a.out
+  119  g++ createLinkedList.cpp
+  120  ./a.out
+  121  g++ createLinkedList.cpp
+  122  ./a.out
+  123  g++ createLinkedList.cpp
+  124  ./a.out
+  125  g++ createLinkedList.cpp
+  126  ./a.out
+  127  cp createLinkedList.cpp createLinkedListDelete.cpp
+  128  g++ createLinkedList.cpp
+  129  cp createLinkedList.cpp createLinkedListDelete.cpp
+  130  ./a.out
+  131  cp createLinkedList.cpp createLinkedListDelete.cpp
+  132  g++ createLinkedList.cpp
+  133  ./a.out
+  134  g++ createLinkedList.cpp
+  135  ./a.out
+  136  g++ createLinkedList.cpp
+  137  ./a.out
+  138  g++ createLinkedList.cpp
+  139  ./a.out
+  140  g++ createLinkedList.cpp
+  141  ./a.out
+  142  cp createLinkedList.cpp createLinkedListInsert.cpp
+  143  g++ createLinkedList.cpp
+  144  ./a.out
+  145  g++ createLinkedList.cpp
+  146  ./a.out
+  147  clear
+  148  g++ createLinkedList.cpp
+  149  clear
+  150  ./a.out
+  151  g++ createLinkedList.cpp
+  152  ./a.out
+  153  g++ createLinkedList.cpp
+  154  ./a.out
+  155  g++ createLinkedList.cpp
+  156  ./a.out
+  157  g++ createLinkedList.cpp
+  158  ./a.out
+  159  g++ createLinkedList.cpp
+  160  ./a.out
+  161  g++ createLinkedList.cpp
+  162  ./a.out
+  163  g++ createLinkedList.cpp
+  164  ./a.out
+  165  g++ createLinkedList.cpp
+  166  ./a.out
+  167  g++ createLinkedList.cpp
+  168  ./a.out
+  169  g++ createLinkedList.cpp
+  170  ./a.out
+  171  cd LinkedList/
+  172  vim -r createLinkedList.cpp 
+  173  vim  createLinkedList.cpp 
+  174  vi createLinkedListDelete.cpp 
+  175  cd LinkedList/
+  176  ls
+  177  cp createLinkedListInsert.cpp createLinkedListMedian.cpp
+  178  vi createLinkedListMedian.cpp 
+  179  rm createLinkedListMedian.cpp 
+  180  vi createLinkedList.cpp
+  181  mv createLinkedList.cpp InsertionSort.cpp
+  182  vi median.cpp
+  183  cp createLinkedListDelete.cpp median.cpp
+  184  vi median.cpp
+  185  cp createLinkedListDelete.cpp reverseN.cpp
+  186  vi reverseN.cpp 
+  187  g++ createLinkedList.cpp
+  188  ./a.out
+  189  g++ createLinkedList.cpp
+  190  ./a.out
+  191  g++ createLinkedList.cpp
+  192  ./a.out
+  193  g++ createLinkedList.cpp
+  194  ./a.out
+  195  g++ createLinkedList.cpp
+  196  ./a.out
+  197  g++ createLinkedList.cpp
+  198  ./a.out
+  199  g++ createLinkedList.cpp
+  200  ./a.out
+  201  g++ createLinkedList.cpp
+  202  ./a.out
+  203  g++ createLinkedList.cpp
+  204  ./a.out
+  205  g++ createLinkedList.cpp
+  206  ./a.out
+  207  g++ createLinkedList.cpp
+  208  ./a.out
+  209  g++ createLinkedList.cpp
+  210  ./a.out
+  211  g++ createLinkedList.cpp
+  212  ./a.out
+  213  g++ createLinkedList.cpp
+  214  ./a.out
+  215  g++ createLinkedList.cpp
+  216  ./a.out
+  217  g++ createLinkedList.cpp
+  218  ./a.out
+  219  g++ createLinkedList.cpp
+  220  ./a.out
+  221  g++ createLinkedList.cpp
+  222  ./a.out
+  223  g++ createLinkedList.cpp
+  224  ./a.out
+  225  g++ createLinkedList.cpp
+  226  ./a.out
+  227  g++ createLinkedList.cpp
+  228  ./a.out
+  229  g++ createLinkedList.cpp
+  230  ./a.out
+  231  g++ createLinkedList.cpp
+  232  ./a.out
+  233  g++ createLinkedList.cpp
+  234  ./a.out
+  235  clear
+  236  g++ createLinkedList.cpp
+  237  ./a.out
+  238  g++ createLinkedList.cpp
+  239  g++ median.cpp 
+  240  ./a.out
+  241  g++ median.cpp 
+  242  ./a.out
+  243  g++ median.cpp 
+  244  ./a.out
+  245  g++ median.cpp 
+  246  ./a.out
+  247  g++ median.cpp 
+  248  ./a.out
+  249  g++ median.cpp 
+  250  ./a.out
+  251  g++ median.cpp 
+  252  ./a.out
+  253  mv median.cpp medianOfSorted.cpp
+  254  g++ reverseN.cpp 
+  255  ./a.out
+  256  g++ reverseN.cpp 
+  257  ./a.out
+  258  g++ reverseN.cpp 
+  259  ./a.out
+  260  g++ reverseN.cpp 
+  261  ./a.out
+  262  g++ reverseN.cpp 
+  263  ./a.out
+  264  g++ reverseN.cpp 
+  265  ./a.out
+  266  g++ reverseN.cpp 
+  267  ./a.out
+  268  g++ reverseN.cpp 
+  269  ./a.out
+  270  g++ reverseN.cpp 
+  271  ./a.out
+  272  mkdir Tree
+  273  cd Tree/
+  274  vi BST.cpp
+  275  cp BST.cpp BSTinsert.cpp
+  276  vi BST.cpp
+  277  g++ BST.cpp 
+  278  ./a.out
+  279  g++ BST.cpp 
+  280  ./a.out
+  281  5
+  282  2
+  283  1
+  284  ./a.out
+  285  1
+  286  g++ BST.cpp 
+  287  ./a.out
+  288  g++ BST.cpp 
+  289  ./a.out
+  290  g++ BST.cpp 
+  291  ./a.out
+  292  g++ BST.cpp 
+  293  ./a.out
+  294  g++ BST.cpp 
+  295  ./a.out
+  296  g++ BST.cpp 
+  297  ./a.out
+  298  g++ BST.cpp 
+  299  ./a.out
+  300  g++ BST.cpp 
+  301  ./a.out
+  302  g++ BST.cpp 
+  303  ./a.out
+  304  g++ BST.cpp 
+  305  ./a.out
+  306  g++ BST.cpp 
+  307  ./a.out
+  308  g++ BST.cpp 
+  309  ./a.out
+  310  g++ BST.cpp 
+  311  ./a.out
+  312  g++ BST.cpp 
+  313  clear
+  314  g++ BST.cpp 
+  315  ./a.out
+  316  g++ BST.cpp 
+  317  ./a.out
+  318  g++ BST.cpp 
+  319  ./a.out
+  320  g++ BST.cpp 
+  321  ./a.out
+  322  g++ BST.cpp 
+  323  ./a.out
+  324  g++ BST.cpp 
+  325  ./a.out
+  326  cp BST.cpp levelOrder.cpp
+  327  vi levelOrder.cpp 
+  328  g++ BST.cpp 
+  329  ./a.out
+  330  cd Tree/
+  331  ls
+  332  ls -a
+  333  vim -r BST.cpp 
+  334  cp BST.cpp levelOrderZigZag.cpp
+  335  rm .BST.cpp.swp 
+  336  ls -a
+  337  vi BST.cpp 
+  338  ./a.out
+  339  vi levelOrder.cpp 
+  340  g++ BST.cpp 
+  341  ./a.out
+  342  g++ BST.cpp 
+  343  ./a.out
+  344  g++ BST.cpp 
+  345  ./a.out
+  346  g++ BST.cpp 
+  347  ./a.out
+  348  g++ BST.cpp 
+  349  ./a.out
+  350  g++ BST.cpp 
+  351  ./a.out
+  352  g++ BST.cpp 
+  353  ./a.out
+  354  g++ BST.cpp 
+  355  ./a.out
+  356  g++ BST.cpp 
+  357  ./a.out
+  358  g++ BST.cpp 
+  359  ./a.out
+  360  g++ BST.cpp 
+  361  ./a.out
+  362  cp BST.cpp LCS-ShortestPath.cpp
+  363  ls
+  364  cd Downloads/web2py/
+  365  python web2py.py 
+  366  ssh-keygen -t rsa
+  367  cd Downloads/
+  368  cd Rel_4.1.0/
+  369  sh setup.sh 
+  370  sh setup.sh /home/menon/Downloads/Rel_4.1.0/
+  371  make config 
+  372  make it
+  373  make install
+  374  make it
+  375  make install
+  376  sh setup.sh /home/menon/
+  377  make config 
+  378  make it
+  379  make install
+  380  make catalog 
+  381  svn+ssh://surajmenon@10.4.7.79/home/surajmenon/svn/repo/
+  382  svn + ssh://surajmenon@10.4.7.79/home/surajmenon/svn/repo/
+  383  svn+ssh ://surajmenon@10.4.7.79/home/surajmenon/svn/repo/
+  384  svn+ssh://surajmenon@10.4.7.79/home/surajmenon/svn/repo/
+  385  svn co svn+ssh://surajmenon@10.4.7.79/home/surajmenon/svn/repo/
+  386  svn add Desktop/Desktop.rar 
+  387  cd Desktop/
+  388  svn add Desktop.rar 
+  389  svn update
+  390  svn add ast.ss 
+  391  svn add Desktop.rar 
+  392  svn co svn+ssh://surajmenon@10.4.7.79/home/surajmenon/svn/repo/
+  393  svn add Desktop.rar
+  394  svn add ast.ss
+  395  svn commit ast.ss
+  396  svn commit
+  397  cd repo/
+  398  svn commit
+  399  svn add ast.ss 
+  400  svn commit
+  401  svn status
+  402  svn logs
+  403  svn copy
+  404  cd repo/
+  405  cd ..
+  406  cd repo/
+  407  cd ..
+  408  vim .subversion/config 
+  409  cd repo/
+  410  svn mkdir poplproject
+  411  svn commit
+  412  svn update
+  413  g++ BST.cpp 
+  414  cd LinkedList/
+  415  ls
+  416  vi createLinkedList.cpp
+  417  vi reverseN.cpp
+  418  cd ..
+  419  cd Tree/
+  420  ls
+  421  vi BST.cpp 
+  422  cp BST.cpp RootNodePathSum.cpp
+  423  vi BST.cpp 
+  424  cp BST.cpp longestPath.cpp
+  425  vi BST.cpp 
+  426  rm BST.cpp 
+  427  cd ..
+  428  mkdir missc
+  429  cd missc
+  430  vi heapify.cpp
+  431  vi bsf.cpp
+  432  g++ reverseN.cpp 
+  433  ./a.out
+  434  g++ reverseN.cpp 
+  435  ./a.out
+  436  clear
+  437  ./a.out
+  438  g++ reverseN.cpp 
+  439  ./a.out
+  440  g++ reverseN.cpp 
+  441  ./a.out
+  442  g++ reverseN.cpp 
+  443  ./a.out
+  444  g++ reverseN.cpp 
+  445  ./a.out
+  446  cd ..
+  447  cd Tree/
+  448  g++ BST.cpp 
+  449  ./a.out
+  450  g++ BST.cpp 
+  451  clear
+  452  g++ BST.cpp 
+  453  clear
+  454  g++ BST.cpp 
+  455  clear
+  456  g++ BST.cpp 
+  457  ./a.out
+  458  g++ BST.cpp 
+  459  ./a.out
+  460  g++ BST.cpp 
+  461  ./a.out
+  462  g++ BST.cpp 
+  463  ./a.out
+  464  g++ BST.cpp 
+  465  ./a.out
+  466  g++ BST.cpp 
+  467  ./a.out
+  468  g++ BST.cpp 
+  469  ./a.out
+  470  g++ BST.cpp 
+  471  ./a.out
+  472  clear
+  473  cd ../missc/
+  474  g++ heapify.cpp 
+  475  ./a.out
+  476  g++ heapify.cpp 
+  477  ./a.out
+  478  g++ heapify.cpp 
+  479  ./a.out
+  480  g++ heapify.cpp 
+  481  ./a.out
+  482  g++ heapify.cpp 
+  483  ./a.out
+  484  g++ heapify.cpp 
+  485  ./a.out
+  486  g++ heapify.cpp 
+  487  ./a.out
+  488  g++ heapify.cpp 
+  489  ./a.out
+  490  g++ heapify.cpp 
+  491  ./a.out
+  492  g++ heapify.cpp 
+  493  ./a.out
+  494  g++ heapify.cpp 
+  495  ./a.out
+  496  g++ heapify.cpp 
+  497  ./a.out
+  498  g++ heapify.cpp 
+  499  ./a.out
+  500  g++ bsf.cpp 
+  501  ./a.out
+  502  g++ bsf.cpp 
+  503  ./a.out
+  504  g++ bsf.cpp 
+  505  ./a.out
+  506  g++ bsf.cpp 
+  507  ./a.out
+  508  g++ bsf.cpp 
+  509  ./a.out
+  510  g++ bsf.cpp 
+  511  ./a.out
+  512  g++ bsf.cpp 
+  513  ./a.out
+  514  g++ bsf.cpp 
+  515  ./a.out
+  516  g++ bsf.cpp 
+  517  ./a.out
+  518  g++ bsf.cpp 
+  519  ./a.out
+  520  g++ bsf.cpp 
+  521  ./a.out
+  522  cd Code/missc/
+  523  g++ bsf.cpp 
+  524  ./a.out
+  525  g++ bsf.cpp 
+  526  ./a.out
+  527  g++ bsf.cpp 
+  528  ./a.out
+  529  g++ bsf.cpp 
+  530  ./a.out
+  531  g++ bsf.cpp 
+  532  ./a.out
+  533  vi bsf.cpp 
+  534  cd Code/missc/
+  535  cp bsf.cpp dfs.cpp
+  536  vi dfs.cpp
+  537  g++ dfs.cpp 
+  538  ./a.out
+  539  g++ dfs.cpp 
+  540  ./a.out
+  541  g++ dfs.cpp 
+  542  ./a.out
+  543  g++ dfs.cpp 
+  544  ./a.out
+  545  ps
+  546  ps aux
+  547  gedit dc_hub.txt
+  548  sudo su
+  549  sudo add-apt-repository ppa:clipgrab-team/ppa
+  550  sudo apt-get update
+  551  sudo apt-get install clipgrab
+  552  sudo psswd
+  553  sudo pswd
+  554  sudo pwd
+  555  sudo passwd
+  556  passwd
+  557  sudo passwd
+  558  vi status.txt
+  559  history > temp.txt
+  560  gedit temp.txt 
+  561  svn+ssh://surajmenon@10.4.7.79/home/surajmenon/svn/repo/
+  562  svn co svn+ssh://surajmenon@10.4.7.79/home/surajmenon/svn/repo/
+  563  svn co svn+ssh://surajmenon@10.4.7.80/home/surajmenon/svn/repo/
+  564  cd repo/
+  565  svn commit 
+  566  svn update 
+  567  svn co svn+ssh://surajmenon@10.4.7.80/home/surajmenon/svn/repo/
+  568  svn update 
+  569  svn commit 
+  570  svn co svn+ssh://surajmenon@10.4.7.80/home/surajmenon/svn/repo/
+  571  ls
+  572  svn add Assignment\ 2/
+  573  svn commit 
+  574  svn update 
+  575  clear
+  576  svn update 
+  577  cd .ssh
+  578  cd ..
+  579  cd .ssh/
+  580  ls
+  581  vi known_hosts 
+  582  rm known_hosts 
+  583  ls
+  584  cd ../repo/
+  585  svn update 
+  586  svn co svn+ssh://surajmenon@10.4.7.80/home/surajmenon/svn/repo/
+  587  svn update 
+  588  svn commit
+  589  vi temp.cpp
+  590  g++ temp.
+  591  g++ temp.cpp 
+  592  ./a.out
+  593  g++ temp.cpp 
+  594  ./a.out
+  595  g++ temp.cpp 
+  596  ./a.out
+  597  g++ temp.cpp 
+  598  ./a.out
+  599  g++ temp.cpp 
+  600  ./a.out
+  601  g++ temp.cpp 
+  602  ./a.out
+  603  vi map.cpp
+  604  vi ./vimrc
+  605  vi .viminfo 
+  606  locate .vimrc
+  607  cd /
+  608  vi .vimrc 
+  609  sudo vi .vimrc 
+  610  cd ..
+  611  ls
+  612  cd home/
+  613  ls
+  614  cd menon/
+  615  g++ map.cpp 
+  616  clear
+  617  g++ map.cpp 
+  618  clear
+  619  g++ map.cpp 
+  620  ./a.out
+  621  g++ map.cpp 
+  622  ./a.out
+  623  g++ map.cpp 
+  624  ./a.out
+  625  g++ map.cpp 
+  626  clear
+  627  g++ map.cpp 
+  628  clear
+  629  ./a.out
+  630  clear
+  631  g++ map.cpp 
+  632  ./a.out
+  633  g++ map.cpp 
+  634  ./a.out
+  635  vi 
+  636  vi dc_hub.txt 
+  637  SU
+  638  su
+  639  vi /etc/hosts
+  640  cd ..
+  641  ls
+  642  cd home/
+  643  ls
+  644  cd menon/
+  645  ls
+  646  ls -al | grep ssh
+  647  svn commit co
+  648  vi temp.txt 
+  649  svn co svn+ssh://surajmenon@10.4.7.80/home/surajmenon/svn/repo/
+  650  vim temp.c
+  651  cc temp.c
+  652  ./a.out
+  653  vim temp.c
+  654  cc temp.c
+  655  ./a.out
+  656  3
+  657  cc temp.c
+  658  ./a.out
+  659  clear
+  660  vim temp.c
+  661  cc temp.c
+  662  vim temp.c
+  663  cc temp.c
+  664  ./a.out
+  665  vim temp.c
+  666  cc temp.c
+  667  ./a.out
+  668  vim temp.c
+  669  cc temp.c
+  670  ./a.out
+  671  vim temp.c
+  672  cc temp.c
+  673  ./a.out
+  674  cc temp.c
+  675  ./a.out
+  676  vim temp.c
+  677  cc temp.c
+  678  vim temp.c +4
+  679  vim temp.c +21
+  680  vi passwd.txt
+  681  rm temp.c
+  682  vim temp.c
+  683  cc temp.c
+  684  ./a.out
+  685  vim temp.c
+  686  cc temp.c
+  687  ./a.out
+  688  vim temp.c
+  689  ./a.out
+  690  cc temp.c
+  691  ./a.out
+  692  cc temp.c
+  693  vim temp.c
+  694  cc temp.c
+  695  ./a.out
+  696  vim temp.c
+  697  cc temp.c
+  698  ./a.out
+  699  svn co svn+ssh://surajmenon@10.4.7.80/home/surajmenon/svn/repo/ 
+  700  cd Desktop/
+  701  vi temp2.cpp
+  702  gedit temp2.cpp
+  703  vi temp2.cpp
+  704  cd ..
+  705  svn co svn+ssh://surajmenon@10.4.7.80/home/surajmenon/svn/repo2/ 
+  706  cd Desktop/
+  707  svn co svn+ssh://surajmenon@10.4.7.80/home/surajmenon/svn/repo/ 
+  708  svn update
+  709  svn commit
+  710  svn commit 
+  711  claer
+  712  clear
+  713  svn commit 
+  714  svn update
+  715  svn co svn+ssh://surajmenon@10.4.7.80/home/surajmenon/svn/repo/ 
+  716  cd repo/
+  717  ls
+  718  cd poplProject/
+  719  ls
+  720  svn update 
+  721  svn log 
+  722  cd ..
+  723  cd poplproject/
+  724  ls -a
+  725  ls
+  726  cd ..
+  727  cd poplProject/
+  728  ls -a
+  729  cd ../../..
+  730  svn co svn+ssh://surajmenon@10.4.7.80/home/surajmenon/svn/repo/ 
+  731  cd Desktop/
+  732  g++ temp.cpp 
+  733  ./a.out
+  734  g++ temp.cpp 
+  735  ./a.out
+  736  1 3 2100
+  737  ./a.out
+  738  g++ temp.cpp 
+  739  ./a.out
+  740  g++ temp.cpp 
+  741  ./a.out
+  742  g++ temp2.cpp 
+  743  ./a.out
+  744  g++ temp2.cpp 
+  745  ./a.out
+  746  g++ temp2.cpp 
+  747  ./a.out
+  748  g++ temp2.cpp 
+  749  ./a.out
+  750  g++ temp2.cpp 
+  751  ./a.out
+  752  g++ temp2.cpp 
+  753  ./a.out
+  754  g++ temp2.cpp 
+  755  ./a.out
+  756  g++ temp2.cpp 
+  757  ./a.out
+  758  g++ temp2.cpp 
+  759  ./a.out
+  760  g++ temp2.cpp 
+  761  ./a.out
+  762  g++ temp2.cpp 
+  763  ./a.out
+  764  g++ temp2.cpp 
+  765  ./a.out
+  766  g++ temp2.cpp 
+  767  ./a.out
+  768  g++ temp2.cpp 
+  769  ./a.out
+  770  g++ temp2.cpp 
+  771  ./a.out
+  772  g++ temp2.cpp 
+  773  ./a.out
+  774  g++ temp2.cpp 
+  775  ./a.out
+  776  g++ temp2.cpp 
+  777  ./a.out
+  778  g++ temp2.cpp 
+  779  ./a.out
+  780  g++ temp2.cpp 
+  781  ./a.out
+  782  g++ temp2.cpp 
+  783  ./a.out
+  784  g++ temp2.cpp 
+  785  ./a.out
+  786  vi temp2.cpp
+  787  gedit temp2.cpp
+  788  cd Desktop/
+  789  g++ temp2.cpp 
+  790  ./a.out
+  791  g++ temp2.cpp 
+  792  ./a.out
+  793  g++ temp2.cpp 
+  794  ./a.out
+  795  g++ temp2.cpp 
+  796  ./a.out
+  797  g++ temp2.cpp 
+  798  ./a.out
+  799  g++ temp2.cpp 
+  800  ./a.out
+  801  svn co svn+ssh://suraj.menon@10.4.7.80/home/menon/svn/repo/
+  802  svn co svn+ssh://suraj.menon@10.4.7.80/home/menon/repo
+  803  pwd
+  804  cd svn
+  805  ls
+  806  history
+  807  svn co svn+ssh://suraj.menon@10.4.7.80/home/menon/repo
+  808  pwd
+  809  cd repo
+  810  svn co svn+ssh://surajmenon@10.4.7.80/home/menon/repo
+  811  svn co svn+ssh://surajmenon@10.4.7.80/home/menon/svn/repo/
+  812  svn co svn+ssh://surajmenon@10.4.7.80/home/surajmenon/svn/repo/
+  813  history > ../../../../temp.txt

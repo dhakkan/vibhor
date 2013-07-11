@@ -1,0 +1,4 @@
+
+/midtest_csh/ 
+/tmtool_csh/ 
+/instredit_csh/

@@ -1,0 +1,74 @@
+Database Systems Lab Assignment #2
+Last date: 17 Jan 2012 (5PM)
+
+Write a mini-SQL Engine which should be capable of handling the following queries:-
+
+Consider two relations with populated data with schema attributes described.
+
+Schema of the Dataset.csv.
+Location is Foreign key in this table.
+
++-----------+--------------+------+-----+---------+-------+
+| Field     | Type         | Null | Key | Default | Extra |
++-----------+--------------+------+-----+---------+-------+
+| date      | date         | YES  |     | NULL    |       |
+| orig_time | time         | YES  |     | NULL    |       |
+| Mw        | float        | YES  |     | NULL    |       |
+| mb        | float        | YES  |     | NULL    |       |
+| depth     | float        | YES  |     | NULL    |       |
+| location  | varchar(256) | YES  |     | NULL    |       |
++-----------+--------------+------+-----+---------+-------+
+
+Schema of the location.csv dataset.
+Location is primary key here.
+
++-----------+--------------+------+-----+---------+-------+
+| Field     | Type         | Null | Key | Default | Extra |
++-----------+--------------+------+-----+---------+-------+
+| latitude  | int(8)       | NO   |     | NULL    |       |
+| longitude | int(8)       | NO   |     | NULL    |       |
+| location  | varchar(256) | NO   | PRI | NULL    |       |
++-----------+--------------+------+-----+---------+-------+
+
+
+You have to use  only OS interface (system calls). Create one file which contains schema for both relations
+and one file for tuples of each table.
+
+Your program should read the schema from the schema table and access individual table for answering the queries.
+
+Each student should submit separately. 
+ 
+You can name the engine as dbeng*****..., where  "*****..." indicates  your first or last name.
+
+If we type "dbeng****...", $ prompt should appear. Your system should take the following queries and 
+display the answers. If  "sql qyery | file name"  is types, the results should be written in 
+the file. 
+
+
+1) select 
+
+e.g. select * from table where attribute value='abc';
+
+2) project
+
+e.g. select col1, col2 from table;
+
+3) distinct 
+
+e.g. select distinct(col1) from table;
+
+
+4) join 
+
+e.g select * from table1, table2 where table1.col1=table2.col2;
+
+Note: Instead of =, you can expect >, <, >=, <=.
+***********************************************************
+select location from Location where latitude<=24;
+select latitude,location from Location where longitude<=80;
+select longitude,location from Location where latitude<=24;
+select distinct(longitude) from Location;
+select * from Location where latitude<=24;
+select * from Dataset,Location where Dataset.location=Location.location;
+
+

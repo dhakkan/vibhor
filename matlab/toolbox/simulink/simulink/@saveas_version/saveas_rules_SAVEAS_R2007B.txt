@@ -1,0 +1,1174 @@
+<Block<SourceType|BCH Encoder><prPoly:rename primPoly>>
+<Block<SourceType|BCH Decoder><prPoly:rename primPoly>>
+<Block<SourceType|Integer-Input RS Encoder><prPoly:rename primPoly>>
+<Block<SourceType|Integer-Output RS Decoder><prPoly:rename primPoly>>
+<Block<SourceType|Binary-Input RS Encoder><prPoly:rename primPoly>>
+<Block<SourceType|Binary-Output RS Decoder><prPoly:rename primPoly>>
+<Block<prodOutRoundingMode|Round:repval Nearest>>
+<Block<prodOutRoundingMode|Convergent:repval Nearest>>
+<Block<prodOutRoundingMode|Simplest:repval Floor>>
+<Block<prodOutRoundingMode|Ceiling:repval Nearest>>
+<Block<prodOutRoundingMode|Zero:repval Nearest>>
+<Block<SourceType|OQPSK Demodulator Baseband><roundingMode|Ceiling:repval Nearest>>
+<Block<SourceType|OQPSK Demodulator Baseband><roundingMode|Zero:repval Nearest>>
+<Block<SourceType|Multipath Rayleigh Fading Channel><spectrumType|Bell:repval Jakes>>
+<Block<SourceType|Multipath Rician Fading Channel><spectrumType|Bell:repval Jakes>>
+<Block<SourceType|Multipath Rayleigh Fading Channel><coeffBell:remove>>
+<Block<SourceType|Multipath Rician Fading Channel><coeffBell:remove>>
+<Block<SourceBlock|simeventssignalmanage1/Signal Latch:repval simeventsgates1/Signal Latch>>
+<Block<roundingMode|Round:repval Nearest>>
+<Block<roundingMode|Convergent:repval Nearest>>
+<Block<roundingMode|Simplest:repval Floor>>
+<Block<SourceType|"Variable Fractional Delay"><mode|OBSOLETE><modeActive|Linear:remove><mode:repval Linear interpolation>>
+<Block<SourceType|"Variable Fractional Delay"><mode|OBSOLETE><modeActive|FIR:remove><mode:repval FIR interpolation>>
+<Block<SourceType|"Variable Fractional Delay"><mode|OBSOLETE><modeActive|Farrow:remove><mode:repval Linear interpolation>>
+<Block<SourceType|"IFFT"><TableOpt|HYBRID><TableOpt:remove><TableOptActive:rename TableOpt>>
+<Block<SourceType|"IFFT"><TableOpt|NEW><TableOpt:remove><TableOptActive:rename TableOpt>>
+<Block<SourceType|"IFFT"><SkipNorm|on:repval aa>|<SourceType|"IFFT"><SkipNorm|off:repval on>|<SourceType|"IFFT"><SkipNorm|aa:repval off>>
+<Block<SourceType|"IDCT"><CompMethod|HYBRID><CompMethod:remove><CompMethodActive:rename CompMethod>>
+<Block<SourceType|"IDCT"><CompMethod|NEW><CompMethod:remove><CompMethodActive:rename CompMethod>>
+<Block<SourceType|"FFT"><TableOpt|HYBRID><TableOpt:remove><TableOptActive:rename TableOpt>>
+<Block<SourceType|"FFT"><TableOpt|NEW><TableOpt:remove><TableOptActive:rename TableOpt>>
+<Block<SourceType|"FFT"><SkipNorm|off:repval aa>|<SourceType|"FFT"><SkipNorm|on:repval off>|<SourceType|"FFT"><SkipNorm|aa:repval on>>
+<Simulink.ConfigSet<Version:repval "1.3.0">>
+<Simulink.ConfigSet<WILDCARD<Version:repval "1.3.0">>>
+<Simulink.ConfigSet<WILDCARD<WILDCARD<Version:repval "1.3.0">>>>
+<Simulink.ConfigSet<WILDCARD<WILDCARD<WILDCARD<Version:repval "1.3.0">>>>>
+<Simulink.ConfigSet<WILDCARD<WILDCARD<WILDCARD<WILDCARD<Version:repval "1.3.0">>>>>>
+<Block<BlockType|SubSystem><RequestExecContextInheritance|off:remove>>
+<Block<SourceBlock|simulink_obsolete/Dot Product:repval simulink/Math\nOperations/Dot Product>>
+<SimBlas:remove>
+<Block<RndMeth|Round:repval Nearest>>
+<Block<RndMeth|Convergent:repval Nearest>>
+<Block<BlockType|Interpolation_n-D><OutDataTypeStr|Inherit&: Inherit from 'Table data':repval Inherit&: Inherit from table data>>
+<Block<BlockType|Interpolation_n-D><OutDataTypeMode|Inherit from 'Table data':repval Inherit from table data>>
+<Simulink.DataIOCC<SaveCompleteFinalSimState:remove>>
+<Model<CovExternalEMLEnable:remove>>
+<WILDCARD<BlockRotation|0><BlockMirror|off:repval "right"><BlockMirror:rename Orientation><BlockRotation:remove>>
+<WILDCARD<BlockRotation|270><BlockMirror|on:repval "down"><BlockMirror:rename Orientation><BlockRotation:remove>>
+<WILDCARD<BlockMirror|on:repval "left"><BlockMirror:rename Orientation><BlockRotation:remove>>
+<WILDCARD<BlockRotation|270:repval "up"><BlockRotation:rename Orientation><BlockMirror:remove>>
+<Simulink.GRTTargetCC<ParMdlRefBuildCompliant:remove>>
+<CustomProperty<Name|AutosarSchemaVersion><Value|3.0:repval 2.1>>
+<Simulink.OptimizationCC<StrengthReduction:remove>>
+<Simulink.OptimizationCC<PassReuseOutputArgsAs:remove>>
+<Simulink.RTWCC<ObjectivePriorities:remove>>
+<Simulink.RTWCC<CheckMdlBeforeBuild:remove>>
+<Simulink.OptimizationCC<PassReuseOutputArgsThreshold:remove>>
+<Block<Port<WILDCARD:remove<$PropName|SignalObject>>>>
+<Model<AllowMultipleSigObjOnSignal:remove>>
+<Library<AllowMultipleSigObjOnSignal:remove>>
+<Simulink.SolverCC<ZeroCrossAlgorithm|Nonadaptive:repval Non-adaptive>>
+<Simulink.OptimizationCC<EfficientMapNaN2IntZero:remove>>
+<Simulink.CodeAppCC<IgnoreTestpoints:remove>>
+<RTW.ModelSpecificCPrototype<InitFunctionName:remove>>
+<Simulink.DebuggingCC<UnderspecifiedInitializationDetection:remove>>
+<Simulink.DebuggingCC<MergeDetectMultiDrivingBlocksExec:remove>>
+<Block<BlockType|Outport><SourceOfInitialOutputValue:remove>>
+<Array<Simulink.SFSimCC:remove><Dimension:mathop -1>>
+<Simulink.RTWCC<RTWUseLocalCustomCode:remove>>
+<Simulink.RTWCC<RTWUseSimCustomCode:remove>>
+<Library<Array:remove<Simulink.ConfigSet>>>
+<Simulink.SolverCC<SignalSizeVariationType:remove>>
+<Simulink.CodeAppCC<UseSimReservedNames:remove>>
+<Simulink.OptimizationCC<EnableMemcpy:remove>>
+<Simulink.GRTTargetCC<UseMalloc:remove>>
+<Simulink.OptimizationCC<MemcpyThreshold:remove>>
+<Model<SampleTimeAnnotations:remove>>
+<Library<SampleTimeAnnotations:remove>>
+<WILDCARD<TargetFcnLib><ERTMultiwordTypeDef:remove>>
+<WILDCARD<TargetFcnLib><ERTMultiwordLength:remove>>
+<WILDCARD<TargetFcnLib><MultiwordLength:remove>>
+<TargetFunctionLibrary:rename GenFloatMathFcnCalls>
+<Model<CovModelRefEnable:remove>>
+<Model<CovModelRefExcluded:remove>>
+<Simulink.OptimizationCC<ExpressionDepthLimit:remove>>
+<Simulink.OptimizationCC<SimCompilerOptimization:remove>>
+<Simulink.RTWCC<GenerateCodeInfo:remove>>
+<Simulink.GRTTargetCC<AutosarCompliant:remove>>
+<Simulink.RTWCC<GenerateTraceReport:remove>>
+<Simulink.RTWCC<GenerateTraceReportSl:remove>>
+<Simulink.RTWCC<GenerateTraceReportSf:remove>>
+<Simulink.RTWCC<GenerateTraceReportEml:remove>>
+<Simulink.DebuggingCC<BlockIODiagnostic:remove>>
+<Simulink.SolverCC<InsertRTBMode:repval "Deterministic"><InsertRTBMode:rename RateTranMode>>
+<Simulink.OptimizationCC<EnhancedBackFolding:remove>>
+<ERTFirstTimeCompliant:remove>
+<Simulink.ConfigSet<ConfigPrmDlgPosition:remove>>
+<<<WILDCARD:remove<$PropName|"RTWCPPFcnClass">>
+<<<WILDCARD:remove<$PropName|"RTWFcnClass">>
+<<<WILDCARD:remove<$PropName|"SSRTWCPPFcnClass">>
+<Block<BlockType|SubSystem><Opaque:remove>>
+<WILDCARD<CPPClassGenCompliant:remove>>
+<WILDCARD:remove<Simulink.ERTCPPComponent>>
+<Block<SourceBlock:simulink/Math\nOperations/Dot Product><OutDataTypeStr:remove>>
+<Block<SourceBlock|simulink_need_slupdate/Weighted\nMoving Average:repval simulink/Discrete/Weighted\nMoving Average>>
+<Stateflow<chart<ssIdHighWaterMark:remove>>>
+<Stateflow<data<ssIdNumber:remove>>>
+<Stateflow<event<ssIdNumber:remove>>>
+<Stateflow<junction<ssIdNumber:remove>>>
+<Stateflow<state<ssIdNumber:remove>>>
+<Stateflow<transition<ssIdNumber:remove>>>
+<Stateflow<data:insert<props:insert<complexity:remove>>>>
+<Stateflow<data:insert<props<type:insert<units:remove>>>>>
+<Block<BlockType|Reference><Parameters:remove>>
+<AnnotationDefaults<ClickFcn:remove>>
+<AnnotationDefaults<LoadFcn:remove>>
+<AnnotationDefaults<DeleteFcn:remove>>
+<AnnotationDefaults<UseDisplayTextAsClickCallback:remove>>
+<AnnotationDefaults<UserData:remove>>
+<Annotation<ClickFcn:remove>>
+<Annotation<LoadFcn:remove>>
+<Annotation<DeleteFcn:remove>>
+<Annotation<UseDisplayTextAsClickCallback:remove>>
+<Annotation<UserData:remove>>
+<Block<BlockType|SubSystem><PermitHierarchicalResolution|ExplicitOnly:repval ParametersOnly>>
+<Block<SourceBlock|vipsnks/Video Viewer><OpenAtMdlStart:remove>>
+<Block<SourceBlock|viptextngfix/Draw Shapes><fillClrSource:remove>>
+<Block<SourceBlock|viptextngfix/Draw Shapes><accumMode:remove>>
+<Block<SourceBlock|viptextngfix/Draw Shapes><accumWordLength:remove>>
+<Block<SourceBlock|viptextngfix/Draw Shapes><accumFracLength:remove>>
+<Block<SourceBlock|viptextngfix/Draw Shapes><prodOutputMode:remove>>
+<Block<SourceBlock|viptextngfix/Draw Shapes><prodOutputWordLength:remove>>
+<Block<SourceBlock|viptextngfix/Draw Shapes><prodOutputFracLength:remove>>
+<Block<SourceBlock|viptextngfix/Draw Shapes><memoryMode:remove>>
+<Block<SourceBlock|viptextngfix/Draw Shapes><memoryWordLength:remove>>
+<Block<SourceBlock|viptextngfix/Draw Shapes><memoryFracLength:remove>>
+<Block<SourceBlock|viptextngfix/Draw Shapes><roundingMode:remove>>
+<Block<SourceBlock|viptextngfix/Draw Shapes><overflowMode:remove>>
+<Block<SourceBlock|viptextngfix/Draw Shapes><LockScale:remove>>
+<Block<SourceBlock|viptextngfix/Draw Markers><fillClrSource:remove>>
+<Block<SourceBlock|viptextngfix/Draw Markers><accumMode:remove>>
+<Block<SourceBlock|viptextngfix/Draw Markers><accumWordLength:remove>>
+<Block<SourceBlock|viptextngfix/Draw Markers><accumFracLength:remove>>
+<Block<SourceBlock|viptextngfix/Draw Markers><prodOutputMode:remove>>
+<Block<SourceBlock|viptextngfix/Draw Markers><prodOutputWordLength:remove>>
+<Block<SourceBlock|viptextngfix/Draw Markers><prodOutputFracLength:remove>>
+<Block<SourceBlock|viptextngfix/Draw Markers><memoryMode:remove>>
+<Block<SourceBlock|viptextngfix/Draw Markers><memoryWordLength:remove>>
+<Block<SourceBlock|viptextngfix/Draw Markers><memoryFracLength:remove>>
+<Block<SourceBlock|viptextngfix/Draw Markers><roundingMode:remove>>
+<Block<SourceBlock|viptextngfix/Draw Markers><overflowMode:remove>>
+<Block<SourceBlock|viptextngfix/Draw Markers><LockScale:remove>>
+<Block<SourceBlock|vipsnks/To Video Display><isWindowOpen:remove>>
+<Block<SourceBlock|vipsnks/To Video Display><openAtMdlStart:remove>>
+<Block<SourceType|"2-D IFFT "><TableOpt|HYBRID><TableOpt:remove><TableOptActive:rename TableOpt>>
+<Block<SourceType|"2-D IFFT "><TableOpt|NEW><TableOpt:remove><TableOptActive:rename TableOpt>>
+<Block<SourceType|"2-D IFFT "><SkipNorm|on:repval aa>|<SourceType|"2-D IFFT "><SkipNorm|off:repval on>|<SourceType|"2-D IFFT "><SkipNorm|aa:repval off>>
+<Block<SourceType|"2-D FFT"><TableOpt|HYBRID><TableOpt:remove><TableOptActive:rename TableOpt>>
+<Block<SourceType|"2-D FFT"><TableOpt|NEW><TableOpt:remove><TableOptActive:rename TableOpt>>
+<Block<SourceType|"2-D FFT"><SkipNorm|off:repval aa>|<SourceType|"2-D FFT"><SkipNorm|on:repval off>|<SourceType|"2-D FFT"><SkipNorm|aa:repval on>>
+<Block<BlockType|Reference><SourceBlock|Abs><MaskPortRotate:remove>>
+<Block<BlockType|Abs><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|Abs><OutDataTypeStr:remove>>
+<Block<BlockType|Abs><OutDataTypeStr:remove>>
+<Block<BlockType|Reference><SourceBlock|ActionPort><MaskPortRotate:remove>>
+<Block<BlockType|ActionPort><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|ActionPort><SignalSizeVariationType:remove>>
+<Block<BlockType|ActionPort><SignalSizeVariationType:remove>>
+<Block<BlockType|Reference><SourceBlock|Actuator><MaskPortRotate:remove>>
+<Block<BlockType|Actuator><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|ArithShift><MaskPortRotate:remove>>
+<Block<BlockType|ArithShift><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|Assertion><MaskPortRotate:remove>>
+<Block<BlockType|Assertion><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|Assignment><MaskPortRotate:remove>>
+<Block<BlockType|Assignment><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|Backlash><MaskPortRotate:remove>>
+<Block<BlockType|Backlash><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|Bias><MaskPortRotate:remove>>
+<Block<BlockType|Bias><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|BusAssignment><MaskPortRotate:remove>>
+<Block<BlockType|BusAssignment><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|BusCreator><MaskPortRotate:remove>>
+<Block<BlockType|BusCreator><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|BusSelector><MaskPortRotate:remove>>
+<Block<BlockType|BusSelector><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|BusToVector><MaskPortRotate:remove>>
+<Block<BlockType|BusToVector><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|CanonicalOutput><MaskPortRotate:remove>>
+<Block<BlockType|CanonicalOutput><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|Clock><MaskPortRotate:remove>>
+<Block<BlockType|Clock><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|CombinatorialLogic><MaskPortRotate:remove>>
+<Block<BlockType|CombinatorialLogic><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|ComplexToMagnitudeAngle><MaskPortRotate:remove>>
+<Block<BlockType|ComplexToMagnitudeAngle><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|ComplexToRealImag><MaskPortRotate:remove>>
+<Block<BlockType|ComplexToRealImag><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|Concatenate><MaskPortRotate:remove>>
+<Block<BlockType|Concatenate><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|Constant><MaskPortRotate:remove>>
+<Block<BlockType|Constant><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|Constant><OutDataTypeStr:remove>>
+<Block<BlockType|Constant><OutDataTypeStr:remove>>
+<Block<BlockType|Reference><SourceBlock|Constant><LockScale:remove>>
+<Block<BlockType|Constant><LockScale:remove>>
+<Block<BlockType|Reference><SourceBlock|DSPFlip><MaskPortRotate:remove>>
+<Block<BlockType|DSPFlip><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|DSPSvd><MaskPortRotate:remove>>
+<Block<BlockType|DSPSvd><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|DataStoreMemory><MaskPortRotate:remove>>
+<Block<BlockType|DataStoreMemory><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|DataStoreMemory><OutDataTypeStr:remove>>
+<Block<BlockType|DataStoreMemory><OutDataTypeStr:remove>>
+<Block<BlockType|Reference><SourceBlock|DataStoreMemory><LockScale:remove>>
+<Block<BlockType|DataStoreMemory><LockScale:remove>>
+<Block<BlockType|Reference><SourceBlock|DataStoreRead><MaskPortRotate:remove>>
+<Block<BlockType|DataStoreRead><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|DataStoreWrite><MaskPortRotate:remove>>
+<Block<BlockType|DataStoreWrite><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|DataTypeConversion><MaskPortRotate:remove>>
+<Block<BlockType|DataTypeConversion><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|DataTypeConversion><OutDataTypeStr:remove>>
+<Block<BlockType|DataTypeConversion><OutDataTypeStr:remove>>
+<Block<BlockType|Reference><SourceBlock|DeadZone><MaskPortRotate:remove>>
+<Block<BlockType|DeadZone><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|Demux><MaskPortRotate:remove>>
+<Block<BlockType|Demux><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|Derivative><MaskPortRotate:remove>>
+<Block<BlockType|Derivative><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|DigitalClock><MaskPortRotate:remove>>
+<Block<BlockType|DigitalClock><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|DiscreteFilter><MaskPortRotate:remove>>
+<Block<BlockType|DiscreteFilter><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|DiscreteFilter><IC:remove>>
+<Block<BlockType|DiscreteFilter><IC:remove>>
+<Block<BlockType|Reference><SourceBlock|DiscreteFilter><a0EqualsOne:remove>>
+<Block<BlockType|DiscreteFilter><a0EqualsOne:remove>>
+<Block<BlockType|Reference><SourceBlock|DiscreteFilter><NumCoefMin:remove>>
+<Block<BlockType|DiscreteFilter><NumCoefMin:remove>>
+<Block<BlockType|Reference><SourceBlock|DiscreteFilter><NumCoefMax:remove>>
+<Block<BlockType|DiscreteFilter><NumCoefMax:remove>>
+<Block<BlockType|Reference><SourceBlock|DiscreteFilter><DenCoefMin:remove>>
+<Block<BlockType|DiscreteFilter><DenCoefMin:remove>>
+<Block<BlockType|Reference><SourceBlock|DiscreteFilter><DenCoefMax:remove>>
+<Block<BlockType|DiscreteFilter><DenCoefMax:remove>>
+<Block<BlockType|Reference><SourceBlock|DiscreteFilter><OutMin:remove>>
+<Block<BlockType|DiscreteFilter><OutMin:remove>>
+<Block<BlockType|Reference><SourceBlock|DiscreteFilter><OutMax:remove>>
+<Block<BlockType|DiscreteFilter><OutMax:remove>>
+<Block<BlockType|Reference><SourceBlock|DiscreteFilter><StateDataTypeStr:remove>>
+<Block<BlockType|DiscreteFilter><StateDataTypeStr:remove>>
+<Block<BlockType|Reference><SourceBlock|DiscreteFilter><NumCoefDataTypeStr:remove>>
+<Block<BlockType|DiscreteFilter><NumCoefDataTypeStr:remove>>
+<Block<BlockType|Reference><SourceBlock|DiscreteFilter><DenCoefDataTypeStr:remove>>
+<Block<BlockType|DiscreteFilter><DenCoefDataTypeStr:remove>>
+<Block<BlockType|Reference><SourceBlock|DiscreteFilter><NumProductDataTypeStr:remove>>
+<Block<BlockType|DiscreteFilter><NumProductDataTypeStr:remove>>
+<Block<BlockType|Reference><SourceBlock|DiscreteFilter><DenProductDataTypeStr:remove>>
+<Block<BlockType|DiscreteFilter><DenProductDataTypeStr:remove>>
+<Block<BlockType|Reference><SourceBlock|DiscreteFilter><NumAccumDataTypeStr:remove>>
+<Block<BlockType|DiscreteFilter><NumAccumDataTypeStr:remove>>
+<Block<BlockType|Reference><SourceBlock|DiscreteFilter><DenAccumDataTypeStr:remove>>
+<Block<BlockType|DiscreteFilter><DenAccumDataTypeStr:remove>>
+<Block<BlockType|Reference><SourceBlock|DiscreteFilter><OutDataTypeStr:remove>>
+<Block<BlockType|DiscreteFilter><OutDataTypeStr:remove>>
+<Block<BlockType|Reference><SourceBlock|DiscreteFilterObsolete><MaskPortRotate:remove>>
+<Block<BlockType|DiscreteFilterObsolete><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|DiscreteFir><MaskPortRotate:remove>>
+<Block<BlockType|DiscreteFir><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|DiscreteFir><CoefMin:remove>>
+<Block<BlockType|DiscreteFir><CoefMin:remove>>
+<Block<BlockType|Reference><SourceBlock|DiscreteFir><CoefMax:remove>>
+<Block<BlockType|DiscreteFir><CoefMax:remove>>
+<Block<BlockType|Reference><SourceBlock|DiscreteFir><TapSumDataTypeStr:remove>>
+<Block<BlockType|DiscreteFir><TapSumDataTypeStr:remove>>
+<Block<BlockType|Reference><SourceBlock|DiscreteFir><CoefDataTypeStr:remove>>
+<Block<BlockType|DiscreteFir><CoefDataTypeStr:remove>>
+<Block<BlockType|Reference><SourceBlock|DiscreteFir><ProductDataTypeStr:remove>>
+<Block<BlockType|DiscreteFir><ProductDataTypeStr:remove>>
+<Block<BlockType|Reference><SourceBlock|DiscreteFir><AccumDataTypeStr:remove>>
+<Block<BlockType|DiscreteFir><AccumDataTypeStr:remove>>
+<Block<BlockType|Reference><SourceBlock|DiscreteFir><StateDataTypeStr:remove>>
+<Block<BlockType|DiscreteFir><StateDataTypeStr:remove>>
+<Block<BlockType|Reference><SourceBlock|DiscreteFir><OutDataTypeStr:remove>>
+<Block<BlockType|DiscreteFir><OutDataTypeStr:remove>>
+<Block<BlockType|Reference><SourceBlock|DiscreteIntegrator><MaskPortRotate:remove>>
+<Block<BlockType|DiscreteIntegrator><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|DiscreteIntegrator><OutDataTypeStr:remove>>
+<Block<BlockType|DiscreteIntegrator><OutDataTypeStr:remove>>
+<Block<BlockType|Reference><SourceBlock|DiscretePulseGenerator><MaskPortRotate:remove>>
+<Block<BlockType|DiscretePulseGenerator><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|DiscreteStateSpace><MaskPortRotate:remove>>
+<Block<BlockType|DiscreteStateSpace><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|DiscreteTransferFcn><MaskPortRotate:remove>>
+<Block<BlockType|DiscreteTransferFcn><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|DiscreteZeroPole><MaskPortRotate:remove>>
+<Block<BlockType|DiscreteZeroPole><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|Display><MaskPortRotate:remove>>
+<Block<BlockType|Display><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|DotProduct><MaskPortRotate:remove>>
+<Block<BlockType|DotProduct><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|DotProduct><InputSameDT:remove>>
+<Block<BlockType|DotProduct><InputSameDT:remove>>
+<Block<BlockType|Reference><SourceBlock|DotProduct><OutDataTypeStr:remove>>
+<Block<BlockType|DotProduct><OutDataTypeStr:remove>>
+<Block<BlockType|Reference><SourceBlock|ElementaryMath><MaskPortRotate:remove>>
+<Block<BlockType|ElementaryMath><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|EmptyBlock><MaskPortRotate:remove>>
+<Block<BlockType|EmptyBlock><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|EnablePort><MaskPortRotate:remove>>
+<Block<BlockType|EnablePort><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|EnablePort><SignalSizeVariationType:remove>>
+<Block<BlockType|EnablePort><SignalSizeVariationType:remove>>
+<Block<BlockType|Reference><SourceBlock|Fcn><MaskPortRotate:remove>>
+<Block<BlockType|Fcn><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|ForIterator><MaskPortRotate:remove>>
+<Block<BlockType|ForIterator><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|FrameConversion><MaskPortRotate:remove>>
+<Block<BlockType|FrameConversion><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|From><MaskPortRotate:remove>>
+<Block<BlockType|From><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|FromFile><MaskPortRotate:remove>>
+<Block<BlockType|FromFile><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|FromWorkspace><MaskPortRotate:remove>>
+<Block<BlockType|FromWorkspace><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|Gain><MaskPortRotate:remove>>
+<Block<BlockType|Gain><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|Gain><ParamDataTypeStr:remove>>
+<Block<BlockType|Gain><ParamDataTypeStr:remove>>
+<Block<BlockType|Reference><SourceBlock|Gain><OutDataTypeStr:remove>>
+<Block<BlockType|Gain><OutDataTypeStr:remove>>
+<Block<BlockType|Reference><SourceBlock|Goto><MaskPortRotate:remove>>
+<Block<BlockType|Goto><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|GotoTagVisibility><MaskPortRotate:remove>>
+<Block<BlockType|GotoTagVisibility><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|Ground><MaskPortRotate:remove>>
+<Block<BlockType|Ground><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|HiddenBuffer><MaskPortRotate:remove>>
+<Block<BlockType|HiddenBuffer><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|HitCross><MaskPortRotate:remove>>
+<Block<BlockType|HitCross><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|If><MaskPortRotate:remove>>
+<Block<BlockType|If><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|InitialCondition><MaskPortRotate:remove>>
+<Block<BlockType|InitialCondition><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|Inport><MaskPortRotate:remove>>
+<Block<BlockType|Inport><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|Inport><OutDataTypeStr:remove>>
+<Block<BlockType|Inport><OutDataTypeStr:remove>>
+<Block<BlockType|Reference><SourceBlock|Inport><LockScale:remove>>
+<Block<BlockType|Inport><LockScale:remove>>
+<Block<BlockType|Reference><SourceBlock|Inport><DimensionsMode:remove>>
+<Block<BlockType|Inport><DimensionsMode:remove>>
+<Block<BlockType|Reference><SourceBlock|InportShadow><MaskPortRotate:remove>>
+<Block<BlockType|InportShadow><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|InportShadow><OutDataTypeStr:remove>>
+<Block<BlockType|InportShadow><OutDataTypeStr:remove>>
+<Block<BlockType|Reference><SourceBlock|InportShadow><LockScale:remove>>
+<Block<BlockType|InportShadow><LockScale:remove>>
+<Block<BlockType|Reference><SourceBlock|InportShadow><DimensionsMode:remove>>
+<Block<BlockType|InportShadow><DimensionsMode:remove>>
+<Block<BlockType|Reference><SourceBlock|Integrator><MaskPortRotate:remove>>
+<Block<BlockType|Integrator><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|Interpolation_n-D><MaskPortRotate:remove>>
+<Block<BlockType|Interpolation_n-D><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|Interpolation_n-D><OutDataTypeStr:remove>>
+<Block<BlockType|Interpolation_n-D><OutDataTypeStr:remove>>
+<Block<BlockType|Reference><SourceBlock|Interpolation_n-D><SaturateOnIntegerOverflow:remove>>
+<Block<BlockType|Interpolation_n-D><SaturateOnIntegerOverflow:remove>>
+<Block<BlockType|Reference><SourceBlock|Interpolation_n-D><TableMin:remove>>
+<Block<BlockType|Interpolation_n-D><TableMin:remove>>
+<Block<BlockType|Reference><SourceBlock|Interpolation_n-D><TableMax:remove>>
+<Block<BlockType|Interpolation_n-D><TableMax:remove>>
+<Block<BlockType|Reference><SourceBlock|Interpolation_n-D><TableDataTypeStr:remove>>
+<Block<BlockType|Interpolation_n-D><TableDataTypeStr:remove>>
+<Block<BlockType|Reference><SourceBlock|Interpolation_n-D><IntermediateResultsDataTypeStr:remove>>
+<Block<BlockType|Interpolation_n-D><IntermediateResultsDataTypeStr:remove>>
+<Block<BlockType|Reference><SourceBlock|Logic><MaskPortRotate:remove>>
+<Block<BlockType|Logic><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|Logic><OutDataTypeStr:remove>>
+<Block<BlockType|Logic><OutDataTypeStr:remove>>
+<Block<BlockType|Reference><SourceBlock|Lookup><MaskPortRotate:remove>>
+<Block<BlockType|Lookup><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|Lookup><OutDataTypeStr:remove>>
+<Block<BlockType|Lookup><OutDataTypeStr:remove>>
+<Block<BlockType|Reference><SourceBlock|Lookup2D><MaskPortRotate:remove>>
+<Block<BlockType|Lookup2D><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|Lookup2D><OutDataTypeStr:remove>>
+<Block<BlockType|Lookup2D><OutDataTypeStr:remove>>
+<Block<BlockType|Reference><SourceBlock|Lookup_n-D><MaskPortRotate:remove>>
+<Block<BlockType|Lookup_n-D><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|Lookup_n-D><InputSameDT:remove>>
+<Block<BlockType|Lookup_n-D><InputSameDT:remove>>
+<Block<BlockType|Reference><SourceBlock|Lookup_n-D><OutMin:remove>>
+<Block<BlockType|Lookup_n-D><OutMin:remove>>
+<Block<BlockType|Reference><SourceBlock|Lookup_n-D><OutMax:remove>>
+<Block<BlockType|Lookup_n-D><OutMax:remove>>
+<Block<BlockType|Reference><SourceBlock|Lookup_n-D><OutDataTypeStr:remove>>
+<Block<BlockType|Lookup_n-D><OutDataTypeStr:remove>>
+<Block<BlockType|Reference><SourceBlock|Lookup_n-D><LockScale:remove>>
+<Block<BlockType|Lookup_n-D><LockScale:remove>>
+<Block<BlockType|Reference><SourceBlock|Lookup_n-D><RndMeth:remove>>
+<Block<BlockType|Lookup_n-D><RndMeth:remove>>
+<Block<BlockType|Reference><SourceBlock|Lookup_n-D><FractionDataTypeStr:remove>>
+<Block<BlockType|Lookup_n-D><FractionDataTypeStr:remove>>
+<Block<BlockType|Reference><SourceBlock|M-S-Function><MaskPortRotate:remove>>
+<Block<BlockType|M-S-Function><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|MATLABFcn><MaskPortRotate:remove>>
+<Block<BlockType|MATLABFcn><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|MagnitudeAngleToComplex><MaskPortRotate:remove>>
+<Block<BlockType|MagnitudeAngleToComplex><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|Math><MaskPortRotate:remove>>
+<Block<BlockType|Math><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|Math><OutDataTypeStr:remove>>
+<Block<BlockType|Math><OutDataTypeStr:remove>>
+<Block<BlockType|Reference><SourceBlock|Memory><MaskPortRotate:remove>>
+<Block<BlockType|Memory><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|Merge><MaskPortRotate:remove>>
+<Block<BlockType|Merge><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|MinMax><MaskPortRotate:remove>>
+<Block<BlockType|MinMax><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|MinMax><OutDataTypeStr:remove>>
+<Block<BlockType|MinMax><OutDataTypeStr:remove>>
+<Block<BlockType|Reference><SourceBlock|ModelReference><MaskPortRotate:remove>>
+<Block<BlockType|ModelReference><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|MultiPortSwitch><MaskPortRotate:remove>>
+<Block<BlockType|MultiPortSwitch><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|MultiPortSwitch><OutDataTypeStr:remove>>
+<Block<BlockType|MultiPortSwitch><OutDataTypeStr:remove>>
+<Block<BlockType|Reference><SourceBlock|Mux><MaskPortRotate:remove>>
+<Block<BlockType|Mux><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|Opaque><MaskPortRotate:remove>>
+<Block<BlockType|Opaque><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|Outport><MaskPortRotate:remove>>
+<Block<BlockType|Outport><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|Outport><OutDataTypeStr:remove>>
+<Block<BlockType|Outport><OutDataTypeStr:remove>>
+<Block<BlockType|Reference><SourceBlock|Outport><LockScale:remove>>
+<Block<BlockType|Outport><LockScale:remove>>
+<Block<BlockType|Reference><SourceBlock|Outport><DimensionsMode:remove>>
+<Block<BlockType|Outport><DimensionsMode:remove>>
+<Block<BlockType|Reference><SourceBlock|PMComponent><MaskPortRotate:remove>>
+<Block<BlockType|PMComponent><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|PMIOPort><MaskPortRotate:remove>>
+<Block<BlockType|PMIOPort><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|PermuteDimensions><MaskPortRotate:remove>>
+<Block<BlockType|PermuteDimensions><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|Polyval><MaskPortRotate:remove>>
+<Block<BlockType|Polyval><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|PreLookup><MaskPortRotate:remove>>
+<Block<BlockType|PreLookup><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|PreLookup><BreakpointMin:remove>>
+<Block<BlockType|PreLookup><BreakpointMin:remove>>
+<Block<BlockType|Reference><SourceBlock|PreLookup><BreakpointMax:remove>>
+<Block<BlockType|PreLookup><BreakpointMax:remove>>
+<Block<BlockType|Reference><SourceBlock|PreLookup><BreakpointDataTypeStr:remove>>
+<Block<BlockType|PreLookup><BreakpointDataTypeStr:remove>>
+<Block<BlockType|Reference><SourceBlock|PreLookup><IndexDataTypeStr:remove>>
+<Block<BlockType|PreLookup><IndexDataTypeStr:remove>>
+<Block<BlockType|Reference><SourceBlock|PreLookup><FractionDataTypeStr:remove>>
+<Block<BlockType|PreLookup><FractionDataTypeStr:remove>>
+<Block<BlockType|Reference><SourceBlock|PreLookup><LockScale:remove>>
+<Block<BlockType|PreLookup><LockScale:remove>>
+<Block<BlockType|Reference><SourceBlock|PreLookup><RndMeth:remove>>
+<Block<BlockType|PreLookup><RndMeth:remove>>
+<Block<BlockType|Reference><SourceBlock|Probe><MaskPortRotate:remove>>
+<Block<BlockType|Probe><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|Product><MaskPortRotate:remove>>
+<Block<BlockType|Product><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|Product><OutDataTypeStr:remove>>
+<Block<BlockType|Product><OutDataTypeStr:remove>>
+<Block<BlockType|Reference><SourceBlock|PulseGenerator><MaskPortRotate:remove>>
+<Block<BlockType|PulseGenerator><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|Quantizer><MaskPortRotate:remove>>
+<Block<BlockType|Quantizer><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|RandomNumber><MaskPortRotate:remove>>
+<Block<BlockType|RandomNumber><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|RateLimiter><MaskPortRotate:remove>>
+<Block<BlockType|RateLimiter><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|RateTransition><MaskPortRotate:remove>>
+<Block<BlockType|RateTransition><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|RealImagToComplex><MaskPortRotate:remove>>
+<Block<BlockType|RealImagToComplex><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|Reference><MaskPortRotate:remove>>
+<Block<BlockType|Reference><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|RelationalOperator><MaskPortRotate:remove>>
+<Block<BlockType|RelationalOperator><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|RelationalOperator><OutDataTypeStr:remove>>
+<Block<BlockType|RelationalOperator><OutDataTypeStr:remove>>
+<Block<BlockType|Reference><SourceBlock|Relay><MaskPortRotate:remove>>
+<Block<BlockType|Relay><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|Relay><OutDataTypeStr:remove>>
+<Block<BlockType|Relay><OutDataTypeStr:remove>>
+<Block<BlockType|Reference><SourceBlock|Relay><LockScale:remove>>
+<Block<BlockType|Relay><LockScale:remove>>
+<Block<BlockType|Reference><SourceBlock|ResetIntegrator><MaskPortRotate:remove>>
+<Block<BlockType|ResetIntegrator><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|Reshape><MaskPortRotate:remove>>
+<Block<BlockType|Reshape><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|Rounding><MaskPortRotate:remove>>
+<Block<BlockType|Rounding><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|S-Function><MaskPortRotate:remove>>
+<Block<BlockType|S-Function><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|Saturate><MaskPortRotate:remove>>
+<Block<BlockType|Saturate><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|Saturate><OutDataTypeStr:remove>>
+<Block<BlockType|Saturate><OutDataTypeStr:remove>>
+<Block<BlockType|Reference><SourceBlock|Scope><MaskPortRotate:remove>>
+<Block<BlockType|Scope><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|Selector><MaskPortRotate:remove>>
+<Block<BlockType|Selector><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|Sensor><MaskPortRotate:remove>>
+<Block<BlockType|Sensor><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|SignalConversion><MaskPortRotate:remove>>
+<Block<BlockType|SignalConversion><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|SignalCopy><MaskPortRotate:remove>>
+<Block<BlockType|SignalCopy><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|SignalGenerator><MaskPortRotate:remove>>
+<Block<BlockType|SignalGenerator><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|SignalSpecification><MaskPortRotate:remove>>
+<Block<BlockType|SignalSpecification><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|SignalSpecification><OutDataTypeStr:remove>>
+<Block<BlockType|SignalSpecification><OutDataTypeStr:remove>>
+<Block<BlockType|Reference><SourceBlock|SignalSpecification><LockScale:remove>>
+<Block<BlockType|SignalSpecification><LockScale:remove>>
+<Block<BlockType|Reference><SourceBlock|SignalSpecification><DimensionsMode:remove>>
+<Block<BlockType|SignalSpecification><DimensionsMode:remove>>
+<Block<BlockType|Reference><SourceBlock|SignalViewerScope><MaskPortRotate:remove>>
+<Block<BlockType|SignalViewerScope><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|Signum><MaskPortRotate:remove>>
+<Block<BlockType|Signum><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|Sin><MaskPortRotate:remove>>
+<Block<BlockType|Sin><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|Squeeze><MaskPortRotate:remove>>
+<Block<BlockType|Squeeze><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|StateSpace><MaskPortRotate:remove>>
+<Block<BlockType|StateSpace><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|Step><MaskPortRotate:remove>>
+<Block<BlockType|Step><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|Stop><MaskPortRotate:remove>>
+<Block<BlockType|Stop><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|SubSystem><MaskPortRotate:remove>>
+<Block<BlockType|SubSystem><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|Sum><MaskPortRotate:remove>>
+<Block<BlockType|Sum><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|Sum><AccumDataTypeStr:remove>>
+<Block<BlockType|Sum><AccumDataTypeStr:remove>>
+<Block<BlockType|Reference><SourceBlock|Sum><OutDataTypeStr:remove>>
+<Block<BlockType|Sum><OutDataTypeStr:remove>>
+<Block<BlockType|Reference><SourceBlock|Switch><MaskPortRotate:remove>>
+<Block<BlockType|Switch><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|Switch><OutDataTypeStr:remove>>
+<Block<BlockType|Switch><OutDataTypeStr:remove>>
+<Block<BlockType|Reference><SourceBlock|Switch><OutputVariableDimensions:remove>>
+<Block<BlockType|Switch><OutputVariableDimensions:remove>>
+<Block<BlockType|Reference><SourceBlock|SwitchCase><MaskPortRotate:remove>>
+<Block<BlockType|SwitchCase><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|Terminator><MaskPortRotate:remove>>
+<Block<BlockType|Terminator><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|ToFile><MaskPortRotate:remove>>
+<Block<BlockType|ToFile><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|ToWorkspace><MaskPortRotate:remove>>
+<Block<BlockType|ToWorkspace><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|TransferFcn><MaskPortRotate:remove>>
+<Block<BlockType|TransferFcn><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|TransportDelay><MaskPortRotate:remove>>
+<Block<BlockType|TransportDelay><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|TriggerPort><MaskPortRotate:remove>>
+<Block<BlockType|TriggerPort><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|TriggerPort><SignalSizeVariationType:remove>>
+<Block<BlockType|TriggerPort><SignalSizeVariationType:remove>>
+<Block<BlockType|Reference><SourceBlock|Trigonometry><MaskPortRotate:remove>>
+<Block<BlockType|Trigonometry><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|TwoWayConnection><MaskPortRotate:remove>>
+<Block<BlockType|TwoWayConnection><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|UniformRandomNumber><MaskPortRotate:remove>>
+<Block<BlockType|UniformRandomNumber><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|UnitDelay><MaskPortRotate:remove>>
+<Block<BlockType|UnitDelay><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|VariableTransportDelay><MaskPortRotate:remove>>
+<Block<BlockType|VariableTransportDelay><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|VariantDst><MaskPortRotate:remove>>
+<Block<BlockType|VariantDst><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|VariantEnd><MaskPortRotate:remove>>
+<Block<BlockType|VariantEnd><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|VariantSrc><MaskPortRotate:remove>>
+<Block<BlockType|VariantSrc><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|VariantStart><MaskPortRotate:remove>>
+<Block<BlockType|VariantStart><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|WhileIterator><MaskPortRotate:remove>>
+<Block<BlockType|WhileIterator><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|Width><MaskPortRotate:remove>>
+<Block<BlockType|Width><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|ZeroOrderHold><MaskPortRotate:remove>>
+<Block<BlockType|ZeroOrderHold><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|ZeroPole><MaskPortRotate:remove>>
+<Block<BlockType|ZeroPole><MaskPortRotate:remove>>
+<Block<BlockType|Reference><SourceBlock|commblkcod2/BCH Decoder><specDisableGenCheck:remove>>
+<Block<BlockType|commblkcod2/BCH Decoder><specDisableGenCheck:remove>>
+<Block<BlockType|Reference><SourceBlock|commblkcod2/BCH Encoder><specDisableGenCheck:remove>>
+<Block<BlockType|commblkcod2/BCH Encoder><specDisableGenCheck:remove>>
+<Block<BlockType|Reference><SourceBlock|commchan3/Multipath Rayleigh\nFading Channel><spectrumType:remove>>
+<Block<BlockType|commchan3/Multipath Rayleigh\nFading Channel><spectrumType:remove>>
+<Block<BlockType|Reference><SourceBlock|commchan3/Multipath Rayleigh\nFading Channel><sigmaGaussian:remove>>
+<Block<BlockType|commchan3/Multipath Rayleigh\nFading Channel><sigmaGaussian:remove>>
+<Block<BlockType|Reference><SourceBlock|commchan3/Multipath Rayleigh\nFading Channel><coeffRounded:remove>>
+<Block<BlockType|commchan3/Multipath Rayleigh\nFading Channel><coeffRounded:remove>>
+<Block<BlockType|Reference><SourceBlock|commchan3/Multipath Rayleigh\nFading Channel><freqMinMaxRJakes:remove>>
+<Block<BlockType|commchan3/Multipath Rayleigh\nFading Channel><freqMinMaxRJakes:remove>>
+<Block<BlockType|Reference><SourceBlock|commchan3/Multipath Rayleigh\nFading Channel><freqMinMaxAJakes:remove>>
+<Block<BlockType|commchan3/Multipath Rayleigh\nFading Channel><freqMinMaxAJakes:remove>>
+<Block<BlockType|Reference><SourceBlock|commchan3/Multipath Rayleigh\nFading Channel><sigmaGaussian1:remove>>
+<Block<BlockType|commchan3/Multipath Rayleigh\nFading Channel><sigmaGaussian1:remove>>
+<Block<BlockType|Reference><SourceBlock|commchan3/Multipath Rayleigh\nFading Channel><sigmaGaussian2:remove>>
+<Block<BlockType|commchan3/Multipath Rayleigh\nFading Channel><sigmaGaussian2:remove>>
+<Block<BlockType|Reference><SourceBlock|commchan3/Multipath Rayleigh\nFading Channel><centerFreqGaussian1:remove>>
+<Block<BlockType|commchan3/Multipath Rayleigh\nFading Channel><centerFreqGaussian1:remove>>
+<Block<BlockType|Reference><SourceBlock|commchan3/Multipath Rayleigh\nFading Channel><centerFreqGaussian2:remove>>
+<Block<BlockType|commchan3/Multipath Rayleigh\nFading Channel><centerFreqGaussian2:remove>>
+<Block<BlockType|Reference><SourceBlock|commchan3/Multipath Rayleigh\nFading Channel><gainGaussian1:remove>>
+<Block<BlockType|commchan3/Multipath Rayleigh\nFading Channel><gainGaussian1:remove>>
+<Block<BlockType|Reference><SourceBlock|commchan3/Multipath Rayleigh\nFading Channel><gainGaussian2:remove>>
+<Block<BlockType|commchan3/Multipath Rayleigh\nFading Channel><gainGaussian2:remove>>
+<Block<BlockType|Reference><SourceBlock|commchan3/Multipath Rayleigh\nFading Channel><dopplerSpectrum:remove>>
+<Block<BlockType|commchan3/Multipath Rayleigh\nFading Channel><dopplerSpectrum:remove>>
+<Block<BlockType|Reference><SourceBlock|commchan3/Multipath Rician\nFading Channel><thetaLOS:remove>>
+<Block<BlockType|commchan3/Multipath Rician\nFading Channel><thetaLOS:remove>>
+<Block<BlockType|Reference><SourceBlock|commchan3/Multipath Rician\nFading Channel><spectrumType:remove>>
+<Block<BlockType|commchan3/Multipath Rician\nFading Channel><spectrumType:remove>>
+<Block<BlockType|Reference><SourceBlock|commchan3/Multipath Rician\nFading Channel><sigmaGaussian:remove>>
+<Block<BlockType|commchan3/Multipath Rician\nFading Channel><sigmaGaussian:remove>>
+<Block<BlockType|Reference><SourceBlock|commchan3/Multipath Rician\nFading Channel><coeffRounded:remove>>
+<Block<BlockType|commchan3/Multipath Rician\nFading Channel><coeffRounded:remove>>
+<Block<BlockType|Reference><SourceBlock|commchan3/Multipath Rician\nFading Channel><freqMinMaxRJakes:remove>>
+<Block<BlockType|commchan3/Multipath Rician\nFading Channel><freqMinMaxRJakes:remove>>
+<Block<BlockType|Reference><SourceBlock|commchan3/Multipath Rician\nFading Channel><freqMinMaxAJakes:remove>>
+<Block<BlockType|commchan3/Multipath Rician\nFading Channel><freqMinMaxAJakes:remove>>
+<Block<BlockType|Reference><SourceBlock|commchan3/Multipath Rician\nFading Channel><sigmaGaussian1:remove>>
+<Block<BlockType|commchan3/Multipath Rician\nFading Channel><sigmaGaussian1:remove>>
+<Block<BlockType|Reference><SourceBlock|commchan3/Multipath Rician\nFading Channel><sigmaGaussian2:remove>>
+<Block<BlockType|commchan3/Multipath Rician\nFading Channel><sigmaGaussian2:remove>>
+<Block<BlockType|Reference><SourceBlock|commchan3/Multipath Rician\nFading Channel><centerFreqGaussian1:remove>>
+<Block<BlockType|commchan3/Multipath Rician\nFading Channel><centerFreqGaussian1:remove>>
+<Block<BlockType|Reference><SourceBlock|commchan3/Multipath Rician\nFading Channel><centerFreqGaussian2:remove>>
+<Block<BlockType|commchan3/Multipath Rician\nFading Channel><centerFreqGaussian2:remove>>
+<Block<BlockType|Reference><SourceBlock|commchan3/Multipath Rician\nFading Channel><gainGaussian1:remove>>
+<Block<BlockType|commchan3/Multipath Rician\nFading Channel><gainGaussian1:remove>>
+<Block<BlockType|Reference><SourceBlock|commchan3/Multipath Rician\nFading Channel><gainGaussian2:remove>>
+<Block<BlockType|commchan3/Multipath Rician\nFading Channel><gainGaussian2:remove>>
+<Block<BlockType|Reference><SourceBlock|commchan3/Multipath Rician\nFading Channel><dopplerSpectrum:remove>>
+<Block<BlockType|commchan3/Multipath Rician\nFading Channel><dopplerSpectrum:remove>>
+<Block<BlockType|Reference><SourceBlock|commcnvcod2/Convolutional\nEncoder><hasIniStPort:remove>>
+<Block<BlockType|commcnvcod2/Convolutional\nEncoder><hasIniStPort:remove>>
+<Block<BlockType|Reference><SourceBlock|commcnvcod2/Convolutional\nEncoder><hasFinStPort:remove>>
+<Block<BlockType|commcnvcod2/Convolutional\nEncoder><hasFinStPort:remove>>
+<Block<BlockType|Reference><SourceBlock|commdigbbndam3/General QAM\nDemodulator\nBaseband><roundingMode:remove>>
+<Block<BlockType|commdigbbndam3/General QAM\nDemodulator\nBaseband><roundingMode:remove>>
+<Block<BlockType|Reference><SourceBlock|commdigbbndam3/General QAM\nDemodulator\nBaseband><overflowMode:remove>>
+<Block<BlockType|commdigbbndam3/General QAM\nDemodulator\nBaseband><overflowMode:remove>>
+<Block<BlockType|Reference><SourceBlock|commdigbbndam3/General QAM\nDemodulator\nBaseband><sigConstDTMode:remove>>
+<Block<BlockType|commdigbbndam3/General QAM\nDemodulator\nBaseband><sigConstDTMode:remove>>
+<Block<BlockType|Reference><SourceBlock|commdigbbndam3/General QAM\nDemodulator\nBaseband><sigConstWordLen:remove>>
+<Block<BlockType|commdigbbndam3/General QAM\nDemodulator\nBaseband><sigConstWordLen:remove>>
+<Block<BlockType|Reference><SourceBlock|commdigbbndam3/General QAM\nDemodulator\nBaseband><accum1DTMode:remove>>
+<Block<BlockType|commdigbbndam3/General QAM\nDemodulator\nBaseband><accum1DTMode:remove>>
+<Block<BlockType|Reference><SourceBlock|commdigbbndam3/General QAM\nDemodulator\nBaseband><accum1WordLen:remove>>
+<Block<BlockType|commdigbbndam3/General QAM\nDemodulator\nBaseband><accum1WordLen:remove>>
+<Block<BlockType|Reference><SourceBlock|commdigbbndam3/General QAM\nDemodulator\nBaseband><accum1FracLen:remove>>
+<Block<BlockType|commdigbbndam3/General QAM\nDemodulator\nBaseband><accum1FracLen:remove>>
+<Block<BlockType|Reference><SourceBlock|commdigbbndam3/General QAM\nDemodulator\nBaseband><prodInDTMode:remove>>
+<Block<BlockType|commdigbbndam3/General QAM\nDemodulator\nBaseband><prodInDTMode:remove>>
+<Block<BlockType|Reference><SourceBlock|commdigbbndam3/General QAM\nDemodulator\nBaseband><prodInWordLen:remove>>
+<Block<BlockType|commdigbbndam3/General QAM\nDemodulator\nBaseband><prodInWordLen:remove>>
+<Block<BlockType|Reference><SourceBlock|commdigbbndam3/General QAM\nDemodulator\nBaseband><prodInFracLen:remove>>
+<Block<BlockType|commdigbbndam3/General QAM\nDemodulator\nBaseband><prodInFracLen:remove>>
+<Block<BlockType|Reference><SourceBlock|commdigbbndam3/General QAM\nDemodulator\nBaseband><prodOutDTMode:remove>>
+<Block<BlockType|commdigbbndam3/General QAM\nDemodulator\nBaseband><prodOutDTMode:remove>>
+<Block<BlockType|Reference><SourceBlock|commdigbbndam3/General QAM\nDemodulator\nBaseband><prodOutWordLen:remove>>
+<Block<BlockType|commdigbbndam3/General QAM\nDemodulator\nBaseband><prodOutWordLen:remove>>
+<Block<BlockType|Reference><SourceBlock|commdigbbndam3/General QAM\nDemodulator\nBaseband><prodOutFracLen:remove>>
+<Block<BlockType|commdigbbndam3/General QAM\nDemodulator\nBaseband><prodOutFracLen:remove>>
+<Block<BlockType|Reference><SourceBlock|commdigbbndam3/General QAM\nDemodulator\nBaseband><accum2DTMode:remove>>
+<Block<BlockType|commdigbbndam3/General QAM\nDemodulator\nBaseband><accum2DTMode:remove>>
+<Block<BlockType|Reference><SourceBlock|commdigbbndam3/General QAM\nDemodulator\nBaseband><accum2WordLen:remove>>
+<Block<BlockType|commdigbbndam3/General QAM\nDemodulator\nBaseband><accum2WordLen:remove>>
+<Block<BlockType|Reference><SourceBlock|commdigbbndam3/General QAM\nDemodulator\nBaseband><accum2FracLen:remove>>
+<Block<BlockType|commdigbbndam3/General QAM\nDemodulator\nBaseband><accum2FracLen:remove>>
+<Block<BlockType|Reference><SourceBlock|commdigbbndam3/General QAM\nDemodulator\nBaseband><accum3DTMode:remove>>
+<Block<BlockType|commdigbbndam3/General QAM\nDemodulator\nBaseband><accum3DTMode:remove>>
+<Block<BlockType|Reference><SourceBlock|commdigbbndam3/General QAM\nDemodulator\nBaseband><accum3WordLen:remove>>
+<Block<BlockType|commdigbbndam3/General QAM\nDemodulator\nBaseband><accum3WordLen:remove>>
+<Block<BlockType|Reference><SourceBlock|commdigbbndam3/General QAM\nDemodulator\nBaseband><accum3FracLen:remove>>
+<Block<BlockType|commdigbbndam3/General QAM\nDemodulator\nBaseband><accum3FracLen:remove>>
+<Block<BlockType|Reference><SourceBlock|commdigbbndam3/General QAM\nDemodulator\nBaseband><nsiDTMode:remove>>
+<Block<BlockType|commdigbbndam3/General QAM\nDemodulator\nBaseband><nsiDTMode:remove>>
+<Block<BlockType|Reference><SourceBlock|commdigbbndam3/General QAM\nDemodulator\nBaseband><nsiWordLen:remove>>
+<Block<BlockType|commdigbbndam3/General QAM\nDemodulator\nBaseband><nsiWordLen:remove>>
+<Block<BlockType|Reference><SourceBlock|commdigbbndam3/General QAM\nDemodulator\nBaseband><nsiFracLen:remove>>
+<Block<BlockType|commdigbbndam3/General QAM\nDemodulator\nBaseband><nsiFracLen:remove>>
+<Block<BlockType|Reference><SourceBlock|commdigbbndam3/General QAM\nDemodulator\nBaseband><invn0DTMode:remove>>
+<Block<BlockType|commdigbbndam3/General QAM\nDemodulator\nBaseband><invn0DTMode:remove>>
+<Block<BlockType|Reference><SourceBlock|commdigbbndam3/General QAM\nDemodulator\nBaseband><invn0WordLen:remove>>
+<Block<BlockType|commdigbbndam3/General QAM\nDemodulator\nBaseband><invn0WordLen:remove>>
+<Block<BlockType|Reference><SourceBlock|commdigbbndam3/General QAM\nDemodulator\nBaseband><invn0FracLen:remove>>
+<Block<BlockType|commdigbbndam3/General QAM\nDemodulator\nBaseband><invn0FracLen:remove>>
+<Block<BlockType|Reference><SourceBlock|commdigbbndam3/General QAM\nDemodulator\nBaseband><outputDTMode:remove>>
+<Block<BlockType|commdigbbndam3/General QAM\nDemodulator\nBaseband><outputDTMode:remove>>
+<Block<BlockType|Reference><SourceBlock|commdigbbndam3/General QAM\nDemodulator\nBaseband><outputWordLen:remove>>
+<Block<BlockType|commdigbbndam3/General QAM\nDemodulator\nBaseband><outputWordLen:remove>>
+<Block<BlockType|Reference><SourceBlock|commdigbbndam3/General QAM\nDemodulator\nBaseband><outputFracLen:remove>>
+<Block<BlockType|commdigbbndam3/General QAM\nDemodulator\nBaseband><outputFracLen:remove>>
+<Block<BlockType|Reference><SourceBlock|commdigbbndpm3/OQPSK\nDemodulator\nBaseband><roundingMode:remove>>
+<Block<BlockType|commdigbbndpm3/OQPSK\nDemodulator\nBaseband><roundingMode:remove>>
+<Block<BlockType|Reference><SourceBlock|commdigbbndpm3/OQPSK\nDemodulator\nBaseband><overflowMode:remove>>
+<Block<BlockType|commdigbbndpm3/OQPSK\nDemodulator\nBaseband><overflowMode:remove>>
+<Block<BlockType|Reference><SourceBlock|commdigbbndpm3/OQPSK\nDemodulator\nBaseband><derotateFactorDTMode:remove>>
+<Block<BlockType|commdigbbndpm3/OQPSK\nDemodulator\nBaseband><derotateFactorDTMode:remove>>
+<Block<BlockType|Reference><SourceBlock|commdigbbndpm3/OQPSK\nDemodulator\nBaseband><derotateFactorWordLen:remove>>
+<Block<BlockType|commdigbbndpm3/OQPSK\nDemodulator\nBaseband><derotateFactorWordLen:remove>>
+<Block<BlockType|Reference><SourceBlock|commdigbbndpm3/OQPSK\nDemodulator\nBaseband><accumMode:remove>>
+<Block<BlockType|commdigbbndpm3/OQPSK\nDemodulator\nBaseband><accumMode:remove>>
+<Block<BlockType|Reference><SourceBlock|commdigbbndpm3/OQPSK\nDemodulator\nBaseband><accumWordLength:remove>>
+<Block<BlockType|commdigbbndpm3/OQPSK\nDemodulator\nBaseband><accumWordLength:remove>>
+<Block<BlockType|Reference><SourceBlock|commdigbbndpm3/OQPSK\nDemodulator\nBaseband><accumFracLength:remove>>
+<Block<BlockType|commdigbbndpm3/OQPSK\nDemodulator\nBaseband><accumFracLength:remove>>
+<Block<BlockType|Reference><SourceBlock|commdigbbndpm3/OQPSK\nDemodulator\nBaseband><mappingInputMode:remove>>
+<Block<BlockType|commdigbbndpm3/OQPSK\nDemodulator\nBaseband><mappingInputMode:remove>>
+<Block<BlockType|Reference><SourceBlock|commdigbbndpm3/OQPSK\nDemodulator\nBaseband><mappingInputWordLength:remove>>
+<Block<BlockType|commdigbbndpm3/OQPSK\nDemodulator\nBaseband><mappingInputWordLength:remove>>
+<Block<BlockType|Reference><SourceBlock|commdigbbndpm3/OQPSK\nDemodulator\nBaseband><mappingInputFracLength:remove>>
+<Block<BlockType|commdigbbndpm3/OQPSK\nDemodulator\nBaseband><mappingInputFracLength:remove>>
+<Block<BlockType|Reference><SourceBlock|commfilt2/Integrate\nand Dump><roundingMode:remove>>
+<Block<BlockType|commfilt2/Integrate\nand Dump><roundingMode:remove>>
+<Block<BlockType|Reference><SourceBlock|commfilt2/Integrate\nand Dump><overflowMode:remove>>
+<Block<BlockType|commfilt2/Integrate\nand Dump><overflowMode:remove>>
+<Block<BlockType|Reference><SourceBlock|commfilt2/Integrate\nand Dump><accumMode:remove>>
+<Block<BlockType|commfilt2/Integrate\nand Dump><accumMode:remove>>
+<Block<BlockType|Reference><SourceBlock|commfilt2/Integrate\nand Dump><accumWordLength:remove>>
+<Block<BlockType|commfilt2/Integrate\nand Dump><accumWordLength:remove>>
+<Block<BlockType|Reference><SourceBlock|commfilt2/Integrate\nand Dump><accumFracLength:remove>>
+<Block<BlockType|commfilt2/Integrate\nand Dump><accumFracLength:remove>>
+<Block<BlockType|Reference><SourceBlock|commfilt2/Integrate\nand Dump><outputMode:remove>>
+<Block<BlockType|commfilt2/Integrate\nand Dump><outputMode:remove>>
+<Block<BlockType|Reference><SourceBlock|commfilt2/Integrate\nand Dump><outputWordLength:remove>>
+<Block<BlockType|commfilt2/Integrate\nand Dump><outputWordLength:remove>>
+<Block<BlockType|Reference><SourceBlock|commfilt2/Integrate\nand Dump><outputFracLength:remove>>
+<Block<BlockType|commfilt2/Integrate\nand Dump><outputFracLength:remove>>
+<Block<BlockType|Reference><SourceBlock|commfilt2/Integrate\nand Dump><LockScale:remove>>
+<Block<BlockType|commfilt2/Integrate\nand Dump><LockScale:remove>>
+<Block<BlockType|Reference><SourceBlock|commfilt2/Raised Cosine\nReceive Filter><framing:remove>>
+<Block<BlockType|commfilt2/Raised Cosine\nReceive Filter><framing:remove>>
+<Block<BlockType|Reference><SourceBlock|commfilt2/Raised Cosine\nReceive Filter><saveAsFlag:remove>>
+<Block<BlockType|commfilt2/Raised Cosine\nReceive Filter><saveAsFlag:remove>>
+<Block<BlockType|Reference><SourceBlock|commfilt2/Raised Cosine\nTransmit Filter><framing:remove>>
+<Block<BlockType|commfilt2/Raised Cosine\nTransmit Filter><framing:remove>>
+<Block<BlockType|Reference><SourceBlock|commfilt2/Raised Cosine\nTransmit Filter><saveAsFlag:remove>>
+<Block<BlockType|commfilt2/Raised Cosine\nTransmit Filter><saveAsFlag:remove>>
+<Block<BlockType|Reference><SourceBlock|commutil2/Bit to Integer\nConverter><bitOrder:remove>>
+<Block<BlockType|commutil2/Bit to Integer\nConverter><bitOrder:remove>>
+<Block<BlockType|Reference><SourceBlock|commutil2/Bit to Integer\nConverter><signedOutputValues:remove>>
+<Block<BlockType|commutil2/Bit to Integer\nConverter><signedOutputValues:remove>>
+<Block<BlockType|Reference><SourceBlock|commutil2/Bit to Integer\nConverter><outDtypeSigned:remove>>
+<Block<BlockType|commutil2/Bit to Integer\nConverter><outDtypeSigned:remove>>
+<Block<BlockType|Reference><SourceBlock|commutil2/Integer to Bit\nConverter><signedInputValues:remove>>
+<Block<BlockType|commutil2/Integer to Bit\nConverter><signedInputValues:remove>>
+<Block<BlockType|Reference><SourceBlock|commutil2/Integer to Bit\nConverter><bitOrder:remove>>
+<Block<BlockType|commutil2/Integer to Bit\nConverter><bitOrder:remove>>
+<Block<BlockType|Reference><SourceBlock|dspbuff3/Delay Line><enable_output:remove>>
+<Block<BlockType|dspbuff3/Delay Line><enable_output:remove>>
+<Block<BlockType|Reference><SourceBlock|dspbuff3/Delay Line><hold_output:remove>>
+<Block<BlockType|dspbuff3/Delay Line><hold_output:remove>>
+<Block<BlockType|Reference><SourceBlock|dspfactors/QR Factorization><outputSize:remove>>
+<Block<BlockType|dspfactors/QR Factorization><outputSize:remove>>
+<Block<BlockType|Reference><SourceBlock|dspsigops/Pad><dimsToPad:remove>>
+<Block<BlockType|dspsigops/Pad><dimsToPad:remove>>
+<Block<BlockType|Reference><SourceBlock|dspsigops/Pad><valSrc:remove>>
+<Block<BlockType|dspsigops/Pad><valSrc:remove>>
+<Block<BlockType|Reference><SourceBlock|dspsigops/Pad><spec:remove>>
+<Block<BlockType|dspsigops/Pad><spec:remove>>
+<Block<BlockType|Reference><SourceBlock|dspsigops/Pad><padBeginning:remove>>
+<Block<BlockType|dspsigops/Pad><padBeginning:remove>>
+<Block<BlockType|Reference><SourceBlock|dspsigops/Pad><padEnd:remove>>
+<Block<BlockType|dspsigops/Pad><padEnd:remove>>
+<Block<BlockType|Reference><SourceBlock|dspsigops/Pad><outSizeMode:remove>>
+<Block<BlockType|dspsigops/Pad><outSizeMode:remove>>
+<Block<BlockType|Reference><SourceBlock|dspsigops/Pad><outSize:remove>>
+<Block<BlockType|dspsigops/Pad><outSize:remove>>
+<Block<BlockType|Reference><SourceBlock|dspsigops/Pad><outputMode:remove>>
+<Block<BlockType|dspsigops/Pad><outputMode:remove>>
+<Block<BlockType|Reference><SourceBlock|dspsigops/Pad><outputWordLength:remove>>
+<Block<BlockType|dspsigops/Pad><outputWordLength:remove>>
+<Block<BlockType|Reference><SourceBlock|dspsigops/Pad><outputFracLength:remove>>
+<Block<BlockType|dspsigops/Pad><outputFracLength:remove>>
+<Block<BlockType|Reference><SourceBlock|dspsigops/Pad><accumMode:remove>>
+<Block<BlockType|dspsigops/Pad><accumMode:remove>>
+<Block<BlockType|Reference><SourceBlock|dspsigops/Pad><accumWordLength:remove>>
+<Block<BlockType|dspsigops/Pad><accumWordLength:remove>>
+<Block<BlockType|Reference><SourceBlock|dspsigops/Pad><accumFracLength:remove>>
+<Block<BlockType|dspsigops/Pad><accumFracLength:remove>>
+<Block<BlockType|Reference><SourceBlock|dspsigops/Pad><roundingMode:remove>>
+<Block<BlockType|dspsigops/Pad><roundingMode:remove>>
+<Block<BlockType|Reference><SourceBlock|dspsigops/Pad><overflowMode:remove>>
+<Block<BlockType|dspsigops/Pad><overflowMode:remove>>
+<Block<BlockType|Reference><SourceBlock|dspsigops/Pad><LockScale:remove>>
+<Block<BlockType|dspsigops/Pad><LockScale:remove>>
+<Block<BlockType|Reference><SourceBlock|dspsigops/Pad><truncOrWrapMode:remove>>
+<Block<BlockType|dspsigops/Pad><truncOrWrapMode:remove>>
+<Block<BlockType|Reference><SourceBlock|dspsigops/Pad><wrap_flag:remove>>
+<Block<BlockType|dspsigops/Pad><wrap_flag:remove>>
+<Block<BlockType|Reference><SourceBlock|dspsigops/Variable\nFractional Delay><noDFT:remove>>
+<Block<BlockType|dspsigops/Variable\nFractional Delay><noDFT:remove>>
+<Block<BlockType|Reference><SourceBlock|dspsigops/Variable\nFractional Delay><FarrowL:remove>>
+<Block<BlockType|dspsigops/Variable\nFractional Delay><FarrowL:remove>>
+<Block<BlockType|Reference><SourceBlock|dspsigops/Variable\nFractional Delay><fallbackFIR:remove>>
+<Block<BlockType|dspsigops/Variable\nFractional Delay><fallbackFIR:remove>>
+<Block<BlockType|Reference><SourceBlock|dspsigops/Variable\nFractional Delay><fallbackFarrow:remove>>
+<Block<BlockType|dspsigops/Variable\nFractional Delay><fallbackFarrow:remove>>
+<Block<BlockType|Reference><SourceBlock|dspsigops/Variable\nFractional Delay><outputMode:remove>>
+<Block<BlockType|dspsigops/Variable\nFractional Delay><outputMode:remove>>
+<Block<BlockType|Reference><SourceBlock|dspsigops/Variable\nFractional Delay><outputWordLength:remove>>
+<Block<BlockType|dspsigops/Variable\nFractional Delay><outputWordLength:remove>>
+<Block<BlockType|Reference><SourceBlock|dspsigops/Variable\nFractional Delay><outputFracLength:remove>>
+<Block<BlockType|dspsigops/Variable\nFractional Delay><outputFracLength:remove>>
+<Block<BlockType|Reference><SourceBlock|dspsigops/Variable\nFractional Delay><prodOutputMode:remove>>
+<Block<BlockType|dspsigops/Variable\nFractional Delay><prodOutputMode:remove>>
+<Block<BlockType|Reference><SourceBlock|dspsigops/Variable\nFractional Delay><prodOutputWordLength:remove>>
+<Block<BlockType|dspsigops/Variable\nFractional Delay><prodOutputWordLength:remove>>
+<Block<BlockType|Reference><SourceBlock|dspsigops/Variable\nFractional Delay><prodOutputFracLength:remove>>
+<Block<BlockType|dspsigops/Variable\nFractional Delay><prodOutputFracLength:remove>>
+<Block<BlockType|Reference><SourceBlock|dspsigops/Variable\nFractional Delay><accumMode:remove>>
+<Block<BlockType|dspsigops/Variable\nFractional Delay><accumMode:remove>>
+<Block<BlockType|Reference><SourceBlock|dspsigops/Variable\nFractional Delay><accumWordLength:remove>>
+<Block<BlockType|dspsigops/Variable\nFractional Delay><accumWordLength:remove>>
+<Block<BlockType|Reference><SourceBlock|dspsigops/Variable\nFractional Delay><accumFracLength:remove>>
+<Block<BlockType|dspsigops/Variable\nFractional Delay><accumFracLength:remove>>
+<Block<BlockType|Reference><SourceBlock|dspsigops/Variable\nFractional Delay><firstCoeffMode:remove>>
+<Block<BlockType|dspsigops/Variable\nFractional Delay><firstCoeffMode:remove>>
+<Block<BlockType|Reference><SourceBlock|dspsigops/Variable\nFractional Delay><firstCoeffWordLength:remove>>
+<Block<BlockType|dspsigops/Variable\nFractional Delay><firstCoeffWordLength:remove>>
+<Block<BlockType|Reference><SourceBlock|dspsigops/Variable\nFractional Delay><firstCoeffFracLength:remove>>
+<Block<BlockType|dspsigops/Variable\nFractional Delay><firstCoeffFracLength:remove>>
+<Block<BlockType|Reference><SourceBlock|dspsigops/Variable\nFractional Delay><interProdMode:remove>>
+<Block<BlockType|dspsigops/Variable\nFractional Delay><interProdMode:remove>>
+<Block<BlockType|Reference><SourceBlock|dspsigops/Variable\nFractional Delay><interProdWordLength:remove>>
+<Block<BlockType|dspsigops/Variable\nFractional Delay><interProdWordLength:remove>>
+<Block<BlockType|Reference><SourceBlock|dspsigops/Variable\nFractional Delay><interProdFracLength:remove>>
+<Block<BlockType|dspsigops/Variable\nFractional Delay><interProdFracLength:remove>>
+<Block<BlockType|Reference><SourceBlock|dspsigops/Variable\nFractional Delay><secondCoeffMode:remove>>
+<Block<BlockType|dspsigops/Variable\nFractional Delay><secondCoeffMode:remove>>
+<Block<BlockType|Reference><SourceBlock|dspsigops/Variable\nFractional Delay><secondCoeffWordLength:remove>>
+<Block<BlockType|dspsigops/Variable\nFractional Delay><secondCoeffWordLength:remove>>
+<Block<BlockType|Reference><SourceBlock|dspsigops/Variable\nFractional Delay><secondCoeffFracLength:remove>>
+<Block<BlockType|dspsigops/Variable\nFractional Delay><secondCoeffFracLength:remove>>
+<Block<BlockType|Reference><SourceBlock|dspsigops/Variable\nFractional Delay><memoryMode:remove>>
+<Block<BlockType|dspsigops/Variable\nFractional Delay><memoryMode:remove>>
+<Block<BlockType|Reference><SourceBlock|dspsigops/Variable\nFractional Delay><memoryWordLength:remove>>
+<Block<BlockType|dspsigops/Variable\nFractional Delay><memoryWordLength:remove>>
+<Block<BlockType|Reference><SourceBlock|dspsigops/Variable\nFractional Delay><memoryFracLength:remove>>
+<Block<BlockType|dspsigops/Variable\nFractional Delay><memoryFracLength:remove>>
+<Block<BlockType|Reference><SourceBlock|dspsigops/Variable\nFractional Delay><roundingMode:remove>>
+<Block<BlockType|dspsigops/Variable\nFractional Delay><roundingMode:remove>>
+<Block<BlockType|Reference><SourceBlock|dspsigops/Variable\nFractional Delay><overflowMode:remove>>
+<Block<BlockType|dspsigops/Variable\nFractional Delay><overflowMode:remove>>
+<Block<BlockType|Reference><SourceBlock|dspsigops/Variable\nFractional Delay><LockScale:remove>>
+<Block<BlockType|dspsigops/Variable\nFractional Delay><LockScale:remove>>
+<Block<BlockType|Reference><SourceBlock|dspsigops/Variable\nInteger Delay><noDFT:remove>>
+<Block<BlockType|dspsigops/Variable\nInteger Delay><noDFT:remove>>
+<Block<BlockType|Reference><SourceBlock|dspsnks4/Spectrum\nScope><XAxisParamsVer:remove>>
+<Block<BlockType|dspsnks4/Spectrum\nScope><XAxisParamsVer:remove>>
+<Block<BlockType|Reference><SourceBlock|dspsnks4/Spectrum\nScope><XDisplay:remove>>
+<Block<BlockType|dspsnks4/Spectrum\nScope><XDisplay:remove>>
+<Block<BlockType|Reference><SourceBlock|dspsnks4/Vector\nScope><XAxisParamsVer:remove>>
+<Block<BlockType|dspsnks4/Vector\nScope><XAxisParamsVer:remove>>
+<Block<BlockType|Reference><SourceBlock|dspsolvers/Backward\nSubstitution><prodOutputDataTypeStr:remove>>
+<Block<BlockType|dspsolvers/Backward\nSubstitution><prodOutputDataTypeStr:remove>>
+<Block<BlockType|Reference><SourceBlock|dspsolvers/Backward\nSubstitution><prodOutputLastDataTypeStr:remove>>
+<Block<BlockType|dspsolvers/Backward\nSubstitution><prodOutputLastDataTypeStr:remove>>
+<Block<BlockType|Reference><SourceBlock|dspsolvers/Backward\nSubstitution><accumDataTypeStr:remove>>
+<Block<BlockType|dspsolvers/Backward\nSubstitution><accumDataTypeStr:remove>>
+<Block<BlockType|Reference><SourceBlock|dspsolvers/Backward\nSubstitution><accumLastDataTypeStr:remove>>
+<Block<BlockType|dspsolvers/Backward\nSubstitution><accumLastDataTypeStr:remove>>
+<Block<BlockType|Reference><SourceBlock|dspsolvers/Backward\nSubstitution><outputDataTypeStr:remove>>
+<Block<BlockType|dspsolvers/Backward\nSubstitution><outputDataTypeStr:remove>>
+<Block<BlockType|Reference><SourceBlock|dspsolvers/Backward\nSubstitution><outputLastDataTypeStr:remove>>
+<Block<BlockType|dspsolvers/Backward\nSubstitution><outputLastDataTypeStr:remove>>
+<Block<BlockType|Reference><SourceBlock|dspsolvers/Backward\nSubstitution><outputMin:remove>>
+<Block<BlockType|dspsolvers/Backward\nSubstitution><outputMin:remove>>
+<Block<BlockType|Reference><SourceBlock|dspsolvers/Backward\nSubstitution><outputMax:remove>>
+<Block<BlockType|dspsolvers/Backward\nSubstitution><outputMax:remove>>
+<Block<BlockType|Reference><SourceBlock|dspsolvers/Forward\nSubstitution><prodOutputDataTypeStr:remove>>
+<Block<BlockType|dspsolvers/Forward\nSubstitution><prodOutputDataTypeStr:remove>>
+<Block<BlockType|Reference><SourceBlock|dspsolvers/Forward\nSubstitution><prodOutputLastDataTypeStr:remove>>
+<Block<BlockType|dspsolvers/Forward\nSubstitution><prodOutputLastDataTypeStr:remove>>
+<Block<BlockType|Reference><SourceBlock|dspsolvers/Forward\nSubstitution><accumDataTypeStr:remove>>
+<Block<BlockType|dspsolvers/Forward\nSubstitution><accumDataTypeStr:remove>>
+<Block<BlockType|Reference><SourceBlock|dspsolvers/Forward\nSubstitution><accumLastDataTypeStr:remove>>
+<Block<BlockType|dspsolvers/Forward\nSubstitution><accumLastDataTypeStr:remove>>
+<Block<BlockType|Reference><SourceBlock|dspsolvers/Forward\nSubstitution><outputDataTypeStr:remove>>
+<Block<BlockType|dspsolvers/Forward\nSubstitution><outputDataTypeStr:remove>>
+<Block<BlockType|Reference><SourceBlock|dspsolvers/Forward\nSubstitution><outputLastDataTypeStr:remove>>
+<Block<BlockType|dspsolvers/Forward\nSubstitution><outputLastDataTypeStr:remove>>
+<Block<BlockType|Reference><SourceBlock|dspsolvers/Forward\nSubstitution><outputMin:remove>>
+<Block<BlockType|dspsolvers/Forward\nSubstitution><outputMin:remove>>
+<Block<BlockType|Reference><SourceBlock|dspsolvers/Forward\nSubstitution><outputMax:remove>>
+<Block<BlockType|dspsolvers/Forward\nSubstitution><outputMax:remove>>
+<Block<BlockType|Reference><SourceBlock|dspsolvers/Levinson-Durbin><prodOutputDataTypeStr:remove>>
+<Block<BlockType|dspsolvers/Levinson-Durbin><prodOutputDataTypeStr:remove>>
+<Block<BlockType|Reference><SourceBlock|dspsolvers/Levinson-Durbin><prodOutputLastDataTypeStr:remove>>
+<Block<BlockType|dspsolvers/Levinson-Durbin><prodOutputLastDataTypeStr:remove>>
+<Block<BlockType|Reference><SourceBlock|dspsolvers/Levinson-Durbin><accumDataTypeStr:remove>>
+<Block<BlockType|dspsolvers/Levinson-Durbin><accumDataTypeStr:remove>>
+<Block<BlockType|Reference><SourceBlock|dspsolvers/Levinson-Durbin><accumLastDataTypeStr:remove>>
+<Block<BlockType|dspsolvers/Levinson-Durbin><accumLastDataTypeStr:remove>>
+<Block<BlockType|Reference><SourceBlock|dspsolvers/Levinson-Durbin><firstCoeffDataTypeStr:remove>>
+<Block<BlockType|dspsolvers/Levinson-Durbin><firstCoeffDataTypeStr:remove>>
+<Block<BlockType|Reference><SourceBlock|dspsolvers/Levinson-Durbin><firstCoeffLastDataTypeStr:remove>>
+<Block<BlockType|dspsolvers/Levinson-Durbin><firstCoeffLastDataTypeStr:remove>>
+<Block<BlockType|Reference><SourceBlock|dspsolvers/Levinson-Durbin><firstCoeffMin:remove>>
+<Block<BlockType|dspsolvers/Levinson-Durbin><firstCoeffMin:remove>>
+<Block<BlockType|Reference><SourceBlock|dspsolvers/Levinson-Durbin><firstCoeffMax:remove>>
+<Block<BlockType|dspsolvers/Levinson-Durbin><firstCoeffMax:remove>>
+<Block<BlockType|Reference><SourceBlock|dspsolvers/Levinson-Durbin><secondCoeffDataTypeStr:remove>>
+<Block<BlockType|dspsolvers/Levinson-Durbin><secondCoeffDataTypeStr:remove>>
+<Block<BlockType|Reference><SourceBlock|dspsolvers/Levinson-Durbin><secondCoeffLastDataTypeStr:remove>>
+<Block<BlockType|dspsolvers/Levinson-Durbin><secondCoeffLastDataTypeStr:remove>>
+<Block<BlockType|Reference><SourceBlock|dspsolvers/Levinson-Durbin><secondCoeffMin:remove>>
+<Block<BlockType|dspsolvers/Levinson-Durbin><secondCoeffMin:remove>>
+<Block<BlockType|Reference><SourceBlock|dspsolvers/Levinson-Durbin><secondCoeffMax:remove>>
+<Block<BlockType|dspsolvers/Levinson-Durbin><secondCoeffMax:remove>>
+<Block<BlockType|Reference><SourceBlock|dspsolvers/Levinson-Durbin><outputDataTypeStr:remove>>
+<Block<BlockType|dspsolvers/Levinson-Durbin><outputDataTypeStr:remove>>
+<Block<BlockType|Reference><SourceBlock|dspsolvers/Levinson-Durbin><outputLastDataTypeStr:remove>>
+<Block<BlockType|dspsolvers/Levinson-Durbin><outputLastDataTypeStr:remove>>
+<Block<BlockType|Reference><SourceBlock|dspsolvers/Levinson-Durbin><outputMin:remove>>
+<Block<BlockType|dspsolvers/Levinson-Durbin><outputMin:remove>>
+<Block<BlockType|Reference><SourceBlock|dspsolvers/Levinson-Durbin><outputMax:remove>>
+<Block<BlockType|dspsolvers/Levinson-Durbin><outputMax:remove>>
+<Block<BlockType|Reference><SourceBlock|dspsolvers/Levinson-Durbin><coeffOutFcnActive:remove>>
+<Block<BlockType|dspsolvers/Levinson-Durbin><coeffOutFcnActive:remove>>
+<Block<BlockType|Reference><SourceBlock|dspsrcs4/From Multimedia File><audioFrameSize:remove>>
+<Block<BlockType|dspsrcs4/From Multimedia File><audioFrameSize:remove>>
+<Block<BlockType|Reference><SourceBlock|dspstat3/Histogram><operateOver:remove>>
+<Block<BlockType|dspstat3/Histogram><operateOver:remove>>
+<Block<BlockType|Reference><SourceBlock|dspstat3/Histogram><Dimension:remove>>
+<Block<BlockType|dspstat3/Histogram><Dimension:remove>>
+<Block<BlockType|Reference><SourceBlock|dspstat3/Histogram><colComp:remove>>
+<Block<BlockType|dspstat3/Histogram><colComp:remove>>
+<Block<BlockType|Reference><SourceBlock|dspstat3/Maximum><roiEnable:remove>>
+<Block<BlockType|dspstat3/Maximum><roiEnable:remove>>
+<Block<BlockType|Reference><SourceBlock|dspstat3/Maximum><roiType:remove>>
+<Block<BlockType|dspstat3/Maximum><roiType:remove>>
+<Block<BlockType|Reference><SourceBlock|dspstat3/Maximum><roiPortion:remove>>
+<Block<BlockType|dspstat3/Maximum><roiPortion:remove>>
+<Block<BlockType|Reference><SourceBlock|dspstat3/Maximum><roiOutput:remove>>
+<Block<BlockType|dspstat3/Maximum><roiOutput:remove>>
+<Block<BlockType|Reference><SourceBlock|dspstat3/Maximum><roiFlag:remove>>
+<Block<BlockType|dspstat3/Maximum><roiFlag:remove>>
+<Block<BlockType|Reference><SourceBlock|dspstat3/Mean><directionMode:remove>>
+<Block<BlockType|dspstat3/Mean><directionMode:remove>>
+<Block<BlockType|Reference><SourceBlock|dspstat3/Mean><treatSBRowAsCol:remove>>
+<Block<BlockType|dspstat3/Mean><treatSBRowAsCol:remove>>
+<Block<BlockType|Reference><SourceBlock|dspstat3/Mean><dimension:remove>>
+<Block<BlockType|dspstat3/Mean><dimension:remove>>
+<Block<BlockType|Reference><SourceBlock|dspstat3/Mean><roiEnable:remove>>
+<Block<BlockType|dspstat3/Mean><roiEnable:remove>>
+<Block<BlockType|Reference><SourceBlock|dspstat3/Mean><roiType:remove>>
+<Block<BlockType|dspstat3/Mean><roiType:remove>>
+<Block<BlockType|Reference><SourceBlock|dspstat3/Mean><roiPortion:remove>>
+<Block<BlockType|dspstat3/Mean><roiPortion:remove>>
+<Block<BlockType|Reference><SourceBlock|dspstat3/Mean><roiOutput:remove>>
+<Block<BlockType|dspstat3/Mean><roiOutput:remove>>
+<Block<BlockType|Reference><SourceBlock|dspstat3/Mean><roiFlag:remove>>
+<Block<BlockType|dspstat3/Mean><roiFlag:remove>>
+<Block<BlockType|Reference><SourceBlock|dspstat3/Median><directionMode:remove>>
+<Block<BlockType|dspstat3/Median><directionMode:remove>>
+<Block<BlockType|Reference><SourceBlock|dspstat3/Median><dimension:remove>>
+<Block<BlockType|dspstat3/Median><dimension:remove>>
+<Block<BlockType|Reference><SourceBlock|dspstat3/Median><treatSBRowAsCol:remove>>
+<Block<BlockType|dspstat3/Median><treatSBRowAsCol:remove>>
+<Block<BlockType|Reference><SourceBlock|dspstat3/Minimum><roiEnable:remove>>
+<Block<BlockType|dspstat3/Minimum><roiEnable:remove>>
+<Block<BlockType|Reference><SourceBlock|dspstat3/Minimum><roiType:remove>>
+<Block<BlockType|dspstat3/Minimum><roiType:remove>>
+<Block<BlockType|Reference><SourceBlock|dspstat3/Minimum><roiPortion:remove>>
+<Block<BlockType|dspstat3/Minimum><roiPortion:remove>>
+<Block<BlockType|Reference><SourceBlock|dspstat3/Minimum><roiOutput:remove>>
+<Block<BlockType|dspstat3/Minimum><roiOutput:remove>>
+<Block<BlockType|Reference><SourceBlock|dspstat3/Minimum><roiFlag:remove>>
+<Block<BlockType|dspstat3/Minimum><roiFlag:remove>>
+<Block<BlockType|Reference><SourceBlock|dspstat3/RMS><directionMode:remove>>
+<Block<BlockType|dspstat3/RMS><directionMode:remove>>
+<Block<BlockType|Reference><SourceBlock|dspstat3/RMS><treatSBRowAsCol:remove>>
+<Block<BlockType|dspstat3/RMS><treatSBRowAsCol:remove>>
+<Block<BlockType|Reference><SourceBlock|dspstat3/RMS><dimension:remove>>
+<Block<BlockType|dspstat3/RMS><dimension:remove>>
+<Block<BlockType|Reference><SourceBlock|dspstat3/Standard\nDeviation><directionMode:remove>>
+<Block<BlockType|dspstat3/Standard\nDeviation><directionMode:remove>>
+<Block<BlockType|Reference><SourceBlock|dspstat3/Standard\nDeviation><treatSBRowAsCol:remove>>
+<Block<BlockType|dspstat3/Standard\nDeviation><treatSBRowAsCol:remove>>
+<Block<BlockType|Reference><SourceBlock|dspstat3/Standard\nDeviation><dimension:remove>>
+<Block<BlockType|dspstat3/Standard\nDeviation><dimension:remove>>
+<Block<BlockType|Reference><SourceBlock|dspstat3/Standard\nDeviation><roiEnable:remove>>
+<Block<BlockType|dspstat3/Standard\nDeviation><roiEnable:remove>>
+<Block<BlockType|Reference><SourceBlock|dspstat3/Standard\nDeviation><roiType:remove>>
+<Block<BlockType|dspstat3/Standard\nDeviation><roiType:remove>>
+<Block<BlockType|Reference><SourceBlock|dspstat3/Standard\nDeviation><roiPortion:remove>>
+<Block<BlockType|dspstat3/Standard\nDeviation><roiPortion:remove>>
+<Block<BlockType|Reference><SourceBlock|dspstat3/Standard\nDeviation><roiOutput:remove>>
+<Block<BlockType|dspstat3/Standard\nDeviation><roiOutput:remove>>
+<Block<BlockType|Reference><SourceBlock|dspstat3/Standard\nDeviation><roiFlag:remove>>
+<Block<BlockType|dspstat3/Standard\nDeviation><roiFlag:remove>>
+<Block<BlockType|Reference><SourceBlock|dspstat3/Variance><directionMode:remove>>
+<Block<BlockType|dspstat3/Variance><directionMode:remove>>
+<Block<BlockType|Reference><SourceBlock|dspstat3/Variance><treatSBRowAsCol:remove>>
+<Block<BlockType|dspstat3/Variance><treatSBRowAsCol:remove>>
+<Block<BlockType|Reference><SourceBlock|dspstat3/Variance><dimension:remove>>
+<Block<BlockType|dspstat3/Variance><dimension:remove>>
+<Block<BlockType|Reference><SourceBlock|dspstat3/Variance><roiEnable:remove>>
+<Block<BlockType|dspstat3/Variance><roiEnable:remove>>
+<Block<BlockType|Reference><SourceBlock|dspstat3/Variance><roiType:remove>>
+<Block<BlockType|dspstat3/Variance><roiType:remove>>
+<Block<BlockType|Reference><SourceBlock|dspstat3/Variance><roiPortion:remove>>
+<Block<BlockType|dspstat3/Variance><roiPortion:remove>>
+<Block<BlockType|Reference><SourceBlock|dspstat3/Variance><roiOutput:remove>>
+<Block<BlockType|dspstat3/Variance><roiOutput:remove>>
+<Block<BlockType|Reference><SourceBlock|dspstat3/Variance><roiFlag:remove>>
+<Block<BlockType|dspstat3/Variance><roiFlag:remove>>
+<Block<BlockType|Reference><SourceBlock|dspstat3/Variance><memoryMode:remove>>
+<Block<BlockType|dspstat3/Variance><memoryMode:remove>>
+<Block<BlockType|Reference><SourceBlock|dspstat3/Variance><memoryWordLength:remove>>
+<Block<BlockType|dspstat3/Variance><memoryWordLength:remove>>
+<Block<BlockType|Reference><SourceBlock|dspstat3/Variance><memoryFracLength:remove>>
+<Block<BlockType|dspstat3/Variance><memoryFracLength:remove>>
+<Block<BlockType|Reference><SourceBlock|dspxfrm3/DCT><Dimension:remove>>
+<Block<BlockType|dspxfrm3/DCT><Dimension:remove>>
+<Block<BlockType|Reference><SourceBlock|dspxfrm3/IDCT><Dimension:remove>>
+<Block<BlockType|dspxfrm3/IDCT><Dimension:remove>>
+<Block<BlockType|Reference><SourceBlock|dspxfrm3/IDCT><outSamplingMode:remove>>
+<Block<BlockType|dspxfrm3/IDCT><outSamplingMode:remove>>
+<Block<BlockType|Reference><SourceBlock|dspxfrm3/IFFT><outSamplingMode:remove>>
+<Block<BlockType|dspxfrm3/IFFT><outSamplingMode:remove>>
+<Block<BlockType|Reference><SourceBlock|instrumentlib/TCP//IP Receive><ByteOrder:remove>>
+<Block<BlockType|instrumentlib/TCP//IP Receive><ByteOrder:remove>>
+<Block<BlockType|Reference><SourceBlock|instrumentlib/TCP//IP Send><ByteOrder:remove>>
+<Block<BlockType|instrumentlib/TCP//IP Send><ByteOrder:remove>>
+<Block<BlockType|Reference><SourceBlock|instrumentlib/UDP Receive><ByteOrder:remove>>
+<Block<BlockType|instrumentlib/UDP Receive><ByteOrder:remove>>
+<Block<BlockType|Reference><SourceBlock|instrumentlib/UDP Send><ByteOrder:remove>>
+<Block<BlockType|instrumentlib/UDP Send><ByteOrder:remove>>
+<Block<BlockType|Reference><SourceBlock|rfamplifiers1/General Amplifier><NonlinearDataFreq:remove>>
+<Block<BlockType|rfamplifiers1/General Amplifier><NonlinearDataFreq:remove>>
+<Block<BlockType|Reference><SourceBlock|rfamplifiers1/S-Parameters\nAmplifier><NonlinearDataFreq:remove>>
+<Block<BlockType|rfamplifiers1/S-Parameters\nAmplifier><NonlinearDataFreq:remove>>
+<Block<BlockType|Reference><SourceBlock|rfamplifiers1/Y-Parameters\nAmplifier><NonlinearDataFreq:remove>>
+<Block<BlockType|rfamplifiers1/Y-Parameters\nAmplifier><NonlinearDataFreq:remove>>
+<Block<BlockType|Reference><SourceBlock|rfamplifiers1/Z-Parameters\nAmplifier><NonlinearDataFreq:remove>>
+<Block<BlockType|rfamplifiers1/Z-Parameters\nAmplifier><NonlinearDataFreq:remove>>
+<Block<BlockType|Reference><SourceBlock|rfmixers1/General Mixer><NonlinearDataFreq:remove>>
+<Block<BlockType|rfmixers1/General Mixer><NonlinearDataFreq:remove>>
+<Block<BlockType|Reference><SourceBlock|rfmixers1/S-Parameters\nMixer><NonlinearDataFreq:remove>>
+<Block<BlockType|rfmixers1/S-Parameters\nMixer><NonlinearDataFreq:remove>>
+<Block<BlockType|Reference><SourceBlock|rfmixers1/Y-Parameters\nMixer><NonlinearDataFreq:remove>>
+<Block<BlockType|rfmixers1/Y-Parameters\nMixer><NonlinearDataFreq:remove>>
+<Block<BlockType|Reference><SourceBlock|rfmixers1/Z-Parameters\nMixer><NonlinearDataFreq:remove>>
+<Block<BlockType|rfmixers1/Z-Parameters\nMixer><NonlinearDataFreq:remove>>
+<Block<BlockType|Reference><SourceBlock|rfports1/Input Port><FracBW:remove>>
+<Block<BlockType|rfports1/Input Port><FracBW:remove>>
+<Block<BlockType|Reference><SourceBlock|rfports1/Input Port><ModelDelay:remove>>
+<Block<BlockType|rfports1/Input Port><ModelDelay:remove>>
+<Block<BlockType|Reference><SourceBlock|rfports1/Input Port><TreatSimulinkInputSignalAs:remove>>
+<Block<BlockType|rfports1/Input Port><TreatSimulinkInputSignalAs:remove>>
+<Block<BlockType|Reference><SourceBlock|rftxlines1/Coaxial\nTransmission Line><LossTangent:remove>>
+<Block<BlockType|rftxlines1/Coaxial\nTransmission Line><LossTangent:remove>>
+<Block<BlockType|Reference><SourceBlock|rftxlines1/Coaxial\nTransmission Line><IssueWarningforNonzeroSigmaDiel:remove>>
+<Block<BlockType|rftxlines1/Coaxial\nTransmission Line><IssueWarningforNonzeroSigmaDiel:remove>>
+<Block<BlockType|Reference><SourceBlock|rftxlines1/Parallel-Plate\nTransmission Line><LossTangent:remove>>
+<Block<BlockType|rftxlines1/Parallel-Plate\nTransmission Line><LossTangent:remove>>
+<Block<BlockType|Reference><SourceBlock|rftxlines1/Parallel-Plate\nTransmission Line><IssueWarningforNonzeroSigmaDiel:remove>>
+<Block<BlockType|rftxlines1/Parallel-Plate\nTransmission Line><IssueWarningforNonzeroSigmaDiel:remove>>
+<Block<BlockType|Reference><SourceBlock|rftxlines1/Two-Wire\nTransmission Line><LossTangent:remove>>
+<Block<BlockType|rftxlines1/Two-Wire\nTransmission Line><LossTangent:remove>>
+<Block<BlockType|Reference><SourceBlock|rftxlines1/Two-Wire\nTransmission Line><IssueWarningforNonzeroSigmaDiel:remove>>
+<Block<BlockType|rftxlines1/Two-Wire\nTransmission Line><IssueWarningforNonzeroSigmaDiel:remove>>
+<Block<BlockType|Reference><SourceBlock|vipobslib/2-D Histogram><operateOver:remove>>
+<Block<BlockType|vipobslib/2-D Histogram><operateOver:remove>>
+<Block<BlockType|Reference><SourceBlock|vipobslib/2-D Histogram><Dimension:remove>>
+<Block<BlockType|vipobslib/2-D Histogram><Dimension:remove>>
+<Block<BlockType|Reference><SourceBlock|vipobslib/2-D Histogram><colComp:remove>>
+<Block<BlockType|vipobslib/2-D Histogram><colComp:remove>>
+<Block<BlockType|Reference><SourceBlock|vipobslib/2-D Mean><directionMode:remove>>
+<Block<BlockType|vipobslib/2-D Mean><directionMode:remove>>
+<Block<BlockType|Reference><SourceBlock|vipobslib/2-D Mean><dimension:remove>>
+<Block<BlockType|vipobslib/2-D Mean><dimension:remove>>
+<Block<BlockType|Reference><SourceBlock|vipobslib/2-D Mean><treatSBRowAsCol:remove>>
+<Block<BlockType|vipobslib/2-D Mean><treatSBRowAsCol:remove>>
+<Block<BlockType|Reference><SourceBlock|vipobslib/2-D Median><directionMode:remove>>
+<Block<BlockType|vipobslib/2-D Median><directionMode:remove>>
+<Block<BlockType|Reference><SourceBlock|vipobslib/2-D Median><dimension:remove>>
+<Block<BlockType|vipobslib/2-D Median><dimension:remove>>
+<Block<BlockType|Reference><SourceBlock|vipobslib/2-D Median><treatSBRowAsCol:remove>>
+<Block<BlockType|vipobslib/2-D Median><treatSBRowAsCol:remove>>
+<Block<BlockType|Reference><SourceBlock|vipobslib/2-D Median><additionalParams:remove>>
+<Block<BlockType|vipobslib/2-D Median><additionalParams:remove>>
+<Block<BlockType|Reference><SourceBlock|vipobslib/2-D Median><allowOverrides:remove>>
+<Block<BlockType|vipobslib/2-D Median><allowOverrides:remove>>
+<Block<BlockType|Reference><SourceBlock|vipobslib/2-D Standard\nDeviation><directionMode:remove>>
+<Block<BlockType|vipobslib/2-D Standard\nDeviation><directionMode:remove>>
+<Block<BlockType|Reference><SourceBlock|vipobslib/2-D Standard\nDeviation><dimension:remove>>
+<Block<BlockType|vipobslib/2-D Standard\nDeviation><dimension:remove>>
+<Block<BlockType|Reference><SourceBlock|vipobslib/2-D Standard\nDeviation><treatSBRowAsCol:remove>>
+<Block<BlockType|vipobslib/2-D Standard\nDeviation><treatSBRowAsCol:remove>>
+<Block<BlockType|Reference><SourceBlock|vipobslib/2-D Variance><directionMode:remove>>
+<Block<BlockType|vipobslib/2-D Variance><directionMode:remove>>
+<Block<BlockType|Reference><SourceBlock|vipobslib/2-D Variance><dimension:remove>>
+<Block<BlockType|vipobslib/2-D Variance><dimension:remove>>
+<Block<BlockType|Reference><SourceBlock|vipobslib/2-D Variance><treatSBRowAsCol:remove>>
+<Block<BlockType|vipobslib/2-D Variance><treatSBRowAsCol:remove>>
+<Block<BlockType|Reference><SourceBlock|vipstatistics/2-D Histogram><operateOver:remove>>
+<Block<BlockType|vipstatistics/2-D Histogram><operateOver:remove>>
+<Block<BlockType|Reference><SourceBlock|vipstatistics/2-D Histogram><Dimension:remove>>
+<Block<BlockType|vipstatistics/2-D Histogram><Dimension:remove>>
+<Block<BlockType|Reference><SourceBlock|vipstatistics/2-D Histogram><colComp:remove>>
+<Block<BlockType|vipstatistics/2-D Histogram><colComp:remove>>
+<Block<BlockType|Reference><SourceBlock|vipstatistics/2-D Mean><directionMode:remove>>
+<Block<BlockType|vipstatistics/2-D Mean><directionMode:remove>>
+<Block<BlockType|Reference><SourceBlock|vipstatistics/2-D Mean><dimension:remove>>
+<Block<BlockType|vipstatistics/2-D Mean><dimension:remove>>
+<Block<BlockType|Reference><SourceBlock|vipstatistics/2-D Mean><treatSBRowAsCol:remove>>
+<Block<BlockType|vipstatistics/2-D Mean><treatSBRowAsCol:remove>>
+<Block<BlockType|Reference><SourceBlock|vipstatistics/2-D Median><directionMode:remove>>
+<Block<BlockType|vipstatistics/2-D Median><directionMode:remove>>
+<Block<BlockType|Reference><SourceBlock|vipstatistics/2-D Median><dimension:remove>>
+<Block<BlockType|vipstatistics/2-D Median><dimension:remove>>
+<Block<BlockType|Reference><SourceBlock|vipstatistics/2-D Median><treatSBRowAsCol:remove>>
+<Block<BlockType|vipstatistics/2-D Median><treatSBRowAsCol:remove>>
+<Block<BlockType|Reference><SourceBlock|vipstatistics/2-D Median><additionalParams:remove>>
+<Block<BlockType|vipstatistics/2-D Median><additionalParams:remove>>
+<Block<BlockType|Reference><SourceBlock|vipstatistics/2-D Median><allowOverrides:remove>>
+<Block<BlockType|vipstatistics/2-D Median><allowOverrides:remove>>
+<Block<BlockType|Reference><SourceBlock|vipstatistics/2-D Standard\nDeviation><directionMode:remove>>
+<Block<BlockType|vipstatistics/2-D Standard\nDeviation><directionMode:remove>>
+<Block<BlockType|Reference><SourceBlock|vipstatistics/2-D Standard\nDeviation><dimension:remove>>
+<Block<BlockType|vipstatistics/2-D Standard\nDeviation><dimension:remove>>
+<Block<BlockType|Reference><SourceBlock|vipstatistics/2-D Standard\nDeviation><treatSBRowAsCol:remove>>
+<Block<BlockType|vipstatistics/2-D Standard\nDeviation><treatSBRowAsCol:remove>>
+<Block<BlockType|Reference><SourceBlock|vipstatistics/2-D Variance><directionMode:remove>>
+<Block<BlockType|vipstatistics/2-D Variance><directionMode:remove>>
+<Block<BlockType|Reference><SourceBlock|vipstatistics/2-D Variance><dimension:remove>>
+<Block<BlockType|vipstatistics/2-D Variance><dimension:remove>>
+<Block<BlockType|Reference><SourceBlock|vipstatistics/2-D Variance><treatSBRowAsCol:remove>>
+<Block<BlockType|vipstatistics/2-D Variance><treatSBRowAsCol:remove>>
+<Block<SourceBlock|dspobslib/DSP\nConstant:repval dspsrcs4/DSP\nConstant>>
+<Block<SourceBlock|dspobslib/Kalman\nAdaptive Filter:repval dspadpt3/Kalman\nAdaptive Filter>>
+<Block<SourceBlock|dspobslib/Triggered\nDelay Line:repval dspbuff3/Triggered\nDelay Line>>
+<Block<SourceBlock|dspsnks4/To Multimedia File:repval dspwin32/To Multimedia File>>
+<Block<SourceBlock|dspsnks4/To Wave File:repval dspwin32/To Wave\nFile>>
+<Block<SourceBlock|dspsrcs4/From Multimedia File:repval dspwin32/From Multimedia File>>
+<Block<SourceBlock|dspsrcs4/From Wave File:repval dspwin32/From Wave\nFile>>
+<Block<SourceBlock|sdolib/Adaptive Lookup Tables:repval spelib/Adaptive Lookup\nTables>>
+<Block<SourceBlock|sdolib/Adaptive Lookup Tables/Adaptive Lookup\nTable (1D Stair-Fit):repval spelookup/Adaptive Lookup\nTable (1D Stair-Fit)>>
+<Block<SourceBlock|sdolib/Adaptive Lookup Tables/Adaptive Lookup\nTable (2D Stair-Fit):repval spelookup/Adaptive Lookup\nTable (2D Stair-Fit)>>
+<Block<SourceBlock|sdolib/Adaptive Lookup Tables/Adaptive Lookup\nTable (nD Stair-Fit):repval spelookup/Adaptive Lookup\nTable (nD Stair-Fit)>>
+<Block<SourceBlock|sdolib/RMS Blocks/CRMS:repval srolib/RMS Blocks/CRMS>>
+<Block<SourceBlock|sdolib/RMS Blocks/DRMS:repval srolib/RMS Blocks/DRMS>>
+<Block<SourceBlock|sdolib/Signal Constraint:repval srolib/Signal Constraint>>
+<Block<SourceBlock|simulink_obsolete/Matrix\nConcatenation:repval simulink/Math\nOperations/Matrix\nConcatenation>>
+<Block<SourceBlock|simulink_obsolete/Polynomial:repval simulink/Math\nOperations/Polynomial>>
+<Block<SourceBlock|simulink_obsolete/Reshape:repval simulink/Math\nOperations/Reshape>>
+<Block<SourceBlock|vipobslib/2-D Histogram:repval vipstatistics/2-D Histogram>>
+<Block<SourceBlock|vipobslib/2-D Mean:repval vipstatistics/2-D Mean>>
+<Block<SourceBlock|vipobslib/2-D Median:repval vipstatistics/2-D Median>>
+<Block<SourceBlock|vipobslib/2-D Standard\nDeviation:repval vipstatistics/2-D Standard\nDeviation>>
+<Block<SourceBlock|vipobslib/2-D Variance:repval vipstatistics/2-D Variance>>

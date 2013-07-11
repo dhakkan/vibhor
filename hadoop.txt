@@ -1,0 +1,493 @@
+hadoop
+    2  cd Downloads/
+    3  google-chrome
+    4  google chrome
+    5  sudo apt-get install googlecl
+    6  google chrome
+    7  sudo apt-get install googlecl
+    8  sudo apt-get install libcurl3-gnutls 
+    9  uname -a
+   10  ifconfig -a
+   11  ping mirage.iiit.ac.in
+   12  ping www.facebook.com
+   13  traceroute www.facebook.com
+   14  sudo apt-get install traceroute
+   15  traceroute www.facebook.com
+   16  python
+   17  cd Desktop/
+   18  ls
+   19  mkdir codechef
+   20  cd codechef
+   21  ls
+   22  vim q1.c
+   23  sudo apt-get install vim
+   24  vim q1.c
+   25  rm q1.c
+   26  whoami
+   27  who
+   28  jing
+   29  sudo apt-get install jing
+   30  clear
+   31  cd Desktop/
+   32  ls
+   33  cd codechef/
+   34  ls
+   35  vim factorial.c
+   36  cc factorial.c 
+   37  vim factorial.c
+   38  cc factorial.c 
+   39  ./a.out
+   40  vim factorial.c
+   41  cc factorial.c 
+   42  vim factorial.c
+   43  usmo
+   44  osmo
+   45  ls -p
+   46  ls -k
+   47  ls
+   48  ls -a -l
+   49  clear
+   50  octave
+   51  vim factorial.c 
+   52  cd Desktop/
+   53  ls
+   54  cd codechef/
+   55  LS
+   56  ls
+   57  vim factorial.c 
+   58  vim fact.c
+   59  cc fact.c
+   60  ./a.out
+   61  vim fact.c
+   62  cc fact.c
+   63  ./a.out
+   64  vim fact.c
+   65  cc fact.c
+   66  ./a.out
+   67  vim fact.c
+   68  cc fact.c
+   69  ./a.out
+   70  vim fact.c
+   71  cc fact.c
+   72  ./a.out
+   73  vim fact.c
+   74  cc fact.c
+   75  ./a.out
+   76  vim fact.c
+   77  cc fact.c
+   78  ./a.out
+   79  vim fact.c
+   80  cc fact.c
+   81  ./a.out
+   82  vim fact.c
+   83  cc fact.c
+   84  ./a.out
+   85  vim fact.c
+   86  cc fact.c
+   87  ./a.out
+   88  vim fact.c
+   89  cc fact.c
+   90  ./a.out
+   91  vim fact.c
+   92  cc fact.c
+   93  ./a.out
+   94  vim fact.c
+   95  cc fact.c
+   96  ./a.out
+   97  vim fact.c
+   98  cc fact.c
+   99  ./a.out
+  100  vim fact.c
+  101  cc fact.c
+  102  ./a.out
+  103  vim fact.c
+  104  cc fact.c
+  105  ./a.out
+  106  vim fact.c
+  107  cc fact.c
+  108  ./a.out
+  109  vim fact.c
+  110  cc fact.c
+  111  ./a.out
+  112  vim fact.c
+  113  cc fact.c
+  114  ./a.out
+  115  vim fact.c
+  116  cc fact.c
+  117  ./a.out
+  118  vim fact.c
+  119  cc fact.c
+  120  ./a.out
+  121  vim fact.c
+  122  cc fact.c
+  123  ./a.out
+  124  vim fact.c
+  125  cc fact.c
+  126  ./a.out
+  127  vim fact.c
+  128  cc fact.c
+  129  ./a.out
+  130  vim fact.c
+  131  cc fact.c
+  132  ./a.out
+  133  vim fact.c
+  134  cc fact.c
+  135  ./a.out
+  136  vim fact.c
+  137  cc fact.c
+  138  ./a.out
+  139  vim fact.c
+  140  cc fact.c
+  141  ./a.out
+  142  vim fact.c
+  143  cc fact.c
+  144  ./a.out
+  145  vim fact.c
+  146  cc fact.c
+  147  ./a.out
+  148  vim fact.c
+  149  cc fact.c
+  150  ./a.out
+  151  vim fact.c
+  152  cc fact.c
+  153  ./a.out
+  154  vim fact.c
+  155  cc fact.c
+  156  ./a.out
+  157  vim fact.c
+  158  cc fact.c
+  159  ./a.out
+  160  vim fact.c
+  161  cc fact.c
+  162  ./a.out
+  163  vim fact.c
+  164  cc fact.c
+  165  ./a.out
+  166  vim fact.c
+  167  cc fact.c
+  168  ./a.out
+  169  vim fact.c
+  170  cc fact.c
+  171  ./a.out
+  172  vim fact.c
+  173  cc fact.c
+  174  ./a.out
+  175  vim fact.c
+  176  cd Desktop/
+  177  ls
+  178  cd
+  179  ping www.google.com
+  180  cd Desktop/
+  181  vim file.txt
+  182  ifconfig -a
+  183  igconfig*
+  184  igconfig
+  185  ifconfig*
+  186  ifconfig
+  187  tar
+  188  cd des
+  189  ls
+  190  su
+  191  search shallee
+  192  found shallee
+  193  find shallee
+  194  ls
+  195  wvdial
+  196  sudo apt-get install wvdial
+  197  ping google.com
+  198  ifconfig
+  199  ping google.com
+  200  sudo apt-get install wvdial
+  201  wvdialconf 
+  202  cd Desktop/
+  203  ls -l
+  204  LS
+  205  xdpyinfo  | grep 'dimensions:'
+  206  xdpyinfo
+  207  ping google.com
+  208  ping www.google.com
+  209  ssh mirage.iiit.ac.in
+  210  ifconfig -a
+  211  sudo poweroff 
+  212  bg &
+  213  ssh-keygen
+  214  svn co svn+ssh://vibhor.shrivastava@popl.iiit.ac.in/home/vibhor.shrivastava/svn/popl
+  215  sudo apt-get install subversion
+  216  svn co svn+ssh://vibhor.shrivastava@popl.iiit.ac.in/home/vibhor.shrivastava/svn/popl
+  217  svn
+  218  svn help
+  219  Config path: ~/.config/google-chrome
+  220  ls -al
+  221  cd .mozilla
+  222  ls
+  223  cd firefox/
+  224  ls
+  225  find .mozilla/firefox/*.default/Cache -type f -exec file {} \;  | grep Flash
+  226  home/vibhor/.cache/google-chrome/Cache
+  227  ~/.cache/google-chrome/Cache
+  228  svn help
+  229  ssh-keygen
+  230  svn co svn+ssh://vibhor.shrivastava@popl.iiit.ac.in/home/vibhor.shrivastava/svn/popl
+  231  clear
+  232  ssh-keygen
+  233  cd 
+  234  ls
+  235  ssh-keygen 
+  236  cd .ssh/
+  237  ls
+  238  ssh-keygen 
+  239  cp id_rsa.pub ..
+  240  cd ..
+  241  ls
+  242  svn co svn+ssh://vibhor.shrivastava@popl.iiit.ac.in/home/vibhor.shrivastava/svn/popl
+  243  ssn update
+  244  svn update ./popl/
+  245  cd Downloads/
+  246  sh ./racket-5.1.1-bin-i386-linux-ubuntu-jaunty.sh 
+  247  history
+  248  clear
+  249  cd Downloads/
+  250  ls
+  251  cd ..
+  252  ls
+  253  cd bi
+  254  cd /usr/bin/
+  255  ls
+  256  cd
+  257  cd racket/bin/
+  258  ls
+  259  ./racket 
+  260  sudo su
+  261  ls
+  262  cd
+  263  cd Documents/
+  264  ls
+  265  svn add -f *
+  266  touch a
+  267  ls
+  268  svn add *
+  269  cd
+  270  ls
+  271  svn add *
+  272  ls
+  273  cd popl/
+  274  lsa
+  275  ls
+  276  ls -a
+  277  touch a
+  278  la
+  279  svn add -f *
+  280  svn add *
+  281  svn commit *
+  282  ls
+  283  ifconfig
+  284  history|grep key
+  285  ssh-keygen 
+  286  find racket
+  287  clear
+  288  serach racket
+  289  search racket
+  290  ls
+  291  cd racket/
+  292  ls
+  293  cd bin
+  294  ./racket
+  295  ls
+  296  nmap
+  297  apt-get install nmap
+  298  sudo apt-get install nmap
+  299  ls
+  300  cd popl/
+  301  ls
+  302  svn add *
+  303  svn commit *
+  304  svn status
+  305  svn update
+  306  svn checkout
+  307  svn c
+  308  svn checkout .
+  309  svn checkout *
+  310  svn checkout pwd
+  311  svn checkout $PWD
+  312  svn checkout
+  313  svn help
+  314  svn co
+  315  svn co help
+  316  svn status -u
+  317  svn status wc
+  318  svn status 
+  319  svn status -u
+  320  svn status -verbose wc
+  321  svn status --verbose wc
+  322  svn status --verbose --show-updates wc
+  323  sudo su
+  324  df -k
+  325  /dev
+  326  cd /dev
+  327  ls
+  328  cd cpu
+  329  ls
+  330  cd micr
+  331  cd microcode
+  332  vim microcode 
+  333  cd
+  334  clear
+  335  passwd
+  336  info tar
+  337  ls
+  338  cd Documents/
+  339  ls
+  340  tar -c a a.tar
+  341  tar -c a.tar a
+  342  tar -c a
+  343  ls
+  344  ls --all
+  345  ls -a
+  346  sudo su
+  347  sudo apt-get install nmap
+  348  history 
+  349  cd root
+  350  cd
+  351  cd root
+  352  cd /root
+  353  sudo su 
+  354  ls -F
+  355  fdisk
+  356  fdisk -b *
+  357  df -h
+  358  sound
+  359  cd Downloads/
+  360  cd hadoop-0.20.203.0/
+  361  mkdir input 
+  362  cp conf/*.xml input 
+  363  cd ..
+  364  cd Downloads/hadoop-0.20.203.0/
+  365  ls
+  366  bin/hadoop jar hadoop-examples-*.jar grep input output 'dfs[a-z.]+'
+  367  cd
+  368  cd ..
+  369  which java
+  370  sudo apt-get install java6
+  371  sudo apt-get install java
+  372  sudo apt-get install java-6-openjdk
+  373  sudo apt-get install java-6
+  374  sudo apt-get install sun-java6-jdk
+  375  apt-get install sun-java6-jdk sun-java6-jre
+  376  sudo apt-get install sun-java6-jdk sun-java6-jre
+  377  sudo apt-get install openjdk-6-jre
+  378  cd home/
+  379  ls
+  380  cd vibhor/
+  381  cd Downloads/
+  382  ls
+  383  cd hadoop-0.20.203.0/
+  384  bin/hadoop jar hadoop-examples-*.jar grep input output 'dfs[a-z.]+'
+  385  cat output/*
+  386  sudo apt-get install linuxdcpp
+  387  find dc
+  388  find dc++
+  389  find dcpp
+  390  killall linuxdcpp
+  391  killall -9 linuxdcpp
+  392  search zindagi
+  393  find zindagi
+  394  cd /home/vibhor
+  395  ls
+  396  cd /home/vibhor/.dc++/Downloads/
+  397  ls
+  398  cp Zindagi\ Na\ Milegi\ Dobara\(2011\).avi  ~/Desktop/
+  399  cd /home/vibhor
+  400  cd .dc++
+  401  ls
+  402  cd Downloads/
+  403  ls
+  404  mv Aarakshan.avi ~/Desktop/
+  405  ls
+  406  mv Character\ Dheela\ 720p-\ Ready\[rs\].mkv  ~/Desktop/
+  407  mv Ready\ \(2011\)\ \[titan\].avi  ~/Desktop/
+  408  killall -9 linuxdcpp 
+  409  cd Desktop/
+  410  touch myviews.txt
+  411  cd Desktop/
+  412  touch plan.txt
+  413  cd Desktop/
+  414  vim organize.txt
+  415  cd /home/vibhor/.dc++/Downloads/
+  416  ls
+  417  move Dum.Maaro.Dum.2CD.DvdRip.avi  /home/vibhor/Desktop/
+  418  mv Dum.Maaro.Dum.2CD.DvdRip.avi  /home/vibhor/Desktop/
+  419  cd /home/vibhor/.dc++/Downloads/
+  420  ls
+  421  mv Bbuddah.Hoga.Terra.Baap.2011.1CD.DVDRip.XviD.\[R@ttle\].avi ~/Desktop/dc/
+  422  cd /home/vibhor/.dc++/Downloads/
+  423  ls
+  424  mv double\ dhamaal\ dvdscr.mkv ~/Desktop/dc/
+  425  cd /home/vibhor/.dc++/
+  426  cd Downloads/
+  427  ls
+  428  mv American\ Porn\ idol\ show\{\{__NaZi__\}\}.avi  ~/Desktop/
+  429  mv I\ am\ Kalam\ \(2010\)\ \[titan\].avi ~/Desktop/
+  430  cd /home/vibhor/.dc++/
+  431  cd do
+  432  cd Downloads/
+  433  ls
+  434  mv Nuru\ Massage\ -\ Threesome\ Treatment\ -\ Asa\ Akira\,\ Jackie\ Lin\ Porn\ Sex\ Fuck\[saxx\].wmv  ~/Desktop/dc/
+  435  cd /home/vibhor/popl/
+  436  ls
+  437  svn add hw2
+  438  svn commit hw2
+  439  cd home/Computer Networks/200901049_Ass1/
+  440  cd Computer Networks/200901049_Ass1/
+  441  cd Downloads/Computer Networks/200901049_Ass1/
+  442  cd ~
+  443  cd
+  444  cd /home/vibhor/.dc++/Downloads/
+  445  ls
+  446  mv Distributed\ Computing\ -\ Principles\,\ Algorithms\,\ and\ Systems.pdf /home/vibhor/Desktop/
+  447  cd racket/
+  448  cd bin/
+  449  ./racket 
+  450  cd /home/vibhor/.dc++/Downloads/
+  451  ls
+  452  mv Bodyguard\ -\ DVDScr-\ XviD\ -\ 1CDRip\ -\ \[DDR\]\[itsmytimenow\].avi  /home/vibhor/Desktop/dc/
+  453  cd /home/vibhor/.dc++/Downloads/
+  454  ls
+  455  mv No\ Promises\ -\ Shayne\ Ward.mp3 /home/vibhor/Desktop/
+  456  cd /home/vibhor/.dc++/Downloads/
+  457  ls
+  458  cd /home/vibhor/.dc++/Downloads/
+  459  ls
+  460  mv Bheja\ Fry\ 2\ \(2011\)\ -\ DVDRip\ -\ XviD\ -\ AC3\ -\ \[DDR\].avi /home/vibhor/Desktop/dc/
+  461  mv Not\ A\ Love\ Story\ \[2011\].avi  /home/vibhor/Desktop/dc/
+  462  cd /home/vibhor/.dc++/Downloads/
+  463  ls
+  464  mv Final\ Destination\ 5\ TS\ XViD\ -\ IMAGiNE\[itsmytimenow\].avi /home/vibhor/Desktop/cd
+  465  mv Final\ Destination\ 5\ TS\ XViD\ -\ IMAGiNE\[itsmytimenow\].avi /home/vibhor/Desktop/dc
+  466  cd /home/vibhor/.dc++/Downloads/
+  467  mv Final.Destination.3.2006.720p.BRRip.XviD.AC3-FLAWL3SS.avi /home/vibhor/Desktop/dc
+  468  ls
+  469  cd Desktop/
+  470  cd casnmnt
+  471  mkdir cld
+  472  cd cld
+  473  ls
+  474  ls -a
+  475  vim WordCount.java
+  476  javac WordCount.java 
+  477  sudo apt-get install openjdk-6-jdk
+  478  javac WordCount.java 
+  479  vim WordCount.java 
+  480  c Desktop/s
+  481  cd Desktop
+  482  cd chrome/
+  483  vim manifest\.json.text
+  484  cd Desktop
+  485  cd chrome/
+  486  vim manifest\.json.txt
+  487  uname -a
+  488  cd /home/vibhor/.dc++/Downloads/
+  489  ls
+  490  mv Linkin\ Park\ Live\ In\ Madrid\ 2010\ -\ Full\ Concert.flv  /home/vibhor/Desktop/dc/
+  491  ls
+  492  mv Linkin\ Park\ Live\ From\ Madison\ Square\ Garden\ 2011.mkv  /home/vibhor/Desktop/dc/
+  493  history > hadoop.txt

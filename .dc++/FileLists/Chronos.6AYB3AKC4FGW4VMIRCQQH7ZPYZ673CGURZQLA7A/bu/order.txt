@@ -1,0 +1,37 @@
+1. 01-arithmetic.rkt
+
+   Simple arithmetic expressions with constants. Can +, -, * or /. Although bools are there nothing can be done with bool
+
+
+2. lib-environment.rkt
+
+   Basic implementation for environment using nested lists. Each inner list in environment has two elements identifier and a value. 
+
+
+3. 02-identifiers.rkt
+
+   Basic implementation for identifiers using environment lib. 
+
+
+4. 03-if_statement.rkt
+   
+   Basic implementation for if statement. Since comparison operators have not been defined if condition has to be direct boolean #t or #f or at maximum variable bound to #t or #f.
+
+
+5. 04-comparison.rkt
+
+   Implemented =, !=, >, <, >=, <= for comparison which return boolean #t or #f
+
+
+6. 05-function.rkt
+
+   Supports non-recursive functions
+
+
+
+
+
+
+
+
+

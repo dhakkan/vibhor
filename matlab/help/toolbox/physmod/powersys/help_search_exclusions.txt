@@ -1,0 +1,2 @@
+# Contains patterns to be excluded from the search index for SimPowerSystems
+version2-3/

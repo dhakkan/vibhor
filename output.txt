@@ -1,0 +1,665 @@
+# [![](/files/logo_name.jpg)](/)
+
+Font Size:  A A
+
+[Institute ](http://iiit.ac.in/institute/about)
+
+[Academics ](http://iiit.ac.in/academics/programmes)
+
+[Admissions ](http://iiit.ac.in/admissions/2013)
+
+[Research ](http://iiit.ac.in/research/centers)
+
+[People ](http://iiit.ac.in/people/faculty)
+
+![](/themes/iiit-july-1/images/image_bar/people/image_bar_2.jpg)
+
+## People
+
+  * [Faculty](/people/faculty)
+  * [Adjunct Faculty](/people/AdjunctFaculty)
+  * [Distinguished Faculty](/people/Distinguished)
+  * [Research Scientists](/people/r-esearchers)
+  * [Lecturers](/people/lecturers)
+  * [Staff](/people/staff)
+  * [Alumni](/people/alumni)
+
+[Home](/)
+
+## Faculty
+
+Name
+
+**PhD from  
+**
+**Research Areas**
+
+[Nand Kishore Acharya](http://www.iiit.ac.in/people/faculty/nandkishore)
+
+Professor of Eminence
+
+University of Udaipur
+
+literature, non-violence and Gandhiaism, Human
+
+rights, Political economy, ancient Indian polity, scientific humanism, culture
+and history, education.
+
+[R K Bagga ](faculty/rbagga)
+
+Advisor Outreach
+
+Osmania University, Hyderabad
+
+Simulation of Air Defence Battle Management System
+
+[Bezawada Bruhadeshwar](faculty/bezawada)
+
+Assistant Professor
+
+Michigan State University
+
+Network Security, Communication Security, Malware Analysis, System Security,
+Network Protocols and Applications of Key Management
+
+[B Prabhakar](faculty/prabhakar)
+
+Assistant Professor
+
+Cornell University
+
+Thermodynamics, statistical mechanics of equilibrium and non equilibrium
+systems
+
+[Peri Bhaskararao](http://www.iiit.ac.in/people/faculty/bhaskararao)
+
+Institute Professor
+
+Deccan College Research Institute, University of Poona, Pune
+
+General Linguistic Phonetics; Fundamentals of phonetics of Indian languages;
+Phonetics of Indian languages applied to Speech Technology and to Language
+Pathology; Grammatology of Brahmic scripts; Morphology of Indian languages
+
+[Chakrapani Bommaraju](http://www.iiit.ac.in/people/faculty/chakrapanib)
+
+Assistant Professor
+
+Technische Universitat Darmstadt, Germany
+
+Computational Electromagnetics (CEM), Numerical Methods in Engineering (NME),
+High Frequency Electromagnetics (HF), Radio Frequency Electromagnetics (RF),
+Signal Integrity (SI), Electromagnetic Compatibility (EMC), Electromagnetic
+Interference (EMI), Computer Aided Design and Engineering (CAD and CAE),
+Electronic Design Automation (EDA).
+
+[Venkatesh Choppella](http://www.iiit.ac.in/people/faculty/choppell)
+
+Associate Professor
+
+Indiana University
+
+Programming languages, S/W Architectures, Formal Methods, CS Education
+
+[Ashok Kumar Das](http://www.iiit.ac.in/people/faculty/ashokkdas)
+
+Assistant Professor
+
+IIT Kharagpur
+
+Cryptography and Network Security. Currently focusing on Wireless Sensor
+Network Security.
+
+[Suryakanth V G](faculty/svg)
+
+Assistant Professor
+
+IIT, Madras
+
+Speech Processing, Neural Networks, Signal Processing, Pattern Recognition,
+Soft Computing, Machine Learning, Image Processing, Natural Language
+Processing, Artificial Intelligence, Fuzzy Logic
+
+[Vishal Garg](faculty/vishal)
+
+Associate Professor
+
+IIT, Delhi
+
+Task Control of lighting, heating, air-conditioning using fuzzy Logic. Smart
+occupancy sensors. Intelligent Buildings, Building Automation, Life cycle cost
+optimization of buildings
+
+[Garimella Ramamurthy ](faculty/ramamurthy)
+
+Associate Professor
+
+Purdue University
+
+Computer Networks, Neural Networks, Linguistics, Signal Processing, Number
+Theory
+
+[R Govindarajulu](faculty/gregeti)
+
+Registrar, Professor
+
+IIT, Kanpur
+
+Programming Languages and systems,Computer Architecure,Parallel Programming
+
+[Anubha Gupta](http://www.iiit.ac.in/people/faculty/anubhagupta)
+
+Associate Professor
+
+IIT, Delhi
+
+Statistical Signal Processing, Wavelet transforms and its applications and
+higher education policy analysis.
+
+Indranil Chakrabarty
+
+Assistant Professor
+
+Bengal Engineering and Science University
+
+Quantum Information, (Relativistic and Non relativistic), Fisher Information.
+
+[C V Jawahar](faculty/jawahar)
+
+Professor
+
+  
+
+IIT, Kharagpur
+
+Computer Vision, Multimedia systems, Pattern Recognition
+
+[Kamalakar Karlapalem](faculty/kamal)
+
+Professor & Dean (Academics)
+
+Georgia Institute of Technology
+
+Database Systems, Data Mining, Workflow Technologies, Multi-Agent Systems
+
+[C N Kaul ](faculty/kaul)
+
+Professor of Eminence
+
+  
+
+IIT, Kharagpur
+
+Mathematics and Computational Sciences
+
+[Kishore Kothapalli ](faculty/kkishore)
+
+Associate Professor
+
+  
+
+John Hopkins University
+
+Theory of Network Communication, Overlay Networks and Distributed Algorithm
+
+[K Madhava Krishna ](faculty/mkrishna)
+
+Associate Professor
+
+IIT, Kanpur
+
+Mobile Robotics, Robotic Vision, Outdoor Robotics, Multi-robotic Systems and
+Mechanism Design
+
+[Marimuthu Krishnan](http://www.iiit.ac.in/people/faculty/mkrishnan)
+
+Assistant Professor
+
+JNCASR, Bangalore
+
+Computational Molecular Biophysics, Computer Simulation of Interfacial
+Phenomena in Nano-Biomaterials, Modeling of Molecular Interactions and
+Aggregation in Polymer Nanocomposites, Computational Physics of Ion Transport
+through Nanopores and Polymer Electrolytes.
+
+[Rambabu Kalla](http://www.iiit.ac.in/people/faculty/rambabukalla)
+
+Assistant Professor
+
+IIT-Bombay
+
+Analysis& Synthesis of Fractional -order Systems.
+
+[Abhijit Mitra ](faculty/abi_chem)
+
+Professor
+
+  
+
+IIT, Kanpur
+
+Structural analysis of RNA molecules Ab initio quantum chemical computations
+of biomolecular interaction energies, Sequence - structure - function
+correlations in RNA molecules, Efficient algorithms for querying biological
+databases, Analysis of antigen binding interactions
+
+[Chandrasekher Mukku ](faculty/mukku)
+
+UGC Research Scientist
+
+  
+
+Imperial College, London
+
+Gravitational Theories, Quantum Field Theory, Heat kernels, Dynamical Systems
+& Chaos, Computational Techniques
+
+[Radhika Mamidi](http://www.iiit.ac.in/people/faculty/radhikamamidi)
+
+Assistant Professor
+
+University of Hyderabad
+
+Computational Morphology, Mechine Translation, Dialog Systems, Pragmatics,
+Humour Studies.
+
+[Anoop M Namboodiri ](faculty/anoop)
+
+Assistant Professor
+
+  
+
+Michigan State University
+
+Pattern Recognition, Document Understanding, Machine Learning, Biometrics &
+Computer Vision
+
+[P J Narayanan ](faculty/pjn)
+
+Professor & Director
+
+  
+
+University of Maryland
+
+Computer Vision, Graphics, Virtual Reality
+
+[Nita Parekh ](faculty/nita)
+
+Associate Professor
+
+  
+
+Jawaharlal Nehru University, Delhi
+
+Bioinformatics: sequence analysis, repeat sequences, Single nucleotide
+polymorphisms, Haplotype analysis. Nonlinear Dynamical Systems:
+Characterization and control of Spatio-temporal dynamical systems with
+applications to ecological modeling and excitable systems. Phase Ordering
+Dynamics: Phase ordering kinetics of binary alloys and polymers.
+
+[Soma Paul ](faculty/soma)
+
+Research Assistant Professor
+
+  
+
+University of Hyderabad
+
+Computational Morphology, Computational Syntax and Semantics and Theoretical
+Linguistics
+
+[P Ramachandra Prasad](http://www.iiit.ac.in/people/faculty/pramachandra)
+
+Assistant Professor
+
+Osmania University
+
+Remote sensing and GIS applications in Natural Resource Management.
+
+[Pradeep Kumar Ramancharla ](faculty/ramancharla)
+
+Professor
+
+  
+
+University of Tokyo
+
+Earthquake Engineering and Structural Dynamics; Earthquake Disaster
+Mitigation, Collapse structure Analysis and Simulation of Non-Engineered
+Buildings
+
+[Shubhajit Roy Chowdhury](http://www.iiit.ac.in/people/faculty/shubhajit)
+
+Assistant Professor
+
+Jadavpur University, Kolkata
+
+Biomedical Circuits and Systems, VLSI Design, Embedded Systems
+
+[Kishore S. Prahallad ](faculty/kishore)
+
+Assistant Professor
+
+  
+
+Carnegie Mellon University
+
+Audio, speech and language processing, machine learning, multimedia systems.
+
+[U Deva Priyakumar](faculty/deva)
+
+Associate Professor
+
+Pondicherry University
+
+Computational Chemistry, Computer Aided Drug Design
+
+[Sriram V](http://www.iiit.ac.in/people/faculty/sriramv)
+
+Assistant Professor
+
+IIIT, Hyderabad
+
+Statistical Machine Translation,Analysis of Multi-word expressions and
+applying machine learning to NLP
+
+[Suresh Purini](faculty/psuresh)
+
+Assistant Professor
+
+University of Maryland
+
+Compilers, Programming Languages and Complexity Theory
+
+[Vikram Pudi ](faculty/vikram)
+
+Associate Professor
+
+  
+
+Indian Institute of Science
+
+Data mining, Artificial Intelligence, Database systems
+
+[K S Rajan ](faculty/rajan)
+
+Associate Professor
+
+  
+
+University of Tokyo
+
+Application of GIS & Remote Sensing to sustainable environmental Issues
+
+[Y Raghu Reddy](http://www.iiit.ac.in/people/faculty/raghureddy)
+
+Associate Professor
+
+Colorado State University
+
+Aspect oriented development, Model-driven development, Requirements
+Engineering, Software Architecture, Software Testing, and Software Engineering
+Education.
+
+[P R K Rao ](faculty/prkrao)
+
+Professor of Eminence
+
+  
+
+IIT Kanpur
+
+Communication, Controls and Information processing systems
+
+[Jayashree Ratnam](http://www.iiit.ac.in/people/faculty/JayashreeRatnam)
+
+Visiting Faculty
+
+IIT-Kharagpur
+
+Optical Networks and Systems: PHY layer Issues, MAC Protocols & Resource
+Allocation; Fiber-to-the-Premises; Optical CDMA
+
+[Shatrunjay Rawat](faculty/shatrunjay.rawat)
+
+Sys.Associate Professor
+
+  
+
+BITS Pilani
+
+Computer Networks, Information Security, Network Forensics, E-Governance,
+Human Values, Vedic Darshan (Philosophy)
+
+[P Krishna Reddy](faculty/pkreddy)
+
+Professor
+
+  
+
+Jawaharlal Nehru University
+
+Database Systems, Transaction Management, Data Mining, Web Mining, ICTS for
+Agricultural and Rural Development, Distributed Computing Systems, Performance
+Evaluation Simulation
+
+[Rajeev Sangal](faculty/sangal)
+
+Professor
+
+University of Pennsylvania
+
+Natural Language Processing, Machine Translation
+
+[Neelima Satyam D](faculty/neelima)
+
+Assistant Professor
+
+IIT, Delhi
+
+Ground motion studies using finite fault simulation technique, Site
+Characterization and Seismic Microzonation of Indian Mega cities, Site
+amplification studies, Estimation of Vulnerability Index using Microtremor
+measurements, Post earthquake damage studies, Earthquake awareness and
+preparedness
+
+[Dipti Misra Sharma](faculty/dipti)
+
+Professor
+
+  
+
+Delhi University
+
+Machine Translation, Linguistics
+
+[Suril Vijaykumar Shah](http://www.iiit.ac.in/people/faculty/surilshah)
+
+Research Assistant Professor
+
+IIT Delhi
+
+Multibody dynamics, Robotics and Legged vehicles.
+
+[Harjinder Singh](faculty/harjinder)
+
+Professor
+
+Princeton University
+
+Application of control theory in dynamics of molecules . Electronic structure
+and properties calculations Application of non-relativistic quantum mechanics
+Stochastic resonance and nonlinear dynamics
+
+[Navjyoti Singh](faculty/navjyoti)
+
+Professor
+
+MTech, IIT-Kanpur
+
+Formal Ontology, Scientific study of Consciousness, Foundations of Logic,
+Mathematics and Linguistics, Crossroads of Science and Indian Analytic
+Traditions, History and Philosophy of Science
+
+[Jayanthi Sivaswamy](faculty/jsivaswamy)
+
+Professor
+
+Syracuse University
+
+Computer and biological vision, Medical image processing, IT for rural
+development
+
+[Kannan Srinathan](faculty/srinathan)
+
+Assistant Professor
+
+IIT, Madras
+
+Security, Distributed computing, Cryptography, Algorithms
+
+[Azeemuddin Syed ](faculty/azeemuddin)
+
+Assistant Professor
+
+Southern Illinois University Carbondale, USA
+
+Radio Frequency Integrated Circuits, Integrated Photonic
+
+[Tapan Kumar Sau](faculty/tapan)
+
+Associate Professor
+
+IIT, Kharagpur
+
+Nanomaterials: Developing inorganic nanomaterials with controlled properties
+for probing, sensing, imaging and energy-related applications . Exploring the
+nature of interactions between nanomaterials and their surroundings
+
+[K.R.Sarma](http://www.iiit.ac.in/people/faculty/krsarma)
+
+Professor of Eminence
+
+Cornell University Ithaca NY USA
+
+Communication, Instrumentation and Displays
+
+[Vasudeva Varma](faculty/vv)
+
+Professor & Dean (R&D)
+
+University of Hyderabad
+
+Content Management, Knowledge Management, Information Extraction, Software
+Engineering and Software Quality
+
+[Kavita Vemuri](http://www.iiit.ac.in/people/faculty/kvemuri)
+
+Senior Research Scientist
+
+MS ECE, University of Massachusetts
+
+Cognitive neuroscience of empathy , game design & engineering, innovation &
+Entrepreneurship, Fiber Optic & Liquid crystal devices for Optical
+communications and Sensors, Control systems
+
+[M Venkateshwarlu](faculty/vm)
+
+Professor of Eminence
+
+University of Waterloo
+
+Discrete Systems. Wave phenomena in Professor solid media. Finite element
+models Probability, Statistics, and Stochastic Processes in engineering
+
+[Vijaya Sankara Rao P](http://www.iiit.ac.in/people/faculty/vijaysankarp)
+
+Assistant Professor
+
+IIT, Kharagpur
+
+Analog and Mixed Signal VLSI Circuits and Systems, VLSI Signal Processing,
+Digital Systems Engineering, Biomedical Circuits and Bioinspired VLSI Systems.
+
+[K Viswanath](faculty/k.viswanath)
+
+Research Professor of Eminence
+
+Indian Statistical Institute, Calcutta
+
+Mathematical Computer Science, Pedagogical Issues
+
+[Anil Kumar Vuppala](http://www.iiit.ac.in/people/faculty/anilvuppala)
+
+Assistant Professor
+
+IIT, Kharagpur
+
+Speech processing in Wireless Environment, speech recognition, speaker
+recognition.
+
+[B Yegnanarayana](faculty/yegnanarayana)
+
+Institute Professor
+
+IISc., Bangalore
+
+Digital Signal Processing, Speech, Computer Vision and Neural Networks
+
+[Priyanka Srivastava](faculty/priyanka)
+
+Senior Research Scientist
+
+University of Allahabad
+
+Attention, Emotion and Creativity
+
+[A. Giridhar Rao](faculty/giridhar)
+
+Senior Lecturer
+
+University of Hyderabad
+
+Language Policy, Linguistic Human Rights, Science Fiction Studies
+
+Font Size:A A
+
+  * [Institute](http://iiit.ac.in/institute/about)
+  * [About IIIT-H](http://iiit.ac.in/institute/about)
+  * [Governing Council](http://iiit.ac.in/institute/governing_council)
+  * [Infrastructure](http://iiit.ac.in/institute/infrastructure)
+  * [Quick Facts](http://iiit.ac.in/institute/quick-facts)
+  * [Achievements](http://iiit.ac.in/institute/achievements)
+  * [Photo gallery](http://iiit.ac.in/institute/image)
+  * [Academics](http://iiit.ac.in/academics/programmes)
+  * [Undergraduate](http://iiit.ac.in/academics/programmes/undergraduate)
+  * [Postgraduate](http://iiit.ac.in/academics/programmes/postgraduate)
+  * [PhD](http://iiit.ac.in/academics/programmes/phd)
+  * [Part time](http://iiit.ac.in/academics/programmes/part_time)
+  * [Post BSc](http://iiit.ac.in/academics/programmes/post_bsc)
+  * [Curriculum ](http://iiit.ac.in/academics/curriculum)
+  * [Admissions](http://iiit.ac.in/admissions/2013)
+  * [Undergraduate](http://iiit.ac.in/admissions/undergraduate)
+  * [Postgraduate](http://iiit.ac.in/admissions/postgraduate/regularpg)
+  * [Post B.Sc](http://iiit.ac.in/admissions/postbsc)
+  * [Part-time](http://iiit.ac.in/academics/programmes/part_time)
+  * [Research](http://iiit.ac.in/research/centers)
+  * [Centers ](http://iiit.ac.in/research/centers)
+  * [Publications](http://iiit.ac.in/research/publications)
+  * [People](http://iiit.ac.in/people/faculty)
+  * [Faculty](http://iiit.ac.in/people/faculty)
+  * [Alumni](http://alumni.iiit.ac.in)
+  * [Staff](http://iiit.ac.in/people/staff)
+
+  * [Students Corner](/studentscorner/)
+  * [Events](http://iiit.ac.in/news/events)
+  * [Placement](http://iiit.ac.in/placements/placement2013)
+  * [News](http://iiit.ac.in/news/news)
+  * [Contact](http://iiit.ac.in/contact/contact)
+
+Copyright 2013, IIIT Hyderabad. All Rights Reserved
+
+[Mandatory Disclosure](http://iiit.ac.in/mandatory_disclosure_05_09_09) |
+[Credits](http://iiit.ac.in/credits)
+

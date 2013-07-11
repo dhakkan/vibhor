@@ -1,0 +1,55 @@
+Database Systems Lab Assignment #6
+[Refer Topic 7.6.4 on Page No. 398]
+
+
+Deadlines :-
+1. Deadline for tasks 1 to 4 :- 31st March 2012 (5PM)
+2. Final Submission :- 5th April 2012 (5PM)
+(upload to the course web site)
+
+----------------------------------------------------------------------------------------------------------------
+
+Given / Input:-
+
+- N (<=15) number of large relations - A(a,b), B(b,c), C(c,d)...... 
+  Eg. N=4, the relations would  A(a,b), B(b,c), C(c,d) and D(d,e) .
+- Query involving Select, Project, Duplicate and Join.
+  Eg. 1) A JOIN B JOIN C JOIN D;
+      2) SELECT a,c from (A JOIN B JOIN C JOIN D) where a op CONST;   
+         ( where op will be { = ,< , <= ,> ,>=} and CONST will be a constant integer value only. No logical operators in where clause)
+	 
+
+Find Out:-
+1) T(R) - Number of tuples in relation R.
+2) V(R,a) - Value count for attribute a of Relation R, that is, the 	    number of distinct values relation R has in attribute a.
+3) Cost for all the possible (valid)parse trees (left , right and  bushy).
+4) Cost for Optimal Parse Tree .
+5) Output of the Query. Make An Iterator on the Output.
+
+Eg. 
+1) (A JOIN B JOIN C)
+
+Possible parse trees.
+  - (A JOIN B) JOIN C 
+  - A JOIN (B JOIN C)
+[Refer Example 7.35 on Page No. 400]
+
+2) SELECT DISTINCT * FROM (A JOIN B) where a=10
+
+Possible parse trees.
+  - (SELECT DISTINCT * FROM A WHERE a=10) JOIN (SELECT DISTINCT * FROM B)
+  - SELECT DISTINCT * FROM ((SELECT * FROM A WHERE a=10) JOIN B)
+[Refer Example 7.31 on Page No. 386]
+
+--------------------------------------------------------------------------------------------------------------------
+
+Note :-
+- Format for Relations:-
+  3DigitNumber 3DigitNumber
+
+e.g. 
+123 345
+001 024
+123 980
+(While generating the relation take care of the foreign key constraints i.e if N=2 then for A(a,b) and B(b,c), b in B is foreign key for b in A)
+
