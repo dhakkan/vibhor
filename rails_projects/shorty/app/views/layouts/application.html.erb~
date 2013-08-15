@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Shorty</title>
+  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<% if flash[:shortened_id].present? %>
+  <p class='shortened-link'>
+    The shortened url is available <%= link_to 'here',
+url_url(flash[:shortened_id]) %>.
+    (Right click and copy link to share it).
+  </p>
+<% end %>
+<%= yield %>
+
+</body>
+</html>
